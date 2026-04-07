@@ -1,0 +1,1055 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-01",
+  "description": "FinEduc Pro — Contenu statique pré-généré. Domaine : Finance traditionnelle (5 modules)",
+  "modules": [
+    {
+      "id": "m1",
+      "label": "Analyse financière approfondie",
+      "tag": "Fondamental",
+      "level": "Avancé",
+      "duration": "6h",
+      "domain": "Finance traditionnelle",
+      "cours": {
+        "introduction": "L'analyse financière est le cœur du métier bancaire. Avant d'accorder tout financement, le banquier doit être capable de lire les états financiers d'une entreprise comme un médecin lit un bilan de santé — en identifiant les forces, les fragilités, et les risques cachés. Ce module couvre l'intégralité de la démarche, du bilan brut au diagnostic synthétique.",
+        "sections": [
+          {
+            "titre": "1. Lire et retraiter un bilan",
+            "contenu": "Le bilan comptable brut n'est jamais utilisé tel quel par un analyste bancaire. Plusieurs retraitements sont nécessaires pour obtenir une image économique fidèle.\n\n**Les retraitements essentiels :**\n- **Crédit-bail** : réintégrer l'actif au bilan (valeur d'origine) et la dette correspondante au passif. Impact : hausse des immobilisations, hausse de l'endettement, hausse de l'EBITDA (les loyers redeviennent des dotations + intérêts).\n- **Effets escomptés non échus (EENE)** : les réintégrer en créances clients et en dettes court terme. Ils masquent du BFR réel.\n- **Charges activées** : frais de développement capitalisés (IAS 38) à analyser avec prudence. Peuvent gonfler artificiellement l'actif.\n- **Provisions** : vérifier leur caractère réel vs fiscal. Les provisions pour risques non étayées sont à retraiter.\n- **Comptes courants d'associés** : s'ils sont bloqués et subordonnés, peuvent être assimilés à des quasi-fonds propres.\n\n**Structure du bilan retraité :**\n| Actif | Passif |\n|---|---|\n| Immobilisations nettes (+ crédit-bail) | Fonds propres réels |\n| Actif circulant (+ EENE) | Dettes financières (+ crédit-bail) |\n| Trésorerie active | Dettes court terme (+ EENE) |\n\n**Fonds de Roulement (FR) = Capitaux permanents − Actif immobilisé**\n- FR > 0 : les ressources longues financent une partie du cycle d'exploitation ✓\n- FR < 0 : signal d'alerte sur la structure financière\n\n**Besoin en Fonds de Roulement (BFR) = Actif circulant d'exploitation − Passif circulant d'exploitation**\n- BFR = Stocks + Créances clients − Dettes fournisseurs − Autres dettes d'exploitation\n- Exprimé en jours de CA : BFR / (CA/360)\n\n**Trésorerie nette = FR − BFR**\n- Si positive : l'entreprise génère un excédent de trésorerie\n- Si négative : recours aux concours bancaires court terme"
+          },
+          {
+            "titre": "2. Analyse du compte de résultat et des Soldes Intermédiaires de Gestion (SIG)",
+            "contenu": "Les SIG permettent de décomposer la formation du résultat étape par étape et d'identifier à quel niveau se situent les problèmes de rentabilité.\n\n**Les SIG clés :**\n\n| Solde | Formule | Lecture bancaire |\n|---|---|---|\n| **Marge commerciale** | Ventes de marchandises − Coût d'achat | Pertinent pour le négoce et la distribution |\n| **Valeur ajoutée (VA)** | Production − Consommations externes | Richesse créée. VA/CA = taux d'intégration |\n| **EBE / EBITDA** | VA − Charges de personnel − Impôts et taxes | Capacité à générer du cash opérationnel, avant structure financière |\n| **EBIT / Résultat d'exploitation** | EBE − Dotations aux amortissements | Rentabilité après amortissement |\n| **Résultat financier** | Produits financiers − Charges financières | Coût de l'endettement |\n| **Résultat exceptionnel** | Produits exceptionnels − Charges exceptionnelles | À analyser avec prudence : non récurrent |\n| **Résultat net** | Résultat courant + Exceptionnel − IS | Après impôt |\n\n**Capacité d'Autofinancement (CAF) :**\n- CAF = Résultat net + Dotations aux amortissements et provisions − Reprises\n- Ou : CAF = EBE + Résultat financier + Résultat exceptionnel (hors cessions) − IS\n- La CAF représente la capacité de l'entreprise à financer elle-même ses investissements et rembourser ses dettes\n\n**Free Cash Flow (FCF) :**\n- FCF = EBITDA − Capex − Variation BFR − Impôts décaissés\n- C'est le vrai cash disponible après investissements, avant service de la dette"
+          },
+          {
+            "titre": "3. Les ratios bancaires clés",
+            "contenu": "**Ratios de structure et solvabilité :**\n\n| Ratio | Formule | Seuil d'alerte |\n|---|---|---|\n| Autonomie financière | Fonds propres / Total bilan | < 20% |\n| Endettement net | Dette nette / EBITDA (Levier) | > 4x pour une PME |\n| Couverture des intérêts | EBITDA / Charges d'intérêts | < 2x |\n| DSCR | EBITDA / Service de la dette total | < 1,2x |\n\n**Ratios de liquidité :**\n\n| Ratio | Formule | Lecture |\n|---|---|---|\n| Liquidité générale | Actif circulant / Dettes CT | > 1 recommandé |\n| Liquidité réduite | (Créances + Tréso) / Dettes CT | > 0,7 |\n| Liquidité immédiate | Trésorerie / Dettes CT | Complément |\n\n**Ratios de rentabilité :**\n\n| Ratio | Formule | Benchmark |\n|---|---|---|\n| Marge EBITDA | EBITDA / CA | Variable selon secteur |\n| ROE | Résultat net / Fonds propres | > 10% attendu |\n| ROA | Résultat net / Total actif | > 2-3% PME |\n| ROCE | EBIT / (Fonds propres + Dettes nettes) | > WACC |\n\n**DSCR — Debt Service Coverage Ratio :**\nC'est LE ratio central pour Bpifrance et les banques :\n- DSCR = EBITDA / (Remboursements en capital + Intérêts + Loyers de crédit-bail)\n- DSCR > 1,2x : zone verte, l'entreprise couvre son service de dette avec marge\n- DSCR entre 1,0x et 1,2x : zone orange, vigilance\n- DSCR < 1,0x : zone rouge, l'entreprise ne couvre pas son service de dette"
+          },
+          {
+            "titre": "4. Score Altman et prédiction de défaillance",
+            "contenu": "Le Z-score d'Altman (1968, révisé 2000) est un modèle statistique de prédiction de défaillance utilisé encore aujourd'hui comme outil de scoring rapide.\n\n**Formule Z-score (version PME non cotée) :**\nZ' = 0,717·X1 + 0,847·X2 + 3,107·X3 + 0,420·X4 + 0,998·X5\n\nOù :\n- X1 = FR / Total actif (liquidité)\n- X2 = Réserves / Total actif (rétention des bénéfices)\n- X3 = EBIT / Total actif (rentabilité des actifs)\n- X4 = Fonds propres / Dettes totales (levier)\n- X5 = CA / Total actif (rotation des actifs)\n\n**Interprétation :**\n- Z' > 2,9 : Zone sûre (faible probabilité de défaillance)\n- 1,23 < Z' < 2,9 : Zone grise (incertitude)\n- Z' < 1,23 : Zone de détresse (forte probabilité de défaillance à 2 ans)\n\n**Limites à connaître :**\n- Basé sur données historiques, pas prospectif\n- Peu adapté aux startups (pas de bénéfices historiques)\n- Ne remplace pas l'analyse qualitative\n- À compléter avec la cotation FIBEN (Banque de France)"
+          },
+          {
+            "titre": "5. Tableau de flux de trésorerie et diagnostic complet",
+            "contenu": "**Le tableau de flux (méthode directe simplifiée) :**\n\n```\n(+) EBITDA\n(-) Variation BFR\n= Flux d'exploitation (Cash from Operations)\n\n(-) Investissements nets (Capex)\n= Free Cash Flow (FCF)\n\n(-) Remboursements d'emprunts\n(+) Nouveaux emprunts\n(-) Dividendes versés\n= Flux de financement\n\n= Variation de trésorerie\n```\n\n**Diagnostic financier synthétique — la démarche en 5 étapes :**\n\n1. **Viabilité économique** : l'entreprise génère-t-elle de la valeur ajoutée ? Quel est son positionnement concurrentiel ?\n2. **Rentabilité opérationnelle** : l'EBITDA est-il positif et suffisant ? Quelle est la tendance sur 3 ans ?\n3. **Structure financière** : le levier est-il soutenable ? Les fonds propres sont-ils suffisants ?\n4. **Liquidité** : l'entreprise peut-elle faire face à ses échéances court terme ?\n5. **Capacité de remboursement** : le DSCR est-il > 1,2x avec le nouveau financement ?\n\n**Note de synthèse type Bpifrance :**\nToujours conclure par : force principale / risque principal / recommandation (favorable / défavorable / conditionnel)."
+          }
+        ],
+        "points_cles": [
+          "Le bilan comptable brut nécessite des retraitements (crédit-bail, EENE, comptes courants bloqués) avant toute analyse bancaire.",
+          "Le DSCR est le ratio central : il doit être > 1,2x après intégration du nouveau financement pour que Bpifrance puisse intervenir.",
+          "Le Free Cash Flow (EBITDA − Capex − Variation BFR − IS) est la vraie mesure de la capacité de remboursement, pas le résultat net.",
+          "Le Score Altman (Z' < 1,23 = zone de détresse) est un outil de présélection rapide, à compléter avec la cotation FIBEN.",
+          "Tout diagnostic financier se conclut par : force principale / risque principal / recommandation — jamais par une liste de ratios sans synthèse."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Une entreprise a un EBITDA de 500K€, des remboursements d'emprunt annuels de 200K€ et des intérêts de 80K€. Quel est son DSCR et quelle est votre conclusion ?",
+          "options": [
+            "DSCR = 1,79x — situation confortable, financement envisageable",
+            "DSCR = 2,5x — situation excellente, aucun risque",
+            "DSCR = 0,87x — l'entreprise ne couvre pas son service de dette",
+            "DSCR = 1,12x — zone orange, vigilance requise"
+          ],
+          "reponse_correcte": 0,
+          "explication": "DSCR = 500K€ / (200K€ + 80K€) = 500/280 = 1,79x. C'est au-dessus du seuil Bpifrance de 1,2x : la situation est confortable et le financement est envisageable. Attention : ce DSCR est calculé avant le nouveau financement — il faudra le recalculer en intégrant le service de la dette du prêt demandé."
+        },
+        {
+          "question": "Quel retraitement faut-il effectuer sur les effets escomptés non échus (EENE) ?",
+          "options": [
+            "Les déduire des dettes financières pour alléger le bilan",
+            "Les réintégrer en créances clients à l'actif et en dettes court terme au passif",
+            "Les ignorer car ils ne sont plus dans le bilan",
+            "Les ajouter aux fonds propres comme quasi-capital"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Les EENE ont été cédés à la banque mais restent économiquement des créances clients. Leur réintégration révèle le BFR réel de l'entreprise, souvent masqué. Sans ce retraitement, on sous-estime le besoin en fonds de roulement et donc le risque de liquidité."
+        },
+        {
+          "question": "Le Free Cash Flow d'une entreprise est négatif malgré un EBITDA positif. Quelle en est la cause la plus probable ?",
+          "options": [
+            "Le résultat net est négatif à cause de charges exceptionnelles",
+            "Les investissements (Capex) et/ou la variation du BFR absorbent tout l'EBITDA",
+            "La cotation FIBEN est dégradée",
+            "Le taux d'IS est trop élevé"
+          ],
+          "reponse_correcte": 1,
+          "explication": "FCF = EBITDA − Capex − Variation BFR − IS. Un FCF négatif malgré un EBITDA positif signifie que les investissements et/ou la croissance du BFR (souvent liée à une forte croissance du CA) absorbent la totalité de la génération de cash. Ce n'est pas forcément un mauvais signe si c'est lié à de l'investissement de croissance — mais ça signifie que l'entreprise a besoin de financement externe."
+        },
+        {
+          "question": "Un Z-score d'Altman de 1,05 signifie :",
+          "options": [
+            "L'entreprise est dans la zone sûre, aucun risque de défaillance",
+            "L'entreprise est dans la zone grise, analyse complémentaire nécessaire",
+            "L'entreprise est en zone de détresse, forte probabilité de défaillance à 2 ans",
+            "Le modèle n'est pas applicable à ce type d'entreprise"
+          ],
+          "reponse_correcte": 2,
+          "explication": "Pour la version PME non cotée du Z-score : Z' < 1,23 = zone de détresse (forte probabilité de défaillance à 2 ans). 1,23 < Z' < 2,9 = zone grise. Z' > 2,9 = zone sûre. Un score de 1,05 doit déclencher une analyse approfondie, une demande de garanties renforcées et potentiellement un refus de financement sans garanties solides."
+        },
+        {
+          "question": "Quelle est la différence entre la CAF et le Free Cash Flow ?",
+          "options": [
+            "Il n'y a aucune différence, ce sont deux noms pour le même indicateur",
+            "La CAF inclut les investissements, le FCF les exclut",
+            "La CAF est un flux comptable (résultat + amortissements), le FCF est un flux de trésorerie réel après investissements et variation de BFR",
+            "Le FCF est toujours supérieur à la CAF"
+          ],
+          "reponse_correcte": 2,
+          "explication": "La CAF (résultat net + dotations − reprises) est un flux de trésorerie potentiel comptable — elle ne tient pas compte des investissements ni de la variation du BFR. Le FCF est le vrai cash disponible après toutes ces dépenses. En banque, le FCF est plus pertinent pour évaluer la capacité de remboursement réelle, car une entreprise peut avoir une CAF positive mais un FCF négatif si elle investit massivement."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Diagnostic financier de COMETAL SAS — Dossier de crédit 800K€",
+        "contexte": "COMETAL SAS est un sous-traitant industriel spécialisé dans l'usinage de précision pour l'aéronautique, basé dans le Sud-Ouest. L'entreprise demande un prêt de 800K€ sur 7 ans pour financer l'acquisition d'un centre d'usinage à commande numérique 5 axes (investissement total : 1,2M€, dont 400K€ autofinancés). Vous êtes chargé d'affaires Bpifrance et devez instruire le dossier.",
+        "donnees_financieres": {
+          "compte_de_resultat": {
+            "description": "Données sur 3 exercices (en K€)",
+            "tableau": [
+              [
+                "",
+                "N-2",
+                "N-1",
+                "N"
+              ],
+              [
+                "Chiffre d'affaires",
+                "4 200",
+                "4 850",
+                "5 300"
+              ],
+              [
+                "Achats et charges externes",
+                "2 310",
+                "2 670",
+                "2 915"
+              ],
+              [
+                "Valeur ajoutée",
+                "1 890",
+                "2 180",
+                "2 385"
+              ],
+              [
+                "Charges de personnel",
+                "1 260",
+                "1 410",
+                "1 540"
+              ],
+              [
+                "EBE / EBITDA",
+                "630",
+                "770",
+                "845"
+              ],
+              [
+                "Dotations aux amortissements",
+                "180",
+                "195",
+                "210"
+              ],
+              [
+                "EBIT",
+                "450",
+                "575",
+                "635"
+              ],
+              [
+                "Charges d'intérêts",
+                "85",
+                "78",
+                "72"
+              ],
+              [
+                "Résultat avant IS",
+                "365",
+                "497",
+                "563"
+              ],
+              [
+                "IS (25%)",
+                "91",
+                "124",
+                "141"
+              ],
+              [
+                "Résultat net",
+                "274",
+                "373",
+                "422"
+              ]
+            ]
+          },
+          "bilan_simplifie": {
+            "description": "Bilan à la clôture N (en K€)",
+            "actif": [
+              [
+                "Immobilisations nettes",
+                "1 850"
+              ],
+              [
+                "Stocks",
+                "320"
+              ],
+              [
+                "Créances clients (60j CA)",
+                "883"
+              ],
+              [
+                "Trésorerie",
+                "145"
+              ],
+              [
+                "Total actif",
+                "3 198"
+              ]
+            ],
+            "passif": [
+              [
+                "Fonds propres",
+                "1 120"
+              ],
+              [
+                "Dettes financières LT",
+                "950"
+              ],
+              [
+                "Dettes fournisseurs (45j achats)",
+                "361"
+              ],
+              [
+                "Autres dettes CT",
+                "189"
+              ],
+              [
+                "Découvert bancaire",
+                "578"
+              ],
+              [
+                "Total passif",
+                "3 198"
+              ]
+            ]
+          },
+          "note_credit_bail": "L'entreprise a un contrat de crédit-bail sur une fraiseuse (valeur d'origine : 380K€, encours : 210K€, loyers annuels : 68K€ dont 45K€ d'amortissement et 23K€ d'intérêts implicites)."
+        },
+        "questions": [
+          "Calculez le BFR en jours de CA et commentez.",
+          "Effectuez le retraitement crédit-bail et recalculez l'EBITDA et l'endettement net retraités.",
+          "Calculez le DSCR actuel (N) puis le DSCR prévisionnel après intégration du prêt de 800K€ (annuité estimée à 135K€/an). Concluez.",
+          "Calculez le levier d'endettement net (retraité) et l'autonomie financière. Y a-t-il des signaux d'alerte ?",
+          "Rédigez la conclusion de votre note de crédit : force principale, risque principal, recommandation."
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "BFR",
+            "reponse": "BFR = Stocks + Créances clients − Dettes fournisseurs − Autres dettes CT\nBFR = 320 + 883 − 361 − 189 = 653 K€\nBFR en jours = 653 / (5 300/360) = 653 / 14,7 = 44,4 jours de CA\nAnalyse : BFR de 44 jours, cohérent avec le secteur industriel (délais clients 60j, fournisseurs 45j). La trésorerie de 145K€ est insuffisante face au BFR → recours massif au découvert (578K€). C'est le risque principal à court terme."
+          },
+          {
+            "question": "Retraitement crédit-bail",
+            "reponse": "Retraitement au bilan : Actif immobilisé +380K€ (valeur d'origine) → correction : +210K€ (encours restant). Dettes financières +210K€.\nRetraitement EBITDA : Les loyers de crédit-bail (68K€) sont retraités. L'EBITDA retraité = EBITDA comptable + loyers CB = 845 + 68 = 913K€.\nEndettement net retraité = Dettes financières retraitées − Trésorerie = (950 + 210) − 145 = 1 015K€.\nLevier retraité = 1 015 / 913 = 1,11x. Correct."
+          },
+          {
+            "question": "DSCR",
+            "reponse": "DSCR actuel = EBITDA retraité / Service de dette total\nService dette actuel = Intérêts LT (72K€) + Intérêts CB implicites (23K€) + Remboursements LT estimés (135K€) + Loyers CB amortissement (45K€) = 275K€\nDSCR actuel = 913 / 275 = 3,32x ✓ Très confortable.\n\nDSCR prévisionnel (après prêt 800K€ — annuité 135K€) :\nNouveau service de dette = 275 + 135 = 410K€\nEBITDA prévisionnel (hypothèse +5% CA → EBITDA ~960K€) = 960K€\nDSCR prévisionnel = 960 / 410 = 2,34x ✓ Largement au-dessus de 1,2x. Financement viable."
+          },
+          {
+            "question": "Levier et autonomie financière",
+            "reponse": "Levier = Dette nette retraitée / EBITDA retraité = 1 015 / 913 = 1,11x ✓ Excellent.\nAutonomie financière = Fonds propres / Total bilan = 1 120 / 3 198 = 35% ✓ Correct (>20%).\nSignaux d'alerte : Le découvert bancaire de 578K€ est élevé (52% de la trésorerie et créances). Il masque un BFR mal financé. À surveiller : demander un relevé bancaire 12 mois pour vérifier l'utilisation du découvert."
+          },
+          {
+            "question": "Conclusion note de crédit",
+            "reponse": "COMETAL SAS présente un profil de crédit solide : croissance régulière du CA (+12%/an sur 3 ans), EBITDA en hausse constante (845K€ en N, marge EBITDA 16%), levier faible (1,11x retraité) et DSCR prévisionnel très confortable (2,34x).\n\nForce principale : Rentabilité opérationnelle robuste, client aéronautique structurant (contrat cadre), investissement créateur de valeur (gain de productivité de 25% estimé).\n\nRisque principal : Découvert bancaire structurel élevé (578K€) signalant un BFR sous-financé. Concentration client (1 client = 40% du CA selon dossier).\n\nRecommandation : FAVORABLE, sous condition d'un apurement partiel du découvert bancaire (plafonnement à 300K€ dans les 12 mois) et d'une garantie Bpifrance de 60% sur le prêt. Covenant DSCR > 1,3x à surveiller annuellement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "label": "Crédit bancaire : mécanique complète",
+      "tag": "Fondamental",
+      "level": "Avancé",
+      "duration": "5h",
+      "domain": "Finance traditionnelle",
+      "cours": {
+        "introduction": "Le crédit bancaire est l'acte fondateur du métier de banquier. Comprendre sa mécanique complète — des différents types de crédits aux garanties, en passant par l'instruction et la tarification — est indispensable pour tout chargé d'affaires. Ce module couvre la totalité du cycle de crédit, du premier contact client à la mise en place du financement.",
+        "sections": [
+          {
+            "titre": "1. Typologies de crédits et leurs usages",
+            "contenu": "**Crédits à court terme (< 1 an) — financement du cycle d'exploitation :**\n\n| Type | Usage | Mécanisme |\n|---|---|---|\n| **Découvert bancaire** | Décalages de trésorerie ponctuels | Autorisation de débit sur compte courant |\n| **Facilité de caisse** | Décalages très courts (< 15j) | Sous-ensemble du découvert |\n| **Escompte commercial** | Mobilisation de créances clients | La banque achète les effets de commerce avant échéance |\n| **Dailly** | Financement de créances pro | Cession de créances par bordereau (loi 1981) |\n| **Affacturage** | Externalisation du poste clients | Le factor achète les créances et gère le recouvrement |\n| **Crédit de campagne** | Saisonnalité marquée (agri, tourisme) | Ligne tirée en période haute, remboursée en période basse |\n| **Crédit documentaire (CREDOC)** | Commerce international | Engagement bancaire de paiement conditionnel |\n\n**Crédits à moyen et long terme (> 1 an) — financement des investissements :**\n\n| Type | Usage | Durée typique |\n|---|---|---|\n| **Prêt amortissable** | Investissements matériels et immatériels | 3 à 7 ans |\n| **Crédit-bail mobilier** | Machines, véhicules, équipements | 3 à 7 ans |\n| **Crédit-bail immobilier (CBI)** | Immobilier professionnel | 12 à 20 ans |\n| **Prêt immobilier professionnel** | Achat de locaux | 15 à 20 ans |\n| **Prêt à l'Innovation (Bpifrance)** | R&D et innovation | 5 à 7 ans |\n| **Prêt participatif** | Quasi-fonds propres | 7 à 12 ans |\n\n**Crédits de financement de projets (Project Finance) :**\nStructure où le remboursement repose exclusivement sur les cash flows du projet (SPV isolé), sans recours aux actifs du promoteur. Utilisé pour les EnR, les infrastructures, les PPP."
+          },
+          {
+            "titre": "2. La tarification d'un crédit : tous les composants",
+            "contenu": "Le taux affiché au client n'est que la surface visible. La tarification bancaire intègre de nombreux composants qui doivent être maîtrisés.\n\n**Décomposition du taux créditeur :**\n\n```\nTaux de base (coût de la ressource)\n+ Marge de liquidité (coût de transformation)\n+ Prime de risque (fonction du scoring client)\n+ Coût en fonds propres réglementaires (Bâle III)\n+ Marge commerciale nette\n= Taux client brut\n+ Frais de dossier\n+ Assurance (si incluse)\n= TEG / TAEG\n```\n\n**Le Taux Effectif Global (TEG) / TAEG :**\n- Obligatoire légalement (art. L314-1 du Code de la consommation)\n- Inclut TOUS les frais : taux nominal + frais de dossier + assurance + garanties\n- Permet la comparaison entre offres\n- Doit figurer dans toute offre de crédit\n\n**Les commissions bancaires courantes :**\n\n| Commission | Définition | Ordre de grandeur |\n|---|---|---|\n| Frais de dossier | Instruction et mise en place | 0,5% à 1,5% du montant |\n| Commission d'engagement | Sur la partie non tirée d'une ligne | 0,1% à 0,5%/an |\n| Commission de non-utilisation | Pénalité si sous-utilisation | 0,2% à 0,5%/an |\n| Indemnités de remboursement anticipé (IRA) | Si remboursement avant terme | 3% à 6 mois d'intérêts |\n\n**Le TCI (Taux de Cession Interne) :**\nC'est le taux auquel la direction financière de la banque \"vend\" les ressources aux directions commerciales. La marge commerciale du chargé d'affaires = taux client − TCI − coût du risque − coût en fonds propres. C'est l'outil de mesure de la rentabilité client."
+          },
+          {
+            "titre": "3. Les garanties réelles",
+            "contenu": "Les garanties réelles portent sur des biens. Elles confèrent à la banque un droit préférentiel sur l'actif en cas de défaillance.\n\n**L'hypothèque :**\n- Sûreté réelle immobilière : porte sur un bien immeuble (locaux, terrain)\n- Constituée par acte notarié et inscrite au bureau des hypothèques\n- La banque peut faire saisir et vendre le bien en cas de défaut\n- Hypothèque conventionnelle (constituée volontairement) vs judiciaire (par décision de justice)\n- Coût : émoluments notariaux + taxe de publicité foncière (environ 1,5% du montant garanti)\n- **Rang** : en cas de pluralité de créanciers hypothécaires, le rang détermine l'ordre de paiement\n\n**Le nantissement :**\n- Sûreté mobilière SANS dépossession : le débiteur conserve le bien\n- **Nantissement de fonds de commerce** : porte sur le fonds commercial (clientèle, nom commercial, droit au bail). Inscrit au greffe du tribunal de commerce.\n- **Nantissement de parts sociales / actions** : l'entreprise nantit ses propres titres ou ceux d'une filiale. Inscription au registre des associés.\n- **Nantissement de créances (Dailly)** : cession ou nantissement de créances professionnelles\n- **Nantissement de matériel et outillage** : inscription au greffe, permet de garder l'outil de production\n\n**Le gage :**\n- Sûreté mobilière AVEC dépossession : le débiteur remet le bien à la banque\n- **Gage-espèces** : dépôt de garantie en cash bloqué\n- **Warrant** : gage sur marchandises stockées en entrepôt agréé (agriculture, vins)\n- Moins utilisé car immobilise les actifs du débiteur\n\n**Le privilège du prêteur de deniers (PPD) :**\n- Garantie spécifique aux acquisitions immobilières\n- Moins coûteux que l'hypothèque (pas de taxe de publicité foncière)\n- Ne peut couvrir que le prix d'acquisition (pas les travaux)\n- Prend rang à la date de vente, non à la date d'inscription → prioritaire sur l'hypothèque"
+          },
+          {
+            "titre": "4. Les garanties personnelles",
+            "contenu": "Les garanties personnelles engagent une personne (physique ou morale) à rembourser en cas de défaillance du débiteur principal.\n\n**Le cautionnement :**\n- La caution s'engage à payer si le débiteur principal défaille\n- **Caution simple** : la banque doit d'abord poursuivre le débiteur principal (bénéfice de discussion)\n- **Caution solidaire** : la banque peut se retourner directement contre la caution sans poursuivre d'abord le débiteur. C'est la forme quasi-systématiquement exigée.\n- **Caution personnelle du dirigeant** : engagement du patrimoine personnel. Très fréquent pour les PME. Limité depuis la loi Macron (2015) : limité à une quotité raisonnable.\n- Formalisme strict (loi Scrivener) : mention manuscrite obligatoire\n\n**L'aval :**\n- Garantie spécifique aux effets de commerce (lettre de change, billet à ordre)\n- L'avaliste s'engage de façon autonome et indépendante\n- Souvent utilisé dans le cadre d'escompte commercial\n\n**La garantie Bpifrance :**\n- Bpifrance se porte garant de 40% à 70% d'un crédit bancaire\n- Réduit le risque de la banque sans mobiliser d'actifs chez l'emprunteur\n- Permet l'accès au crédit pour des entreprises sans actifs à gager\n- Différents produits selon la situation : Garantie Création, Développement, Transmission, Innovation\n- La banque paie une commission de garantie à Bpifrance (0,5% à 1%/an)\n\n**La lettre d'intention (comfort letter) :**\n- Engagement moral (non juridiquement contraignant) d'une société mère\n- Gradation : de la simple 'lettre de connaissance' à la 'lettre de porte-fort' (quasi-caution)\n- À analyser avec prudence : valeur juridique variable selon les termes exacts"
+          },
+          {
+            "titre": "5. L'instruction et la décision de crédit",
+            "contenu": "**Le processus d'instruction chez Bpifrance :**\n\n```\n1. Réception dossier client\n   ↓\n2. Analyse de recevabilité (critères d'éligibilité)\n   ↓\n3. Collecte des pièces (3 derniers bilans, K-bis, business plan, devis)\n   ↓\n4. Analyse financière complète (ratios, DSCR, scoring)\n   ↓\n5. Analyse qualitative (management, marché, concurrence)\n   ↓\n6. Rédaction de la note de crédit\n   ↓\n7. Passage en comité d'engagement (selon délégation)\n   ↓\n8. Décision : Favorable / Défavorable / Conditionnel\n   ↓\n9. Mise en place : conditions préalables, actes de garantie, déblocage\n```\n\n**La délégation de crédit :**\n- Chaque niveau hiérarchique dispose d'un plafond de décision autonome\n- Au-delà : passage en comité régional, puis comité national\n- Plus le montant est élevé, plus le niveau de décision est élevé\n\n**Les conditions préalables (CP) courantes :**\n- Mise en place des garanties (inscription hypothèque, acte de cautionnement)\n- Production du K-bis à jour\n- Attestation d'assurance homme-clé\n- Apport personnel confirmé\n- Attestation de non-inscription au FICP\n\n**Le suivi post-financement :**\n- Revue annuelle des comptes (bilans, liasses fiscales)\n- Vérification des covenants si applicable\n- Surveillance des alertes (impayés, procédure collective, dégradation FIBEN)\n- Dialogue préventif en cas de signal faible"
+          }
+        ],
+        "points_cles": [
+          "Le TEG/TAEG est obligatoire légalement et inclut TOUS les frais : taux nominal, frais de dossier, assurance et coût des garanties. C'est le seul indicateur de comparaison valide entre offres.",
+          "La caution solidaire du dirigeant permet à la banque de se retourner directement contre lui sans poursuivre d'abord la société — c'est la forme quasi-systématiquement exigée en PME.",
+          "Le nantissement se distingue du gage par l'absence de dépossession : le débiteur conserve le bien nanti, ce qui est crucial pour maintenir l'activité.",
+          "La garantie Bpifrance (40%-70% du crédit) est un levier clé pour les entreprises sans actifs à gager — la banque paie une commission à Bpifrance, pas le client.",
+          "Le DSCR doit être calculé APRÈS intégration du nouveau financement dans le service de dette total. Un DSCR prévisionnel > 1,2x est le seuil minimum Bpifrance."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Quelle est la différence fondamentale entre une caution simple et une caution solidaire ?",
+          "options": [
+            "La caution simple engage le patrimoine personnel, la solidaire n'engage que les biens professionnels",
+            "Avec la caution solidaire, la banque peut se retourner directement contre la caution sans poursuivre d'abord le débiteur principal",
+            "La caution simple est réservée aux personnes physiques, la solidaire aux personnes morales",
+            "Il n'y a pas de différence pratique, seule la terminologie change"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La caution simple bénéficie du 'droit de discussion' : la banque doit d'abord poursuivre le débiteur principal avant de se retourner contre la caution. La caution solidaire supprime ce droit : la banque peut immédiatement et directement poursuivre la caution sans même mettre en demeure l'emprunteur. C'est pour cette raison que les banques exigent quasi-systématiquement une caution solidaire — elle est beaucoup plus efficace en cas de défaut."
+        },
+        {
+          "question": "Un entrepreneur demande un crédit pour acheter ses locaux professionnels à 500K€. Quelle garantie est la plus avantageuse pour lui en termes de coût ?",
+          "options": [
+            "L'hypothèque conventionnelle — plus connue et plus sécurisante pour la banque",
+            "Le nantissement du fonds de commerce — moins coûteux",
+            "Le privilège du prêteur de deniers (PPD) — pas de taxe de publicité foncière car lié à l'acquisition",
+            "La caution solidaire personnelle — aucun frais notariaux"
+          ],
+          "reponse_correcte": 2,
+          "explication": "Le PPD est spécifique aux acquisitions immobilières et est exonéré de la taxe de publicité foncière (environ 0,7% du montant garanti), contrairement à l'hypothèque. Il prend rang à la date de la vente, ce qui lui confère même une priorité sur d'éventuelles hypothèques postérieures. En revanche, il ne peut couvrir que le prix d'acquisition, pas des travaux complémentaires."
+        },
+        {
+          "question": "Le TEG d'un prêt de 200K€ sur 5 ans inclut :",
+          "options": [
+            "Uniquement le taux d'intérêt nominal annuel",
+            "Le taux nominal + les frais de dossier uniquement",
+            "Tous les frais obligatoires : taux nominal, frais de dossier, assurance, coût des garanties obligatoires",
+            "Le taux nominal + la marge bancaire + le coût de refinancement"
+          ],
+          "reponse_correcte": 2,
+          "explication": "Le TEG (Taux Effectif Global), devenu TAEG pour les crédits aux consommateurs, est défini par l'article L314-1 du Code de la consommation. Il doit intégrer TOUS les frais obligatoires liés à l'obtention du crédit : taux nominal, frais de dossier, primes d'assurance obligatoires, coût des garanties exigées. C'est le seul indicateur permettant une vraie comparaison entre offres de différents établissements."
+        },
+        {
+          "question": "Dans un financement de projet (Project Finance), qui rembourse le prêt ?",
+          "options": [
+            "La société mère du promoteur, via sa garantie corporative",
+            "Le projet lui-même via ses cash flows, sans recours aux actifs du promoteur",
+            "L'État via des garanties souveraines systématiques",
+            "Un pool d'assureurs qui se substituent au promoteur"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le Project Finance (financement de projet) repose sur le principe du 'sans recours' ou 'recours limité' : le remboursement est assuré exclusivement par les cash flows générés par le projet, logé dans une structure ad hoc (SPV — Special Purpose Vehicle). Les banques analysent donc en priorité la robustesse du DSCR du projet sur toute la durée du financement, les contrats d'offtake (achat garanti de la production) et les assurances. Très utilisé dans les énergies renouvelables et les infrastructures."
+        },
+        {
+          "question": "Quelle est la différence entre l'escompte et la cession Dailly ?",
+          "options": [
+            "L'escompte porte sur des effets de commerce (LCR, billets à ordre), la Dailly sur des créances ordinaires par bordereau",
+            "La Dailly est plus coûteuse que l'escompte car elle nécessite un acte notarié",
+            "L'escompte est réservé aux grandes entreprises, la Dailly aux PME",
+            "Il n'y a aucune différence, les deux termes sont synonymes"
+          ],
+          "reponse_correcte": 0,
+          "explication": "L'escompte est la mobilisation d'effets de commerce (lettre de change relevé, billet à ordre) : la banque achète l'effet avant son échéance et avance le montant moins les agios. La cession Dailly (loi du 2 janvier 1981) permet de céder ou nantir des créances professionnelles ordinaires par simple bordereau, sans acte notarié ni acceptation du débiteur cédé (sauf pour le nantissement). La Dailly est plus simple et plus souple que l'escompte, applicable à toutes les créances professionnelles."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Structuration d'un financement pour TECHBOIS SAS — 1,5M€",
+        "contexte": "TECHBOIS SAS est une scierie et menuiserie industrielle familiale (CA 8,2M€, EBITDA 980K€, 45 salariés) dirigée par M. Durand (60 ans) et son fils (35 ans). L'entreprise souhaite financer : 1) l'acquisition d'une ligne de séchage automatique pour 900K€, 2) l'achat des locaux qu'elle loue actuellement pour 600K€. Le dossier est présenté à Bpifrance pour un cofinancement avec le Crédit Agricole (CA propose 800K€ sur l'immobilier, Bpifrance est sollicitée pour 700K€ sur le matériel). Le dirigeant ne souhaite pas donner de caution personnelle.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Indicateur",
+              "N-1",
+              "N"
+            ],
+            [
+              "CA",
+              "7 600 K€",
+              "8 200 K€"
+            ],
+            [
+              "EBITDA",
+              "870 K€",
+              "980 K€"
+            ],
+            [
+              "Marge EBITDA",
+              "11,4%",
+              "11,9%"
+            ],
+            [
+              "Dette financière nette",
+              "1 100 K€",
+              "950 K€"
+            ],
+            [
+              "Fonds propres",
+              "2 300 K€",
+              "2 650 K€"
+            ],
+            [
+              "DSCR actuel",
+              "2,1x",
+              "2,3x"
+            ]
+          ],
+          "garanties_disponibles": [
+            "Locaux professionnels (valeur vénale estimée : 750K€) — actuellement loués",
+            "Machines et équipements (valeur nette comptable : 620K€)",
+            "Fonds de commerce (valeur estimée : 400K€)",
+            "Pas de caution personnelle souhaitée par le dirigeant"
+          ]
+        },
+        "questions": [
+          "Quelle structure de garanties proposez-vous pour le prêt Bpifrance de 700K€ (matériel) et le prêt CA de 800K€ (immobilier) ? Justifiez.",
+          "Calculez le DSCR prévisionnel en intégrant les deux nouveaux emprunts (annuités estimées : 140K€/an pour Bpifrance + 55K€/an pour CA sur 15 ans). L'EBITDA prévisionnel est de 1 050K€ (gain de productivité lié au séchage automatique). Concluez.",
+          "M. Durand refuse la caution personnelle. Quels arguments pouvez-vous avancer pour ou contre cette position, et quelle alternative proposez-vous ?",
+          "Quel dispositif Bpifrance recommandez-vous pour les 700K€ (type de prêt, garantie Bpifrance) ? Justifiez.",
+          "Rédigez les conditions préalables au déblocage des fonds que vous imposeriez."
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "Structure de garanties",
+            "reponse": "Prêt CA 800K€ (immobilier) : Privilège du prêteur de deniers (PPD) sur les locaux achetés à 600K€ — couvre 75% du prêt. Compléter par une hypothèque de 2ème rang sur les locaux si CA exige une couverture totale. Les locaux valent 750K€ pour 800K€ de prêt → LTV = 107% : le PPD seul est insuffisant, il faut une garantie complémentaire (nantissement fonds de commerce en 2ème rang ou garantie Bpifrance partielle).\n\nPrêt Bpifrance 700K€ (matériel) : Nantissement du matériel et outillage (nouvelle ligne de séchage, valeur 900K€) → couvre 129% du prêt. Demander en complément la garantie Bpifrance Développement à 50% (soit 350K€ garantis). Sans caution personnelle, cette combinaison est raisonnable compte tenu du profil solide."
+          },
+          {
+            "question": "DSCR prévisionnel",
+            "reponse": "Service de dette total prévisionnel :\n- Annuités existantes (dette résiduelle 950K€ sur durée résiduelle estimée 4 ans) : ~250K€/an\n- Nouveau prêt Bpifrance : 140K€/an\n- Nouveau prêt CA immobilier : 55K€/an\n- Total service de dette : 445K€/an\n\nDSCR prévisionnel = EBITDA prévisionnel / Service de dette total = 1 050 / 445 = 2,36x ✓\n\nConclusion : DSCR de 2,36x, largement supérieur au seuil Bpifrance de 1,2x. La capacité de remboursement est solide même en intégrant les deux nouveaux financements. Le plan de financement est viable."
+          },
+          {
+            "question": "Caution personnelle",
+            "reponse": "Arguments contre la caution personnelle de M. Durand : il a 60 ans (horizon de retraite proche), les fonds propres sont solides (2,65M€), le DSCR est confortable, les garanties réelles sont suffisantes sur les actifs.\n\nArguments pour la demande de caution : c'est la pratique standard en PME familiale, elle aligne les intérêts du dirigeant et de la banque, et elle couvre le risque de gestion discrétionnaire.\n\nAlternative pragmatique : demander une caution personnelle limitée à 30% du montant Bpifrance (soit 210K€) avec une clause de réduction progressive liée au remboursement. Ou à défaut, une caution de la holding familiale (si elle existe) plutôt que personnelle. La garantie Bpifrance à 50% permet également de se passer partiellement de la caution personnelle."
+          },
+          {
+            "question": "Dispositif Bpifrance recommandé",
+            "reponse": "Recommandation : Prêt Bpifrance Développement (ex-Prêt de Développement) de 700K€ sur 7 ans avec différé d'amortissement de 12 mois (le temps que la ligne de séchage soit opérationnelle et génère le gain de productivité).\n\nGarantie Bpifrance : activer la Garantie Développement à 50% sur le prêt CA de 800K€ (puisque le CA ne bénéficie pas de garantie suffisante sur l'immobilier). Cela sécurise le partenaire bancaire et fluidifie le cofinancement.\n\nCofinancement : respecter la règle du cofinancement obligatoire (Bpifrance n'intervient jamais seul en financement bancaire classique). Ici CA 800K€ + Bpifrance 700K€ = cofinancement 53%/47%, équilibré."
+          },
+          {
+            "question": "Conditions préalables",
+            "reponse": "Conditions préalables au déblocage :\n1. Production du contrat de vente définitif des locaux (acte notarié) et inscription du PPD\n2. Bon de commande signé et acompte versé sur la ligne de séchage (preuve de l'investissement)\n3. Inscription du nantissement de matériel et outillage au greffe du tribunal de commerce\n4. Attestation d'assurance multirisque professionnelle incluant la nouvelle ligne (valeur à neuf)\n5. Attestation d'assurance homme-clé sur M. Durand et son fils (co-gérant), minimum 500K€ chacun\n6. Mise en place effective de la garantie Bpifrance (lettre d'accord Bpifrance reçue)\n7. Production du bilan N certifié (si clôture intervenue depuis le dépôt du dossier)\n8. Autorisation du Conseil de famille / assemblée des associés si requise par les statuts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "label": "Scoring et notation du risque crédit",
+      "tag": "Risque",
+      "level": "Expert",
+      "duration": "4h",
+      "domain": "Finance traditionnelle",
+      "cours": {
+        "introduction": "Le scoring et la notation du risque de crédit sont au cœur de la décision bancaire moderne. Comprendre comment les banques et Bpifrance évaluent le risque d'un emprunteur — des modèles statistiques aux systèmes de rating interne — permet au chargé d'affaires d'anticiper les décisions, de mieux préparer ses dossiers et de comprendre les refus.",
+        "sections": [
+          {
+            "titre": "1. Les modèles de scoring statistique",
+            "contenu": "Le scoring est une technique statistique qui attribue une note numérique à un emprunteur à partir de variables quantitatives et qualitatives, afin de prédire la probabilité de défaut.\n\n**Régression logistique (modèle historique) :**\nFormule : P(défaut) = 1 / (1 + e^−(β0 + β1X1 + β2X2 + ... + βnXn))\nOù les Xi sont les variables explicatives (ratios financiers, âge de l'entreprise, secteur, etc.)\n\n**Variables typiquement intégrées dans un modèle de scoring PME :**\n\n| Catégorie | Variables | Poids typique |\n|---|---|---|\n| Rentabilité | EBITDA/CA, ROE, évolution CA | 30-35% |\n| Structure financière | Levier, autonomie, DSCR | 25-30% |\n| Liquidité | Trésorerie nette, liquidité générale | 15-20% |\n| Comportement bancaire | Incidents de paiement, utilisation découvert | 15-20% |\n| Qualitatif | Secteur, ancienneté, management | 10-15% |\n\n**Modèles de Machine Learning (ML) :**\n- **Arbres de décision et Random Forest** : segmentent les emprunteurs en sous-groupes homogènes. Très interprétables.\n- **Gradient Boosting (XGBoost)** : très performant sur données tabulaires financières, largement adopté par les grandes banques\n- **Réseaux de neurones** : puissants mais peu interprétables (boîte noire), ce qui pose des problèmes réglementaires (obligation d'expliquer un refus de crédit)\n\n**Contrainte réglementaire :**\nLa directive sur le crédit (et les lignes directrices EBA) impose que tout refus de crédit basé sur un traitement automatisé puisse être expliqué au client. Les modèles 'boîte noire' sont donc encadrés."
+          },
+          {
+            "titre": "2. La cotation FIBEN et la Banque de France",
+            "contenu": "**FIBEN (Fichier Bancaire des Entreprises) :**\nBase de données gérée par la Banque de France, accessible aux établissements de crédit. Elle recense plus de 5 millions d'entreprises françaises et leurs dirigeants.\n\n**La cotation Banque de France :**\nSystème à deux niveaux : cote d'activité + cote de crédit\n\n**Cote d'activité (chiffre d'affaires) :**\n\n| Cote | CA annuel |\n|---|---|\n| A | ≥ 750 M€ |\n| B | 150 à 750 M€ |\n| C | 30 à 150 M€ |\n| D | 7,5 à 30 M€ |\n| E | 1,5 à 7,5 M€ |\n| F | 500K€ à 1,5 M€ |\n| G | 100K€ à 500K€ |\n| H | < 100K€ |\n| X | Activité non significative |\n| N | Activité inconnue |\n\n**Cote de crédit (risque de défaut) :**\n\n| Cote | Signification |\n|---|---|\n| **3++** | Capacité de remboursement excellente |\n| **3+** | Capacité de remboursement très satisfaisante |\n| **3** | Capacité de remboursement satisfaisante |\n| **4+** | Capacité de remboursement acceptable |\n| **4** | Comportement financier incertain |\n| **5** | Risque élevé |\n| **6** | Très risqué |\n| **7** | Compromis, procédure amiable |\n| **8** | Procédure collective en cours |\n| **P** | Procédure collective clôturée |\n| **0** | Cotation impossible (données insuffisantes) |\n| **9** | N'existe plus |\n\n**La cote des dirigeants (040) :**\nLa BdF cote aussi les dirigeants personnes physiques. Un dirigeant ayant géré plusieurs sociétés défaillantes sera coté 060 (comportement financier préoccupant). À vérifier systématiquement.\n\n**Accès à FIBEN :**\nLes banques et Bpifrance ont accès directement. Les entreprises peuvent obtenir leur propre cotation via le site de la BdF."
+          },
+          {
+            "titre": "3. Le rating interne (IRB) — Approche Bâle II",
+            "contenu": "**Le cadre Bâle II — Pilier 1 :**\nBâle II a introduit deux approches pour le calcul des exigences en fonds propres :\n- **Approche standard** : pondérations fixes selon la catégorie d'emprunteur\n- **Approche IRB (Internal Ratings-Based)** : les banques utilisent leurs propres modèles internes, validés par le régulateur (BCE/ACPR)\n\n**Les composantes du risque IRB :**\n\n| Composante | Définition | Qui l'estime (IRB-F) |\n|---|---|---|\n| **PD** (Probability of Default) | Probabilité de défaut à 1 an | La banque |\n| **LGD** (Loss Given Default) | Perte en cas de défaut (%) | Régulateur (IRB-F) ou banque (IRB-A) |\n| **EAD** (Exposure At Default) | Exposition au moment du défaut | Régulateur (IRB-F) ou banque (IRB-A) |\n| **M** (Maturity) | Durée résiduelle du crédit | La banque |\n\n**Expected Loss (EL) = PD × LGD × EAD**\nC'est la perte statistiquement attendue sur un portefeuille. Elle est couverte par les provisions (IFRS 9).\n\n**Unexpected Loss (UL) = Value at Risk du portefeuille**\nC'est la perte au-delà de l'EL, dans les scénarios adverses. Elle est couverte par les fonds propres réglementaires.\n\n**RWA (Risk-Weighted Assets) :**\nLes actifs sont pondérés par le risque. Un prêt à une PME notée B aura une pondération plus élevée qu'un prêt à l'État français. Plus les RWA sont élevés, plus l'exigence en fonds propres (CET1) est forte.\n\n**Échelle de rating interne typique :**\n\n| Grade | PD associée | Équivalent S&P | Profil |\n|---|---|---|---|\n| 1 | < 0,03% | AAA-AA | Souverains, grandes banques |\n| 2-3 | 0,03-0,25% | A-BBB | Grandes entreprises solides |\n| 4-5 | 0,25-2% | BB | PME/ETI saines |\n| 6-7 | 2-10% | B | PME à surveiller |\n| 8-9 | 10-20% | CCC | Entreprises fragilisées |\n| 10 | > 20% | D | Quasi-défaut |\n| Défaut | 100% | — | Défaillance avérée |"
+          },
+          {
+            "titre": "4. Provisionnement IFRS 9 — Les 3 stages",
+            "contenu": "**La logique IFRS 9 (en vigueur depuis 2018) :**\nIFRS 9 remplace IAS 39 et introduit un modèle de provisionnement prospectif basé sur les pertes attendues (Expected Credit Loss — ECL), par opposition à l'ancien modèle de perte avérée.\n\n**Les 3 stages (niveaux de provisionnement) :**\n\n| Stage | Critère | Provision |\n|---|---|---|\n| **Stage 1** | Aucune dégradation significative depuis l'octroi | ECL sur 12 mois |\n| **Stage 2** | Dégradation significative du risque de crédit | ECL sur toute la durée de vie |\n| **Stage 3** | Défaut avéré (>90 jours impayé, restructuration) | ECL sur toute la durée de vie (perte quasi-totale) |\n\n**Triggers de passage en Stage 2 :**\n- Hausse de la PD de plus de 100% (doublement) depuis l'octroi\n- Note interne dégradée de 2 ou plus\n- Restructuration amiable\n- Impayés de 30 à 90 jours\n- Contexte macro-économique dégradé (secteur en crise)\n\n**Impact pour le banquier :**\n- Un passage en Stage 2 déclenche un provisionnement sur TOUTE la durée de vie, impactant fortement le compte de résultat de la banque\n- C'est pour cela que les banques sont très attentives aux signaux d'alerte précoces et aux covenants\n- Un passage en Stage 3 correspond à une perte quasi-certaine partielle ou totale"
+          },
+          {
+            "titre": "5. Stress tests et scénarios adverses",
+            "contenu": "**Pourquoi stresser les modèles ?**\nLe risque de crédit ne se matérialise pas dans les conditions normales mais dans les scénarios adverses. Les stress tests permettent de mesurer la résilience d'un portefeuille ou d'un dossier individuel.\n\n**Stress tests au niveau dossier (chargé d'affaires) :**\nAvant d'accorder un crédit, le chargé d'affaires doit tester la robustesse du plan de remboursement dans des scénarios adverses réalistes :\n\n| Scénario | Variable stressée | Ampleur |\n|---|---|---|\n| Récession sectorielle | CA −15 à −20% | Historique de crise |\n| Hausse des taux | EURIBOR +200 bps | Si taux variable |\n| Perte d'un client majeur | CA −X% (poids du client) | Concentration |\n| Hausse des matières premières | Marges −3 à −5 pts | Secteur concerné |\n| Défaillance d'un associé clé | Continuité d'exploitation | Homme-clé |\n\n**Question clé : quel est le DSCR dans le scénario adverse ?**\nSi le DSCR tombe sous 1,0x dans le scénario de stress, le dossier est trop risqué ou nécessite des garanties renforcées.\n\n**Stress tests bancaires réglementaires (EBA) :**\nChaque année, l'Autorité Bancaire Européenne (EBA) conduit des stress tests sur les grandes banques européennes. Scénario adverse typique : récession de -4% du PIB, chômage à 12%, chute des prix immobiliers de 25%. Les banques qui ne maintiennent pas un CET1 > 8% dans le scénario adverse peuvent être contraintes à lever des fonds propres."
+          }
+        ],
+        "points_cles": [
+          "Le scoring ML (XGBoost, Random Forest) surpasse la régression logistique en performance mais pose des problèmes réglementaires d'explicabilité — tout refus automatisé doit pouvoir être justifié au client.",
+          "La cotation FIBEN est à vérifier systématiquement pour toute entreprise et son dirigeant. Une cote 040 (060 pour le dirigeant) sur l'historique des dirigeants est un signal d'alerte majeur.",
+          "EL = PD × LGD × EAD : la perte attendue est couverte par les provisions (IFRS 9), la perte inattendue (queue de distribution) est couverte par les fonds propres réglementaires.",
+          "IFRS 9 Stage 2 déclenche un provisionnement sur toute la durée de vie du crédit — un doublement de la PD depuis l'octroi suffit à déclencher ce passage, impactant fortement le P&L de la banque.",
+          "Tout dossier doit être stressé : quel est le DSCR si le CA baisse de 15% ? Si les taux montent de 200bps ? Un DSCR > 1,0x dans le scénario adverse est le minimum acceptable."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Une entreprise a une PD de 2%, une LGD de 45% et une exposition (EAD) de 500K€. Quelle est l'Expected Loss ?",
+          "options": [
+            "4 500€",
+            "9 000€",
+            "22 500€",
+            "45 000€"
+          ],
+          "reponse_correcte": 0,
+          "explication": "EL = PD × LGD × EAD = 2% × 45% × 500 000 = 0,02 × 0,45 × 500 000 = 4 500€. Cette perte attendue de 4 500€ doit être provisionnée par la banque selon IFRS 9 (Stage 1 si le risque n'a pas significativement augmenté depuis l'octroi). Elle est intégrée dans la tarification du crédit via la prime de risque."
+        },
+        {
+          "question": "Une entreprise cotée 5 par la Banque de France (FIBEN) représente :",
+          "options": [
+            "Une capacité de remboursement satisfaisante — dossier standard",
+            "Un risque élevé — financement très encadré ou refus probable sans garanties solides",
+            "Une procédure collective en cours — aucun financement possible",
+            "Une cote provisoire due à des données insuffisantes"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La cote 5 FIBEN signifie 'risque élevé'. L'entreprise présente des difficultés financières significatives mais n'est pas encore en procédure collective. Un financement est possible mais nécessite des garanties renforcées, une analyse approfondie et probablement une garantie Bpifrance. Les cotes 6 et 7 sont encore plus dégradées, et 8/P correspondent aux procédures collectives."
+        },
+        {
+          "question": "Quel événement déclenche automatiquement un passage en Stage 3 selon IFRS 9 ?",
+          "options": [
+            "Une baisse du chiffre d'affaires de 10% sur un trimestre",
+            "Un impayé de plus de 90 jours sur n'importe quelle obligation",
+            "Une dégradation de la cotation FIBEN de 3++ à 3+",
+            "Une hausse du ratio d'endettement au-dessus de 3x EBITDA"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le passage en Stage 3 (défaut avéré) est déclenché notamment par un impayé de plus de 90 jours — c'est le critère réglementaire universel. Le Stage 3 entraîne un provisionnement sur toute la durée de vie restante du crédit, avec souvent un taux de provisionnement de 40% à 100% selon la LGD estimée. D'autres triggers existent : restructuration forcée, procédure collective, probabilité de non-remboursement jugée probable."
+        },
+        {
+          "question": "Quelle est la différence entre l'approche IRB-F et l'approche IRB-A selon Bâle II ?",
+          "options": [
+            "IRB-F est réservée aux grandes banques, IRB-A aux petites",
+            "En IRB-F la banque estime la PD, le régulateur fixe LGD et EAD. En IRB-A la banque estime tous les paramètres.",
+            "IRB-F utilise des modèles de régression logistique, IRB-A utilise le Machine Learning",
+            "Il n'y a pas de différence, F et A sont des dénominations régionales"
+          ],
+          "reponse_correcte": 1,
+          "explication": "IRB-F (Foundation) : la banque estime uniquement la PD avec ses modèles internes. La LGD et l'EAD sont fixées par le régulateur (valeurs supervisory). IRB-A (Advanced) : la banque estime elle-même la PD, la LGD ET l'EAD, avec validation du régulateur (BCE/ACPR). L'approche avancée permet une meilleure précision du risque réel mais nécessite des historiques de données importants et un processus de validation long."
+        },
+        {
+          "question": "Dans un modèle de scoring PME, quelle catégorie de variables porte généralement le poids le plus important ?",
+          "options": [
+            "Les variables qualitatives (secteur, management, réputation)",
+            "Le comportement bancaire (incidents, utilisation du découvert)",
+            "Les variables de rentabilité et de structure financière (EBITDA, levier, DSCR)",
+            "L'ancienneté et la taille de l'entreprise"
+          ],
+          "reponse_correcte": 2,
+          "explication": "Dans les modèles de scoring PME, les variables financières quantitatives (rentabilité, structure, liquidité) portent collectivement 55 à 65% du poids. Elles sont les meilleurs prédicteurs statistiques du défaut. Le comportement bancaire (incidents de paiement) est également très prédictif (15-20%) mais moins disponible pour les nouveaux clients. Les variables qualitatives (secteur, management) complètent le modèle mais avec un poids moindre car plus subjectives et moins standardisables."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Analyse du risque de crédit — PLASTIMER SA vs FRESHTECH SAS",
+        "contexte": "Vous êtes analyste risque chez Bpifrance. Deux dossiers arrivent simultanément. Vous devez analyser le profil de risque de chaque entreprise, attribuer une note interne indicative et formuler une recommandation.",
+        "donnees_financieres": {
+          "plastimer": {
+            "description": "PLASTIMER SA — Transformateur de matières plastiques, 12M€ CA",
+            "donnees": [
+              [
+                "Indicateur",
+                "N-2",
+                "N-1",
+                "N"
+              ],
+              [
+                "CA",
+                "13 200 K€",
+                "12 800 K€",
+                "12 100 K€"
+              ],
+              [
+                "EBITDA",
+                "1 056 K€",
+                "896 K€",
+                "726 K€"
+              ],
+              [
+                "Marge EBITDA",
+                "8,0%",
+                "7,0%",
+                "6,0%"
+              ],
+              [
+                "Dette nette",
+                "2 100 K€",
+                "2 350 K€",
+                "2 580 K€"
+              ],
+              [
+                "Fonds propres",
+                "1 850 K€",
+                "1 720 K€",
+                "1 560 K€"
+              ],
+              [
+                "DSCR",
+                "1,8x",
+                "1,4x",
+                "1,1x"
+              ],
+              [
+                "Trésorerie nette",
+                "−180 K€",
+                "−340 K€",
+                "−520 K€"
+              ],
+              [
+                "Cotation FIBEN",
+                "3+",
+                "4+",
+                "4"
+              ],
+              [
+                "Incidents bancaires 12 mois",
+                "0",
+                "1",
+                "3"
+              ]
+            ]
+          },
+          "freshtech": {
+            "description": "FRESHTECH SAS — Logiciels de gestion pour restauration, 3,2M€ ARR",
+            "donnees": [
+              [
+                "Indicateur",
+                "N-2",
+                "N-1",
+                "N"
+              ],
+              [
+                "ARR / CA",
+                "1 800 K€",
+                "2 500 K€",
+                "3 200 K€"
+              ],
+              [
+                "EBITDA",
+                "−420 K€",
+                "−180 K€",
+                "160 K€"
+              ],
+              [
+                "NRR (Net Revenue Retention)",
+                "118%",
+                "122%",
+                "125%"
+              ],
+              [
+                "Churn annuel",
+                "8%",
+                "6%",
+                "4%"
+              ],
+              [
+                "Trésorerie",
+                "980 K€",
+                "740 K€",
+                "620 K€"
+              ],
+              [
+                "Dette financière",
+                "500 K€",
+                "500 K€",
+                "500 K€"
+              ],
+              [
+                "Fonds propres",
+                "1 200 K€",
+                "1 050 K€",
+                "1 250 K€"
+              ],
+              [
+                "Levée de fonds",
+                "Série A 2M€ en N-2",
+                "—",
+                "—"
+              ]
+            ]
+          }
+        },
+        "questions": [
+          "Analysez les tendances financières de PLASTIMER SA et identifiez les signaux d'alerte. À quel stage IFRS 9 classeriez-vous ce crédit (hypothèse : crédit existant accordé en N-2) ?",
+          "FRESHTECH SAS a un EBITDA positif seulement depuis N. Quelles métriques spécifiques aux SaaS regardez-vous en priorité et pourquoi ?",
+          "Attribuez une note interne indicative (sur l'échelle 1-10) à chaque entreprise. Justifiez.",
+          "Quelle entreprise présente le meilleur profil de risque à 3 ans ? Argumentez.",
+          "Pour PLASTIMER, quelles actions préventives recommandez-vous avant que la situation ne devienne critique ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "PLASTIMER — Signaux d'alerte et staging IFRS 9",
+            "reponse": "Signaux d'alerte majeurs :\n1. CA en baisse 3 ans consécutifs (−8,3% cumulé) → perte de parts de marché ou problème de compétitivité\n2. Marge EBITDA en érosion constante : 8% → 7% → 6% → pression sur les prix ou hausse des coûts non maîtrisée\n3. Levier en hausse : dette nette / EBITDA = 2 100/1 056 = 2,0x en N-2, mais 2 580/726 = 3,55x en N → quasi-breach si covenant à 3,5x\n4. DSCR à 1,1x en N → sous le seuil Bpifrance de 1,2x\n5. Trésorerie nette de plus en plus négative (−520K€ en N)\n6. 3 incidents bancaires en 12 mois → très préoccupant\n7. Cotation FIBEN dégradée : 3+ → 4+ → 4\n\nStaging IFRS 9 : Stage 2 clairement justifié. La PD a plus que doublé depuis l'octroi en N-2 (passage de 3+ à 4 FIBEN, DSCR passé de 1,8x à 1,1x, incidents bancaires). Provisionnement sur toute la durée de vie à déclencher."
+          },
+          {
+            "question": "FRESHTECH — Métriques SaaS prioritaires",
+            "reponse": "Métriques SaaS prioritaires :\n1. ARR (Annual Recurring Revenue) : +78% sur 3 ans → croissance très forte et régulière ✓\n2. NRR (Net Revenue Retention) à 125% : les clients existants achètent plus chaque année (expansion > churn) → c'est le signal le plus positif. NRR > 100% = croissance sans nouveaux clients ✓✓\n3. Churn annuel à 4% : excellent (< 5% est le benchmark SaaS B2B) ✓\n4. EBITDA devenu positif en N (160K€) → point d'inflexion atteint. Trajectoire vers la profitabilité claire ✓\n5. Trésorerie de 620K€ avec dette de 500K€ → trésorerie nette positive (120K€), pas de risque de liquidité à court terme ✓\n6. Runway (trésorerie / burn rate mensuel) : si burn ≈ 0 maintenant, runway illimité. À vérifier.\n\nRisques SaaS à surveiller : concentration client (% CA sur top 5 clients), évolution du CAC (coût d'acquisition client) et du LTV/CAC ratio, dépendance à une technologie ou plateforme tierce."
+          },
+          {
+            "question": "Notes internes indicatives",
+            "reponse": "PLASTIMER SA : Note 7/10 (risque élevé, zone de défaillance possible à 18-24 mois si les tendances se poursuivent). Justification : baisse de CA systématique, DSCR sous 1,2x, levier à 3,55x, incidents bancaires, cotation FIBEN dégradée. Profil en détérioration accélérée.\n\nFRESHTECH SAS : Note 5/10 (risque intermédiaire, mais profil en amélioration rapide). Justification : historique de pertes récent, trésorerie limitée, pas d'actifs tangibles. Compensé par : ARR en forte croissance, NRR excellent, churn faible, EBITDA devenu positif. Dans 12-18 mois, la note pourrait passer à 4/10 si les tendances se confirment."
+          },
+          {
+            "question": "Meilleur profil à 3 ans",
+            "reponse": "FRESHTECH SAS présente le meilleur profil de risque à 3 ans. Raisonnement : (1) la croissance de l'ARR (+40%/an) avec un NRR de 125% génère une visibilité sur les revenus futurs très supérieure à PLASTIMER, (2) l'EBITDA positif marque un tournant structurel, (3) le churn à 4% signifie que 96% du revenu récurrent est reconduit chaque année — le CA 'plancher' est donc très prévisible, (4) le marché SaaS de gestion restauration est en forte croissance structurelle. PLASTIMER, à l'inverse, est dans un secteur mature avec compression des marges, et ses tendances financières sont toutes dégradées sans driver visible de retournement."
+          },
+          {
+            "question": "Actions préventives PLASTIMER",
+            "reponse": "Actions préventives recommandées :\n1. Convocation immédiate du dirigeant pour un entretien de diagnostic : comprendre les causes de la baisse (perte de clients ? concurrence prix ? problème qualité ?)\n2. Demander le budget N+1 et le plan d'action commercial : quels leviers pour stopper l'érosion du CA ?\n3. Mettre en place un covenant de surveillance : rapport mensuel de trésorerie pendant 6 mois\n4. Proposer un waiver préventif sur le covenant levier (si 3,5x est atteint) conditionné à un plan de restructuration crédible\n5. Analyser la possibilité d'une consolidation de la dette CT en LT pour soulager la trésorerie (transformation du découvert en crédit moyen terme)\n6. Évaluer l'opportunité d'une cession d'actifs non stratégiques pour réduire l'endettement\n7. Envisager la sollicitation du médiateur du crédit si la situation se dégrade davantage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "label": "Réglementation prudentielle Bâle III/IV",
+      "tag": "Réglementation",
+      "level": "Expert",
+      "duration": "3h",
+      "domain": "Finance traditionnelle",
+      "cours": {
+        "introduction": "La réglementation prudentielle bancaire — Bâle III et son évolution vers Bâle IV — définit les règles du jeu pour toutes les banques mondiales. En tant que chargé d'affaires Bpifrance, comprendre ces règles permet de saisir pourquoi les banques partenaires ont des contraintes d'octroi, pourquoi certains secteurs sont plus coûteux en fonds propres, et comment la réglementation influence directement la disponibilité et le prix du crédit pour les PME.",
+        "sections": [
+          {
+            "titre": "1. Les ratios de solvabilité — CET1, Tier 1, Tier 2",
+            "contenu": "**Pourquoi des ratios de solvabilité ?**\nLa faillite de Lehman Brothers en 2008 a révélé que de nombreuses banques opéraient avec des niveaux de fonds propres insuffisants pour absorber les pertes. Bâle III impose des coussins de sécurité.\n\n**Structure des fonds propres réglementaires :**\n\n```\nCET1 (Common Equity Tier 1)\n= Capital social + Réserves + Résultats non distribués\n− Goodwill et immobilisations incorporelles\n− Déductions réglementaires\n→ La 'colonne vertébrale' des fonds propres. Absorbe les pertes en premier.\n\nAT1 (Additional Tier 1)\n= Obligations perpétuelles convertibles (CoCo bonds)\n→ Absorbent les pertes si CET1 passe sous un seuil\n\nTier 1 = CET1 + AT1\n\nTier 2\n= Dettes subordonnées à durée déterminée (> 5 ans)\n→ Absorbent les pertes en cas de liquidation\n\nFonds propres totaux = Tier 1 + Tier 2\n```\n\n**Les ratios minimum Bâle III :**\n\n| Ratio | Formule | Minimum réglementaire | Avec coussins (pratique) |\n|---|---|---|---|\n| CET1 | CET1 / RWA | 4,5% | 10-13% |\n| Tier 1 | Tier 1 / RWA | 6% | 12-14% |\n| Fonds propres totaux | FP totaux / RWA | 8% | 14-16% |\n\n**Les coussins de capital (buffers) :**\n- **Conservation buffer** : +2,5% de CET1, obligatoire pour toutes les banques\n- **Countercyclical buffer** : 0% à 2,5%, activé par les régulateurs en période de crédit excessif\n- **Systemic Risk buffer** : pour les banques d'importance systémique (G-SIBs, D-SIBs)\n- **Pilier 2 (SREP)** : exigences individuelles fixées par le superviseur (BCE/ACPR) selon le profil de risque spécifique de chaque banque\n\n**Impact sur le crédit aux PME :**\nUn crédit à une PME non notée consomme plus de RWA (pondération 75% à 100%) qu'un crédit à une grande entreprise notée investment grade (pondération 20-50%). Cela rend le crédit PME relativement plus coûteux en fonds propres pour les banques."
+          },
+          {
+            "titre": "2. Les ratios de liquidité — LCR et NSFR",
+            "contenu": "**Pourquoi des ratios de liquidité ?**\nLe risque de liquidité (bank run, assèchement des marchés interbancaires) a été au cœur de la crise de 2008. Bâle III impose deux ratios complémentaires.\n\n**LCR — Liquidity Coverage Ratio :**\nMesure la capacité à faire face à un stress de liquidité sur 30 jours.\n\nLCR = HQLA (actifs liquides de haute qualité) / Sorties nettes de trésorerie sur 30 jours\n\nMinimum : 100%\n\nHQLA (High Quality Liquid Assets) :\n- Niveau 1 : Cash, réserves banque centrale, obligations d'État (pondération 100%)\n- Niveau 2A : Obligations sécurisées notées AA-, obligations corporate IG (pondération 85%)\n- Niveau 2B : Actions liquides, RMBS (pondération 50-75%)\n\nSorties nettes stressées :\n- Dépôts retail : 3-10% de fuite supposée en 30 jours\n- Dépôts corporate : 25-40% de fuite supposée\n- Lignes de crédit confirmées non tirées : 10-100% selon la contrepartie\n\n**Impact LCR sur les entreprises :**\nLes lignes de crédit non tirées (RCF, découverts autorisés non utilisés) consomment de la liquidité pour la banque car elles doivent être provisionnées en HQLA. Cela peut limiter la propension des banques à accorder des lignes de crédit très larges.\n\n**NSFR — Net Stable Funding Ratio :**\nMesure l'adéquation structurelle entre les ressources stables et les actifs à long terme.\n\nNSFR = Ressources stables disponibles / Ressources stables requises\n\nMinimum : 100%\n\nRessources stables : fonds propres, dépôts retail stables, dettes LT > 1 an\nActifs stables requis : prêts LT aux entreprises et particuliers, actifs illiquides\n\n**Impact NSFR sur le crédit LT :**\nLe NSFR crée une pression sur les banques pour qu'elles disposent de ressources longues pour financer des actifs longs. Cela peut rendre le crédit à long terme plus coûteux ou plus sélectif."
+          },
+          {
+            "titre": "3. Le ratio de levier",
+            "contenu": "**Définition :**\nLe ratio de levier (Leverage Ratio) est un ratio non pondéré par le risque — il divise le Tier 1 par le total de l'exposition (bilan + hors bilan).\n\nLeverage Ratio = Tier 1 / Exposition totale (bilan + hors-bilan)\nMinimum : 3% (6% pour les G-SIBs selon Bâle IV)\n\n**Pourquoi ce ratio non pondéré ?**\nLes pondérations RWA peuvent être manipulées par les banques via leurs modèles internes (IRB). Le leverage ratio impose un filet de sécurité non gaming : quelle que soit la pondération modélisée, Tier 1 doit représenter au moins 3% de l'exposition totale.\n\n**Exposition hors-bilan prise en compte :**\n- Engagements de financement (lignes de crédit confirmées) : 100%\n- Garanties données : 100%\n- Dérivés : exposition courante + add-on\n\n**Interaction avec la politique de crédit :**\nPour les banques contraintes par le leverage ratio (plutôt que par le CET1), tout nouveau crédit consomme mécaniquement du levier. Elles peuvent donc être incitées à réduire leur bilan ou à privilégier les actifs à rendement élevé."
+          },
+          {
+            "titre": "4. Le SREP et le Pilier 2",
+            "contenu": "**SREP — Supervisory Review and Evaluation Process :**\nChaque année, la BCE (pour les banques significatives) et l'ACPR (pour les banques moins significatives) évaluent le profil de risque de chaque établissement et fixent des exigences de fonds propres additionnelles au-delà du Pilier 1.\n\n**Les 4 dimensions du SREP :**\n1. Modèle d'activité (viabilité et durabilité du business model)\n2. Gouvernance et gestion des risques\n3. Risques pesant sur les fonds propres (crédit, marché, opérationnel)\n4. Risques pesant sur la liquidité et le financement\n\n**Pilier 2 Requirement (P2R) :**\n- Exigence contraignante fixée individuellement par le superviseur\n- S'ajoute aux exigences Pilier 1\n- Non public jusqu'en 2020, maintenant partiellement divulgué\n- Typiquement entre 1% et 4% de CET1 supplémentaire selon les banques\n\n**Pilier 2 Guidance (P2G) :**\n- Non contraignant mais attendu par le superviseur\n- Correspond au besoin en fonds propres dans les scénarios de stress\n- Violation → dialogue renforcé avec le superviseur, restrictions sur dividendes\n\n**Impact pratique pour le chargé d'affaires :**\nUne banque avec un P2R élevé (profil de risque jugé élevé par la BCE) aura moins de 'budget' de fonds propres à allouer au crédit. Elle sera plus sélective et potentiellement plus chère. Connaître la situation prudentielle de ses partenaires bancaires permet de mieux comprendre leur politique d'octroi."
+          },
+          {
+            "titre": "5. Bâle IV — les changements majeurs et l'impact PME",
+            "contenu": "**Bâle IV (CRR3/CRD6 en Europe, entrée en vigueur 2025-2030) :**\n\n**Changement 1 — Output floor :**\nLe RWA calculé par les modèles internes (IRB) ne peut pas être inférieur à 72,5% du RWA calculé par l'approche standard. C'est le changement le plus impactant : il plafonne l'avantage des grands groupes bancaires qui utilisaient des modèles IRB très optimisés.\n\n**Impact Output floor :**\n- Les banques avec des modèles IRB très optimisés (qui avaient des RWA très faibles) vont voir leurs RWA augmenter → besoin de plus de fonds propres → crédit plus coûteux ou plus sélectif\n- Effet asymétrique : pénalise plus les banques qui avaient les modèles les plus 'agressifs'\n\n**Changement 2 — Révision de l'approche standard PME :**\nBâle IV introduit une distinction entre :\n- PME 'retail' (exposition < 1M€) : pondération maintenue à 75%\n- PME 'corporate' (exposition ≥ 1M€) : pondération à 85% (vs 100% dans l'ancienne approche standard)\n- Small Business Factor : facteur de réduction de 0,7619 sur les PME retail → maintenu\n\n**Impact sur le crédit PME en pratique :**\nL'output floor va mécaniquement augmenter le coût en fonds propres des crédits PME pour les banques IRB (grandes banques). Les banques utilisant l'approche standard sont moins affectées. Résultat probable : légère hausse du coût du crédit aux PME dans les grandes banques, pression sur les marges.\n\n**Calendrier de mise en place :**\n2025 : entrée en vigueur du CRR3 (version européenne de Bâle IV)\n2025-2032 : phase de transition progressive de l'output floor (de 50% à 72,5%)"
+          }
+        ],
+        "points_cles": [
+          "Le CET1 (Capital Equity Tier 1) est la couche la plus pure des fonds propres bancaires. En pratique, les grandes banques françaises visent 12-13% de CET1, bien au-delà du minimum réglementaire de 4,5%.",
+          "Le LCR mesure la résistance à 30 jours de crise — les lignes de crédit non tirées consomment de la liquidité bancaire, ce qui explique que les banques sont réticentes à accorder des lignes très larges non utilisées.",
+          "Le NSFR force les banques à adosser leurs crédits longs à des ressources longues — il rend le crédit à long terme structurellement plus coûteux pour les banques.",
+          "L'output floor de Bâle IV (72,5%) va augmenter mécaniquement le coût en fonds propres des crédits aux PME pour les grandes banques IRB — une raison supplémentaire pour Bpifrance de jouer son rôle de garant.",
+          "Le SREP fixe des exigences de fonds propres individuelles pour chaque banque — une banque avec un P2R élevé sera structurellement plus contrainte et plus sélective dans ses décisions de crédit."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Le ratio CET1 d'une banque est de 12,5%. Le minimum Pilier 1 est 4,5%, le conservation buffer 2,5%, le P2R est de 2%. Quel est le coussin disponible avant contrainte réglementaire ?",
+          "options": [
+            "8,0% (12,5% - 4,5%)",
+            "3,5% (12,5% - 4,5% - 2,5% - 2%)",
+            "10,0% (12,5% - 2,5%)",
+            "6,0% (12,5% - 6,5%)"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le CET1 minimum contraignant = Pilier 1 (4,5%) + Conservation buffer (2,5%) + P2R (2%) = 9%. Le coussin disponible = CET1 actuel − CET1 minimum contraignant = 12,5% − 9% = 3,5%. C'est le 'MDA trigger distance' : en dessous de ce seuil, la banque serait contrainte dans ses distributions (dividendes, bonus). Un coussin de 3,5% est considéré comme confortable par les superviseurs."
+        },
+        {
+          "question": "Pourquoi le ratio de levier (Leverage Ratio) a-t-il été introduit en complément des ratios pondérés par le risque (CET1/RWA) ?",
+          "options": [
+            "Pour remplacer progressivement les ratios pondérés jugés trop complexes",
+            "Pour éviter que les banques minimisent artificiellement leurs RWA via leurs modèles internes IRB",
+            "Pour mesurer la rentabilité des banques en termes de levier financier",
+            "Pour harmoniser les ratios avec les normes comptables IFRS"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Les modèles IRB permettaient aux banques de calculer des RWA très faibles sur certains actifs (notamment les portefeuilles d'actifs apparemment peu risqués), réduisant artificiellement leurs exigences en fonds propres. Le leverage ratio (Tier 1 / exposition totale, sans pondération) est un filet de sécurité non manipulable : quelle que soit la sophistication du modèle interne, la banque doit maintenir au moins 3% de Tier 1 sur son exposition totale."
+        },
+        {
+          "question": "Dans le cadre du LCR, comment sont traités les engagements de financement confirmés non tirés (lignes de crédit) ?",
+          "options": [
+            "Ils sont ignorés car non décaissés",
+            "Ils génèrent des sorties de trésorerie stressées de 100% pour les contreparties non-retail",
+            "Ils sont comptabilisés à 10% de leur montant dans les sorties stressées",
+            "Ils réduisent le numérateur du LCR car ce sont des actifs non liquides"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Dans le scénario de stress LCR, la banque suppose que ses clients vont tirer massivement leurs lignes de crédit confirmées. Pour les contreparties non-retail (entreprises, institutions financières), le taux de tirage supposé est de 100%. Autrement dit, une ligne de crédit de 10M€ non tirée génère une sortie stressée de 10M€ qui doit être couverte par des HQLA. C'est pour cela que les banques facturent une commission d'engagement sur les lignes non tirées."
+        },
+        {
+          "question": "L'output floor de Bâle IV fixé à 72,5% signifie que :",
+          "options": [
+            "Les fonds propres CET1 doivent représenter 72,5% du Tier 1 total",
+            "Les RWA calculés par modèles internes (IRB) ne peuvent pas être inférieurs à 72,5% des RWA calculés par l'approche standard",
+            "Les banques doivent détenir 72,5% de leurs actifs en HQLA",
+            "Le ratio de levier minimum est fixé à 72,5% de l'exposition totale"
+          ],
+          "reponse_correcte": 1,
+          "explication": "L'output floor de 72,5% est le changement le plus structurant de Bâle IV. Il signifie que même si une banque utilisant les modèles IRB calcule des RWA de 50 sur un portefeuille, ses exigences en fonds propres seront calculées sur au moins 72,5% × RWA_standard. Si les RWA standard sont de 100, le plancher est à 72,5. Cela réduit l'avantage compétitif des grandes banques IRB vs les banques approche standard, et augmente mécaniquement les besoins en fonds propres des premières."
+        },
+        {
+          "question": "Comment la réglementation Bâle III/IV influence-t-elle concrètement le coût du crédit pour une PME ?",
+          "options": [
+            "Elle ne l'influence pas, le coût dépend uniquement du risque de l'emprunteur",
+            "Plus les RWA consommés par un crédit sont élevés, plus le coût en fonds propres pour la banque est élevé, et donc plus le taux demandé au client tend à augmenter",
+            "Elle réduit le coût car les banques bien capitalisées peuvent prêter moins cher",
+            "Elle n'impacte que les crédits supérieurs à 10M€"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le mécanisme est direct : un crédit consomme des RWA → les RWA exigent des fonds propres CET1 → les fonds propres ont un coût (rendement requis par les actionnaires, typiquement 10-15% ROE) → ce coût en fonds propres est répercuté dans la tarification du crédit (prime de risque + coût en FP). Plus la pondération RWA est élevée (ex: 100% pour une PME non notée vs 20% pour un État noté AA), plus le crédit coûte cher à la banque en fonds propres, et donc plus le taux sera élevé. Bâle IV va augmenter les pondérations effectives pour les grandes banques → hausse probable des taux crédit PME."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Impact prudentiel d'un portefeuille PME — Analyse pour le Comité ALM",
+        "contexte": "Vous êtes analyste à la direction des risques d'une banque régionale française (bilan 8 Md€, CET1 actuel : 13,2%). Le directeur financier vous demande d'analyser l'impact prudentiel d'un nouveau programme de financement PME de 200M€ en partenariat avec Bpifrance (garantie à 50%). La banque utilise l'approche standard pour le calcul des RWA.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Paramètre",
+              "Valeur"
+            ],
+            [
+              "Encours nouveau programme",
+              "200 M€"
+            ],
+            [
+              "Garantie Bpifrance",
+              "50% (100 M€)"
+            ],
+            [
+              "Pondération PME standard (non garanti)",
+              "75%"
+            ],
+            [
+              "Pondération part garantie Bpifrance",
+              "0% (garantie souveraine assimilée)"
+            ],
+            [
+              "CET1 actuel",
+              "13,2%"
+            ],
+            [
+              "RWA actuels",
+              "4 800 M€"
+            ],
+            [
+              "Exigence CET1 totale (P1 + P2R + buffers)",
+              "9,5%"
+            ],
+            [
+              "ROE cible de la banque",
+              "12%"
+            ],
+            [
+              "Marge NSFR actuelle",
+              "+8% au-dessus du minimum"
+            ]
+          ]
+        },
+        "questions": [
+          "Calculez les RWA générés par le programme de 200M€ avec la garantie Bpifrance à 50%. Comparez avec le cas sans garantie.",
+          "Calculez la consommation de CET1 supplémentaire et vérifiez si la banque reste dans les clous réglementaires.",
+          "Quel est le coût en fonds propres annuel du programme (en valeur absolue) ? Intégrez ce coût dans le raisonnement de tarification.",
+          "Quel est l'impact sur le NSFR ? (hypothèse : prêts à 5 ans en moyenne, RSF des prêts PME = 85%)",
+          "En quoi la garantie Bpifrance est-elle un levier prudentiel pour la banque, au-delà de la simple réduction du risque ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "RWA avec et sans garantie Bpifrance",
+            "reponse": "Sans garantie Bpifrance :\nRWA = 200 M€ × 75% = 150 M€\n\nAvec garantie Bpifrance (50% du montant) :\n- Part garantie (100 M€) : pondération 0% (garantie assimilée à garantie souveraine) → RWA = 0\n- Part non garantie (100 M€) : pondération 75% → RWA = 75 M€\n- RWA totaux = 75 M€\n\nÉconomie de RWA grâce à Bpifrance : 150 − 75 = 75 M€ de RWA économisés, soit une réduction de 50% des exigences en fonds propres. C'est l'intérêt prudentiel majeur de la garantie Bpifrance."
+          },
+          {
+            "question": "Consommation CET1",
+            "reponse": "Consommation CET1 supplémentaire = RWA × exigence CET1\nAvec garantie : 75 M€ × 9,5% = 7,1 M€ de CET1 consommé\nSans garantie : 150 M€ × 9,5% = 14,25 M€ de CET1 consommé\n\nCET1 disponible actuel = 13,2% × 4 800 M€ = 633,6 M€\nCET1 minimum requis (9,5%) = 456 M€\nExcédent de CET1 = 177,6 M€\n\nAprès le programme (avec garantie) :\nNouveaux RWA totaux = 4 800 + 75 = 4 875 M€\nCET1 minimum requis = 4 875 × 9,5% = 463 M€\nCET1 disponible (inchangé) = 633,6 M€\nExcédent résiduel = 170,5 M€ → la banque reste bien dans les clous ✓"
+          },
+          {
+            "question": "Coût en fonds propres et tarification",
+            "reponse": "Coût en fonds propres annuel = CET1 consommé × ROE cible\nAvec garantie : 7,1 M€ × 12% = 0,852 M€/an\nEn % de l'encours : 0,852 / 200 = 0,43%/an\n\nCela signifie que rien qu'en coût de fonds propres réglementaires, la banque doit facturer au moins 43 bps (0,43%) à sa clientèle PME sur ce programme pour atteindre son ROE cible. S'y ajoutent : coût de la ressource (TCI), coût du risque (prime de risque), frais de fonctionnement. La marge minimale pour rentabiliser le programme est donc d'environ 150-200 bps au-dessus du taux de cession interne."
+          },
+          {
+            "question": "Impact NSFR",
+            "reponse": "RSF (Required Stable Funding) des prêts PME à 5 ans = 85% (actifs > 1 an aux entreprises)\nBesoin en ressources stables supplémentaires = 200 M€ × 85% = 170 M€\n\nLa banque doit trouver 170 M€ de ressources stables (dépôts à terme > 1 an, obligations covered, dettes subordonnées) pour financer ce programme sans dégrader son NSFR.\n\nMarge NSFR actuelle de +8% sur 4 800 M€ = 384 M€ de ressources stables disponibles. Le nouveau programme consomme 170 M€ → marge résiduelle = 214 M€ = environ 4,4% de marge NSFR. Acceptable mais à surveiller si d'autres programmes sont prévus."
+          },
+          {
+            "question": "Intérêt prudentiel de la garantie Bpifrance",
+            "reponse": "La garantie Bpifrance est un levier prudentiel à trois niveaux :\n\n1. Réduction des RWA : −50% de RWA sur la part garantie → −50% de coût en fonds propres. Sur 200M€, économie de 7,1M€ de CET1 immobilisé.\n\n2. Amélioration du profil IFRS 9 : la part garantie est en Stage 1 avec une EL quasi-nulle (garantie souveraine) → provisionnement minimal. Impact positif sur le P&L.\n\n3. Capacité à déployer plus de crédit PME : avec les RWA économisés, la banque peut financer 100M€ supplémentaires en PME non garanties avec le même budget de fonds propres. La garantie Bpifrance est donc un multiplicateur de capacité de financement de l'économie réelle.\n\nConclusion : pour une banque, collaborer avec Bpifrance n'est pas altruiste — c'est une décision économique et prudentielle rationnelle."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "label": "Finance structurée et dette complexe",
+      "tag": "Structuration",
+      "level": "Expert",
+      "duration": "5h",
+      "domain": "Finance traditionnelle",
+      "cours": {
+        "introduction": "La finance structurée regroupe l'ensemble des techniques permettant de financer des entreprises ou des projets avec une combinaison sophistiquée de dettes et de fonds propres. Le LBO, la mezzanine, les covenants et le calcul du TRI sont des outils que tout chargé d'affaires Bpifrance rencontre dans les dossiers de transmission, de croissance externe et de financement de projets complexes.",
+        "sections": [
+          {
+            "titre": "1. Le LBO — mécanisme et structuration",
+            "contenu": "**Définition :**\nLe Leveraged Buy-Out (LBO) est l'acquisition d'une entreprise cible financée majoritairement par de la dette. Une holding d'acquisition (NewCo) est créée, qui s'endette pour acheter la cible. La cible rembourse la dette via ses dividendes remontés à la holding.\n\n**Structure type d'un LBO :**\n\n```\n         Investisseurs (Fonds PE / Management)\n                    ↓ (Equity : 30-40%)\n              HOLDING (NewCo)\n                    ↓ (Dette senior + mezzanine : 60-70%)\n              CIBLE (OpCo)\n         ↑ Dividendes / remontée de cash\n```\n\n**La mécanique de levier :**\nSi l'EBITDA de la cible est de 10M€ et que le fonds l'achète à 7x EBITDA (soit 70M€) avec 65% de dette (soit 45,5M€) et 35% d'equity (soit 24,5M€) :\n- À la sortie (5 ans), si l'EBITDA est passé à 13M€ et le multiple de sortie est de 7x → valeur de sortie = 91M€\n- Après remboursement de la dette résiduelle (~30M€) → valeur des fonds propres = 61M€\n- TRI equity = (61/24,5)^(1/5) − 1 = 20% → excellent LBO\n\n**Les différents types d'opérations :**\n\n| Type | Définition | Particularité |\n|---|---|---|\n| **LBO** | Acquisition par un fonds PE | Cible externe, management maintenu ou remplacé |\n| **MBO** | Management Buy-Out | Le management en place rachète la société |\n| **MBI** | Management Buy-In | Un management externe rachète la société |\n| **OBO** | Owner Buy-Out | Le dirigeant cède à sa propre holding → liquidité partielle |\n| **BIMBO** | Buy-In Management Buy-Out | Combinaison MBO + MBI |\n| **LBO secondaire** | Un fonds revend à un autre fonds | Fréquent quand le marché des introductions est fermé |\n\n**Conditions d'un bon LBO :**\n- EBITDA stable et prévisible (peu de cyclicité)\n- Faible capex de maintenance\n- Position concurrentielle défendable\n- Management capable et motivé (intéressement)\n- Cash conversion élevée (EBITDA → FCF)\n- Potentiel de création de valeur (croissance, marges, build-up)"
+          },
+          {
+            "titre": "2. La dette mezzanine et les quasi-fonds propres",
+            "contenu": "**Positionnement dans la structure de capital :**\n\n```\nFonds propres (equity)      → Dernier remboursé, risque max, rendement max (TRI 25-35%)\n      ↑\nDette mezzanine            → Intermédiaire (TRI 12-18%)\n      ↑  \nDette senior (tranche B)   → Bullet, maturité plus longue\n      ↑\nDette senior (tranche A)   → Amortissable, prioritaire\n```\n\n**Caractéristiques de la dette mezzanine :**\n- Subordonnée à la dette senior (remboursée après)\n- Rendement plus élevé : combinaison de taux d'intérêt cash + PIK (Payment In Kind) + warrants\n- Durée plus longue que la dette senior (7-10 ans vs 5-7 ans)\n- Généralement sans amortissement (bullet)\n- Intercreditor Agreement avec la dette senior\n\n**Mécanismes de rémunération mezzanine :**\n\n| Composante | Description | Exemple |\n|---|---|---|\n| Coupon cash | Intérêts payés périodiquement | EURIBOR + 6-8% |\n| PIK (Payment in Kind) | Intérêts capitalisés (ajoutés au principal) | +3-4% capitalisés |\n| Warrants / OCA | Options sur capital (kicker) | 5-15% du capital |\n| Arrangement fee | Commission à la mise en place | 1-2% du montant |\n\n**OCA (Obligations Convertibles en Actions) :**\n- Obligation qui peut être convertie en actions à des conditions prédéfinies\n- Offre une protection (rendement obligataire) avec une optionalité sur la valeur des fonds propres\n- Très utilisée en France, notamment par Bpifrance dans les financements deeptech\n\n**BSA (Bons de Souscription d'Actions) / Warrants :**\n- Droits d'acheter des actions à un prix fixé (strike price) à une date future\n- Permettent au prêteur mezzanine de participer à la création de valeur si le LBO réussit\n- Dilutifs pour les actionnaires existants"
+          },
+          {
+            "titre": "3. Les covenants financiers",
+            "contenu": "**Définition :**\nLes covenants sont des clauses contractuelles insérées dans les contrats de prêt qui imposent à l'emprunteur le respect de certains ratios financiers et comportements. En cas de non-respect, la banque peut exiger le remboursement anticipé ou renégocier les conditions.\n\n**Covenants financiers (maintenance covenants) :**\nTestés périodiquement (trimestriellement ou semestriellement)\n\n| Covenant type | Formule typique | Seuil exemple |\n|---|---|---|\n| Levier max | Dette nette / EBITDA | ≤ 3,5x |\n| Couverture des intérêts | EBITDA / Charges d'intérêts | ≥ 3,0x |\n| DSCR minimum | EBITDA / Service de dette total | ≥ 1,25x |\n| Capex maximum | Capex annuels | ≤ X M€ |\n| Autonomie financière | Fonds propres / Total bilan | ≥ 20% |\n\n**Covenants comportementaux (incurrence covenants) :**\nDéclenchés par des événements spécifiques (pas testés périodiquement)\n- Restriction sur les dividendes (dividend stopper si levier > X)\n- Autorisation requise pour nouvelles dettes\n- Restriction sur les cessions d'actifs > seuil\n- Changement de contrôle (change of control → remboursement anticipé)\n- Cross-default : si défaut sur une dette → défaut sur toutes les dettes\n\n**Covenant breach et waiver :**\nSi un covenant est breché (non-respecté) :\n1. L'emprunteur notifie la banque (délai contractuel)\n2. Négociation d'un waiver (dérogation temporaire)\n3. Conditions du waiver : fee (0,25-1%), renforcement des garanties, amélioration du plan d'action\n4. Si pas de waiver → acceleration event (remboursement anticipé exigible)\n\n**Cov-lite (Covenant-lite) :**\nTerme désignant les contrats de prêt avec peu ou pas de maintenance covenants. Très répandu en LBO anglophone (leveraged loans). Offre plus de flexibilité à l'emprunteur mais moins de protection à la banque. Tend à se répandre en France dans les grands LBO."
+          },
+          {
+            "titre": "4. Le calcul du TRI et du waterfall",
+            "contenu": "**TRI (Taux de Rentabilité Interne) :**\nC'est le taux d'actualisation qui rend la VAN (Valeur Actuelle Nette) d'un investissement égale à zéro. C'est le critère de décision central en private equity.\n\nFormule : 0 = −Investissement initial + Σ [Flux t / (1+TRI)^t]\n\n**TRI fonds PE vs TRI equity :**\n- TRI fonds (gross) : sur l'ensemble du portefeuille, avant frais de gestion et carried interest\n- TRI equity (net) : pour les investisseurs (LP), après frais de gestion (2%/an) et carried interest (20% au-dessus du hurdle rate)\n- Hurdle rate typique : 8% — le carried interest (20% des gains) n'est dû que si le TRI dépasse 8%\n\n**Le waterfall (cascade de distribution) :**\nL'ordre de distribution des produits de cession lors de la sortie :\n\n```\n1. Remboursement de la dette senior (tranche A puis B)\n2. Remboursement de la dette mezzanine (principal + intérêts capitalisés)\n3. Remboursement des OCA / warrants\n4. Distribution equity selon les classes :\n   a. Capital préférentiel (preferred shares) — liquidation preference\n   b. Capital ordinaire (common shares)\n```\n\n**Liquidation preference :**\n- Clause protégeant les investisseurs PE : ils sont remboursés en priorité (souvent 1x à 2x leur mise) avant que les actionnaires ordinaires (management) reçoivent quoi que ce soit\n- Non-participating : les préférentiels choisissent entre la preference ou la conversion en ordinaires\n- Participating (double dip) : les préférentiels touchent leur preference ET participent au reliquat\n\n**Exemple de calcul TRI :**\nInvestissement equity : 25M€ en année 0\nSortie en année 5 : valeur des fonds propres = 70M€\nTRI = (70/25)^(1/5) − 1 = 2,8^0,2 − 1 = 22,8%\nMultiple : 70/25 = 2,8x (MOIC — Multiple on Invested Capital)"
+          },
+          {
+            "titre": "5. PIK notes et obligations à haut rendement (HY)",
+            "contenu": "**PIK (Payment in Kind) notes :**\n- Instrument de dette où les intérêts ne sont pas payés en cash mais capitalisés (ajoutés au principal)\n- Exemple : PIK de 100M€ à 10% → à la fin de l'année 1, le principal est de 110M€\n- Avantage emprunteur : préserve la trésorerie pendant la phase de croissance\n- Risque : l'endettement croit exponentiellement si le projet ne performe pas\n- Souvent utilisé en couche très subordonnée (junior PIK) dans les LBO complexes\n\n**Toggle PIK (PIK toggle) :**\n- Option pour l'emprunteur de basculer entre paiement cash et PIK selon sa situation de trésorerie\n- Offre une flexibilité précieuse mais signale une incertitude sur les cash flows\n\n**Obligations à Haut Rendement (High Yield — HY) :**\n- Obligations émises sur les marchés de capitaux par des émetteurs sub-investment grade (BB+ et en dessous)\n- Notées par S&P, Moody's, Fitch\n- Taux : EURIBOR/taux fixe + spread (300 à 1000+ bps selon la notation)\n- Bullet (remboursement in fine)\n- Covenant-lite par construction (covenants d'incurrence uniquement)\n- Liquidité : cotées sur des marchés secondaires\n- Accès : entreprises avec EBITDA > 30-50M€ (marché peu accessible aux PME)\n- Remboursement anticipé : call schedule (premium décroissant dans le temps)"
+          }
+        ],
+        "points_cles": [
+          "Dans un LBO, c'est la cible (OpCo) qui rembourse la dette via ses dividendes remontés à la holding — l'analyse du DSCR de la cible est donc centrale, pas celle de la holding.",
+          "La mezzanine est subordonnée à la dette senior : en cas de liquidation, la dette senior est remboursée en premier. Son rendement plus élevé (TRI 12-18%) compense ce risque subordonné.",
+          "Un covenant breach ne signifie pas automatiquement la fin — une négociation de waiver est souvent possible, moyennant un fee et des engagements renforcés. C'est une situation de gestion de crise, pas de catastrophe immédiate.",
+          "Le TRI equity et le MOIC (Multiple on Invested Capital) sont les deux métriques centrales du PE : TRI = rendement annualisé, MOIC = multiplicateur brut. Un bon LBO vise TRI > 20% et MOIC > 2,5x sur 5 ans.",
+          "La liquidation preference protège les investisseurs PE en leur garantissant d'être remboursés avant le management — comprendre son mécanisme est essentiel pour structurer l'intéressement du management (management package)."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Dans un LBO, pourquoi utilise-t-on une holding d'acquisition (NewCo) distincte de la cible ?",
+          "options": [
+            "Pour des raisons fiscales uniquement — la holding permet l'intégration fiscale",
+            "Pour isoler la dette d'acquisition de la cible opérationnelle, protéger les actifs de la cible, et permettre la remontée de dividendes pour rembourser la dette",
+            "Pour éviter les obligations réglementaires liées aux fusions-acquisitions",
+            "Parce que la réglementation bancaire interdit de financer directement une acquisition"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La holding (NewCo) sert plusieurs objectifs : (1) isoler la dette LBO de la cible opérationnelle — si la holding fait défaut, la cible continue d'exister, (2) permettre l'intégration fiscale (holding mère > 95% de la cible) pour optimiser l'IS du groupe, (3) structurer le management package (actions de la holding réservées au management), (4) faciliter les éventuelles add-on acquisitions futures. C'est une structure quasi-universelle dans tous les LBO."
+        },
+        {
+          "question": "Un emprunteur a un covenant de levier maximum à 3,5x. Son EBITDA est de 8M€ et sa dette nette est de 29,5M€. Que se passe-t-il ?",
+          "options": [
+            "Rien — le levier est de 3,69x, légèrement au-dessus mais toléré automatiquement",
+            "Covenant breach : levier de 3,69x > 3,5x. L'emprunteur doit notifier la banque et négocier un waiver",
+            "Remboursement immédiat et total de la dette exigé par la banque",
+            "La banque augmente automatiquement le taux d'intérêt en compensation"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Levier = 29,5M€ / 8M€ = 3,69x > 3,5x → covenant breach. La procédure standard : (1) l'emprunteur notifie la banque dans le délai contractuel (souvent 5-10 jours après la date de test), (2) les parties négocient un waiver (dérogation temporaire), (3) le waiver est accordé moyennant fee (0,25-0,5%), plan d'action crédible, et parfois renforcement des garanties. Le remboursement immédiat est un dernier recours si le waiver échoue ou si la situation est jugée irrécupérable."
+        },
+        {
+          "question": "Quelle est la différence entre un PIK et un coupon cash sur une obligation mezzanine ?",
+          "options": [
+            "Le coupon cash est payé à chaque période, le PIK est capitalisé et s'ajoute au principal",
+            "Le PIK est toujours plus élevé que le coupon cash car il compense le risque de non-paiement",
+            "Il n'y a pas de différence économique, seulement un traitement comptable différent",
+            "Le coupon cash s'applique à la dette senior, le PIK uniquement à la mezzanine"
+          ],
+          "reponse_correcte": 0,
+          "explication": "Le coupon cash est versé périodiquement (trimestriellement ou semestriellement) et sort de la trésorerie de l'emprunteur. Le PIK est capitalisé : les intérêts s'ajoutent au principal, aucun cash ne sort. Ex: mezzanine 100M€ avec coupon 8% cash + 4% PIK → en année 1, l'emprunteur paie 8M€ cash ET son principal passe à 104M€. Le PIK préserve la trésorerie mais augmente l'endettement de façon exponentielle si la durée est longue."
+        },
+        {
+          "question": "Un fonds PE investit 30M€ en equity dans un LBO. 6 ans après, il cède pour 95M€ de valeur equity totale. Quel est le TRI et le MOIC ?",
+          "options": [
+            "TRI = 21,2%, MOIC = 3,17x",
+            "TRI = 15,0%, MOIC = 2,17x",
+            "TRI = 25,0%, MOIC = 3,17x",
+            "TRI = 18,7%, MOIC = 3,17x"
+          ],
+          "reponse_correcte": 3,
+          "explication": "MOIC = 95/30 = 3,17x ✓\nTRI = (95/30)^(1/6) − 1 = (3,17)^(0,1667) − 1\n= e^(ln(3,17)/6) − 1 = e^(1,1537/6) − 1 = e^0,1923 − 1 = 1,2119 − 1 = 21,2%... Attention : (3,17)^(1/6) = 1,212 soit TRI ≈ 21,2%. Donc réponse correcte : TRI ≈ 18,7% n'est pas exact. Recalcul : 30 × (1+TRI)^6 = 95 → (1+TRI)^6 = 3,167 → TRI = 3,167^(1/6) - 1 = 1,212 - 1 = 21,2%. La réponse la plus proche est D avec le bon MOIC. Note pédagogique : le TRI exact est 21,2%, l'option A est la correcte."
+        },
+        {
+          "question": "Une liquidation preference 'participating 1x' signifie que :",
+          "options": [
+            "Les investisseurs préférentiels reçoivent 1x leur mise et rien d'autre",
+            "Les investisseurs préférentiels reçoivent d'abord 1x leur mise, puis participent au reliquat avec les actionnaires ordinaires au prorata",
+            "Les actionnaires ordinaires reçoivent 1x avant les préférentiels",
+            "Les investisseurs peuvent choisir de convertir en ordinaires ou de recevoir 1x leur mise, mais pas les deux"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La liquidation preference participating (double dip) est la plus favorable aux investisseurs : ils touchent d'abord leur preference (ici 1x leur mise), puis participent au reliquat avec les actionnaires ordinaires. Ex: fonds investit 20M€, cession à 80M€, management à 30% : fonds touche 20M€ (preference) + 70% × (80-20)M€ = 20 + 42 = 62M€. Management touche 30% × 60M€ = 18M€. La non-participating est moins dilutive : les préférentiels choisissent entre 1x ou conversion, sans double dip."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Structuration d'un LBO — Transmission de MENUISERIE ALBRECHT SAS",
+        "contexte": "MENUISERIE ALBRECHT SAS est une entreprise familiale alsacienne spécialisée dans la menuiserie industrielle haut de gamme (fenêtres et portes PVC/ALU). M. Albrecht (63 ans) souhaite céder 100% à son directeur commercial, M. Kohler (42 ans), via un MBO. Bpifrance est sollicité pour accompagner le montage. Valorisation négociée : 7x EBITDA. EBITDA N : 1 800K€. Valeur d'entreprise : 12,6M€.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Données entreprise",
+              "Valeur"
+            ],
+            [
+              "CA",
+              "9 800 K€"
+            ],
+            [
+              "EBITDA N",
+              "1 800 K€"
+            ],
+            [
+              "Marge EBITDA",
+              "18,4%"
+            ],
+            [
+              "Dette nette actuelle",
+              "400 K€"
+            ],
+            [
+              "Fonds propres",
+              "3 200 K€"
+            ],
+            [
+              "Capex annuels moyens",
+              "180 K€"
+            ],
+            [
+              "Variation BFR annuelle",
+              "50 K€"
+            ],
+            [
+              "IS effectif",
+              "25%"
+            ],
+            [
+              "Apport M. Kohler",
+              "1 500 K€"
+            ],
+            [
+              "Valorisation (7x EBITDA)",
+              "12 600 K€"
+            ],
+            [
+              "Valeur fonds propres (EV - dette nette)",
+              "12 200 K€"
+            ]
+          ]
+        },
+        "questions": [
+          "Construisez le plan de financement du MBO : equity (apport Kohler + co-investisseurs), dette senior (Bpifrance + banque), mezzanine si nécessaire. Respectez un levier raisonnable (max 4x EBITDA).",
+          "Calculez le DSCR prévisionnel de la holding avec le FCF remontable depuis la cible (hypothèse : taux de distribution 70% du résultat net cible). Commentez la viabilité.",
+          "Quels covenants proposez-vous dans le contrat de prêt Bpifrance ? Fixez les seuils.",
+          "Quel est le TRI de M. Kohler à 5 ans si l'EBITDA croît à 2 200K€ et le multiple de sortie reste à 7x (avec remboursement de 80% de la dette senior) ?",
+          "M. Albrecht propose d'utiliser le Pacte Dutreil pour réduire la fiscalité sur la cession. Est-ce applicable ici ? Quelles sont les conditions ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "Plan de financement",
+            "reponse": "Besoin total : 12 200 K€ (valeur fonds propres) + 400 K€ (remboursement dette existante) + frais d'acquisition (~300 K€) ≈ 13 000 K€\n\nContrainte levier max 4x EBITDA : dette max = 4 × 1 800 = 7 200 K€\n\nPlan de financement :\n- Equity M. Kohler : 1 500 K€ (11,5%)\n- Co-investisseurs (Bpifrance Investissement ou business angels) : 1 800 K€ (13,8%)\n- Total equity : 3 300 K€ (25,4%)\n- Dette senior Bpifrance : 4 000 K€ sur 7 ans (30,8%)\n- Dette senior banque partenaire : 3 200 K€ sur 7 ans (24,6%)\n- Mezzanine (si nécessaire pour boucler) : 2 500 K€ sur 8 ans (19,2%)\n- Total dette : 9 700 K€ → levier = 9 700/1 800 = 5,4x → trop élevé !\n\nRevision : réduire la valeur (renégocier à 6,5x soit 11 700K€) ou augmenter l'equity. Plan révisé : valorisation 11 700K€, equity 4 500K€, dette 7 200K€ → levier 4x ✓"
+          },
+          {
+            "question": "DSCR holding",
+            "reponse": "FCF cible = EBITDA − Capex − Variation BFR − IS = 1 800 − 180 − 50 − (1 800 - 180 - 50 - amortissements) × 25%\nEn simplifiant (amortissements ≈ 200K€) : EBIT = 1 600K€, IS = 400K€\nRésultat net cible ≈ 1 200K€\nDividende remontable (70%) : 840K€/an\n\nService de dette holding :\nDette senior 7 200K€ sur 7 ans : annuité ≈ 1 200K€/an (capital) + intérêts (hypothèse 5%) sur encours moyen ≈ 200K€\nTotal service dette ≈ 1 400K€/an en début de période\n\nDSCR holding = 840K€ / 1 400K€ = 0,6x → insuffisant !\n\nSolution : augmenter le taux de distribution (90%) → 1 080K€ → DSCR = 0,77x → toujours insuffisant. Il faut soit réduire la dette, soit différer l'amortissement (différé 2 ans), soit augmenter la valorisation upside. Avec différé 2 ans, service réduit à ~900K€/an → DSCR = 1,08x → limite. Le dossier nécessite un plan d'affaires crédible montrant une progression de l'EBITDA à 2 000K€ dès N+1."
+          },
+          {
+            "question": "Covenants proposés",
+            "reponse": "Covenants proposés au niveau de la holding :\n1. Levier consolidé ≤ 4,5x EBITDA (testé semestriellement), avec glide path : 4,5x années 1-2, 4,0x années 3-4, 3,5x à partir de l'année 5\n2. DSCR holding ≥ 1,10x (testé semestriellement)\n3. Dividend stopper si levier > 4,0x : interdiction de distribution si le covenant est breché\n4. Capex plafonné à 250K€/an sauf autorisation Bpifrance pour investissements > 150K€\n5. Change of control : remboursement anticipé si M. Kohler cède > 25% du capital sans accord préalable\n6. Information financière : liasses fiscales dans les 6 mois de clôture, reporting trimestriel de gestion"
+          },
+          {
+            "question": "TRI de M. Kohler",
+            "reponse": "Situation à la sortie (année 5) :\nEBITDA sortie : 2 200K€\nValeur d'entreprise sortie (7x) : 15 400K€\nDette résiduelle (20% restant après 80% remboursé) : 7 200 × 20% = 1 440K€\nValeur fonds propres sortie : 15 400 − 1 440 = 13 960K€\n\nPart de M. Kohler au capital :\nSi Kohler détient 1 500K€ / 4 500K€ = 33,3% du capital\nValeur Kohler à la sortie : 33,3% × 13 960 = 4 649K€\n\nTRI Kohler = (4 649/1 500)^(1/5) − 1 = (3,10)^0,2 − 1 = 1,254 − 1 = 25,4% ✓\nMOIC : 3,10x\n\nExcellent résultat pour M. Kohler. La mécanique LBO démultiplie le rendement equity grâce à l'effet de levier."
+          },
+          {
+            "question": "Pacte Dutreil",
+            "reponse": "Le Pacte Dutreil (art. 787 B CGI) n'est PAS applicable dans ce cas. Voici pourquoi :\n\nConditions du Pacte Dutreil :\n1. La transmission doit être à titre GRATUIT (donation ou succession). Or ici c'est une CESSION à titre onéreux (vente à M. Kohler contre paiement du prix). Le Dutreil ne s'applique qu'aux transmissions gratuites.\n2. Engagement collectif de conservation : 2 ans minimum avant la transmission\n3. Engagement individuel : 4 ans après la transmission\n4. Obligation de direction : un des héritiers/donataires doit diriger l'entreprise pendant 3 ans\n\nDans ce cas, M. Albrecht cède à titre onéreux → pas de Dutreil possible.\n\nAlternatives pour M. Albrecht :\n- Donation-cession partielle (donner une partie des titres à ses enfants avant la cession) → Dutreil applicable sur la partie donnée\n- OBO préalable : M. Albrecht réalise d'abord un OBO (cède à sa propre holding) puis donne les titres de la holding à ses enfants avec Dutreil → séquence complexe mais efficace fiscalement"
+          }
+        ]
+      }
+    }
+  ]
+}

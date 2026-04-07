@@ -1,0 +1,944 @@
+{
+  "version": "1.0",
+  "generated": "2026-04-02",
+  "description": "FinEduc Pro — Domaines : Comptabilité & Performance + Droit · Fiscalité · Transmission (5 modules)",
+  "modules": [
+    {
+      "id": "mcompta",
+      "label": "Comptabilité approfondie : IFRS vs PCG",
+      "tag": "Comptabilité",
+      "level": "Intermédiaire",
+      "duration": "5h",
+      "domain": "Comptabilité & Performance",
+      "cours": {
+        "introduction": "La comptabilité est le langage de la finance. Un chargé d'affaires qui ne maîtrise pas les différences entre le PCG (Plan Comptable Général français) et les normes IFRS (International Financial Reporting Standards) passe à côté d'informations critiques dans les liasses fiscales et les rapports consolidés. Ce module couvre les retraitements essentiels, les normes les plus impactantes et la lecture d'un rapport de commissaire aux comptes.",
+        "sections": [
+          {
+            "titre": "1. PCG vs IFRS — logiques fondamentalement différentes",
+            "contenu": "**Le PCG (Plan Comptable Général) :**\n- Référentiel français obligatoire pour les comptes individuels (sociaux)\n- Logique juridique et fiscale : priorité à la prudence, au coût historique, à la protection des créanciers\n- Produits comptabilisés quand réalisés, charges dès qu'elles sont probables (asymétrie prudentielle)\n- Fortement influencé par la fiscalité (amortissements dérogatoires, provisions réglementées)\n\n**Les IFRS (International Financial Reporting Standards) :**\n- Référentiel international obligatoire pour les comptes consolidés des sociétés cotées (UE depuis 2005)\n- Logique économique et investisseur : priorité à l'image fidèle de la réalité économique\n- Juste valeur (fair value) vs coût historique : many actifs réévalués au prix de marché\n- Pas de déduction fiscale directe → déconnexion comptabilité/fiscalité\n\n**Tableau comparatif des grandes différences :**\n\n| Sujet | PCG | IFRS |\n|---|---|---|\n| Contrats de location | Charge en compte de résultat | IFRS 16 : actif + dette au bilan |\n| Instruments financiers | Coût historique (prudence) | IFRS 9 : juste valeur pour certains |\n| Reconnaissance du CA | À la livraison | IFRS 15 : sur 5 étapes (droit à payer) |\n| Goodwill | Amorti sur 5-20 ans | IAS 36 : impairment test annuel, pas d'amortissement |\n| Provisions | Dès qu'une charge est probable | IAS 37 : obligation actuelle + sortie probable + estimation fiable |\n| Frais de développement | En charges (prudence) | IAS 38 : activables si 6 critères remplis |\n| Stocks | FIFO ou coût moyen pondéré | IAS 2 : FIFO ou CMP (LIFO interdit) |"
+          },
+          {
+            "titre": "2. IFRS 16 — La révolution des contrats de location",
+            "contenu": "**Avant IFRS 16 (avant 2019) :**\nLes contrats de location simple (operating leases) ne figuraient pas au bilan. Les loyers étaient des charges d'exploitation. Les analystes devaient retraiter manuellement (rule of thumb : capitaliser 8x les loyers annuels).\n\n**Avec IFRS 16 (obligatoire depuis 2019) :**\nPratiquement tous les contrats de location > 12 mois sont maintenant au bilan :\n- **Actif** : droit d'utilisation (Right-of-Use Asset — ROU) = valeur actualisée des loyers futurs\n- **Passif** : dette de location = même valeur actualisée\n\n**Impact sur les états financiers :**\n\n| Indicateur | Impact IFRS 16 | Sens |\n|---|---|---|\n| Total bilan | Hausse (ROU + dette) | ↑ |\n| EBITDA | Hausse (loyers → dotations + intérêts) | ↑ |\n| EBIT | Neutre à légèrement négatif (dotations > loyers) | ≈ |\n| Résultat net | Légèrement négatif (charge d'intérêts) | ↓ |\n| Dette financière | Hausse (dette de location) | ↑ |\n| Levier (dette/EBITDA) | Hausse numérateur + hausse dénominateur | Complexe |\n\n**Exemple concret :**\nSociété avec 5 loyers de 200K€/an sur 5 ans. Taux d'actualisation 4%.\nROU = 200K€ × (1-(1,04)^-5)/0,04 = 200K€ × 4,452 = 890K€\nDette de location initiale = 890K€\nEBITDA retraité IFRS 16 : +200K€ × 5 ans × part annuelle ≈ +1 000K€ sur 5 ans (vs loyers en charges)\n\n**Exemptions IFRS 16 :**\n- Contrats < 12 mois\n- Actifs de faible valeur (< 5 000$)\n- Ces contrats restent en charges d'exploitation\n\n**Pour le chargé d'affaires :**\nQuand vous comparez des entreprises, vérifiez si elles sont en PCG ou IFRS pour les locations. Un distributeur ou un hôtelier en IFRS 16 aura un EBITDA et une dette financière bien supérieurs à un concurrent en PCG. Toujours normaliser avant de comparer les ratios."
+          },
+          {
+            "titre": "3. IFRS 15 — Reconnaissance du chiffre d'affaires",
+            "contenu": "**Pourquoi IFRS 15 est important ?**\nLa date à laquelle le CA est reconnu comptablement impacte directement la valorisation et le diagnostic financier. Des entreprises comme les constructeurs, les éditeurs de logiciels SaaS ou les sociétés de services peuvent avoir des pratiques très différentes.\n\n**Le modèle en 5 étapes IFRS 15 :**\n\n1. **Identifier le(s) contrat(s)** avec le client\n2. **Identifier les obligations de performance** distinctes dans le contrat\n3. **Déterminer le prix de transaction** (variable consideration, remises, garanties...)\n4. **Allouer le prix de transaction** à chaque obligation de performance\n5. **Reconnaître le CA** quand (ou au fur et à mesure que) l'obligation est satisfaite\n\n**Exemples d'application :**\n\n| Secteur | PCG | IFRS 15 |\n|---|---|---|\n| Construction (VEFA) | À l'achèvement | Au pourcentage d'avancement |\n| SaaS (abonnement) | Au fil du temps | Au fil du temps (identique) |\n| Logiciel + maintenance | En une fois à la livraison | Scindé : licence (immédiat) + maintenance (linéaire) |\n| Ventes avec droit de retour | À la livraison | CA ajusté de l'estimation des retours |\n| Programmes de fidélité | À l'utilisation des points | Points = obligation de performance → CA différé |\n\n**Impact pratique :**\nUn promoteur immobilier en IFRS 15 reconnaît son CA progressivement (méthode à l'avancement). Son CA et son résultat sont donc plus lisses et prévisibles qu'en PCG (comptabilisation à l'achèvement). Pour le banquier, cela change l'analyse des ratios de rentabilité et la notion de backlog (carnet de commandes)."
+          },
+          {
+            "titre": "4. IFRS 9 — Instruments financiers et provisionnement",
+            "contenu": "**Les 3 catégories d'actifs financiers IFRS 9 :**\n\n| Catégorie | Modèle économique | Évaluation | Résultat |\n|---|---|---|---|\n| AC (Amortised Cost) | Percevoir les flux contractuels | Coût amorti | Intérêts en CR |\n| FVOCI (Fair Value Other Comprehensive Income) | Percevoir flux ET vendre | Juste valeur | Variation JV en OCI |\n| FVPL (Fair Value Profit & Loss) | Trading/autres | Juste valeur | Variation JV en résultat |\n\n**ECL (Expected Credit Loss) — Provisionnement des créances :**\nIFRS 9 impose un provisionnement prospectif basé sur les pertes attendues (vs pertes avérées sous IAS 39).\n- Dès l'octroi du crédit ou la naissance de la créance → provision Stage 1 (ECL 12 mois)\n- Si dégradation significative → Stage 2 (ECL lifetime)\n- Si défaut avéré → Stage 3 (ECL lifetime, perte quasi-certaine)\n\n**Pour l'analyse d'un bilan client :**\nRegardez le niveau de provisions sur créances clients. Si une entreprise a beaucoup de créances clients avec peu de provisions (provision < 2% des créances) dans un secteur à risque, c'est un signal d'alerte. Le commissaire aux comptes doit certifier que les provisions sont suffisantes."
+          },
+          {
+            "titre": "5. Lire un rapport de commissaire aux comptes",
+            "contenu": "**Le rapport de certification — 4 types d'opinions :**\n\n| Opinion | Signification | Action banquier |\n|---|---|---|\n| **Certification sans réserve** | Comptes réguliers et sincères ✓ | Normal |\n| **Certification avec réserve(s)** | Désaccord sur un point limité | Analyser la réserve, quantifier l'impact |\n| **Certification avec observation(s)** | Incertitude signalée (pas désaccord) | Lire attentivement |\n| **Refus de certifier** | Désaccord majeur ou limitation | Signal d'alerte critique |\n\n**Les observations à lire absolument :**\n\n1. **Continuité d'exploitation (going concern)** : mention 'sans remettre en cause la continuité d'exploitation, nous attirons l'attention...' → l'entreprise a des difficultés mais le CAC pense qu'elle peut survivre. Signal d'alerte fort.\n\n2. **Litiges et passifs éventuels** : procès en cours dont l'issue est incertaine → risque hors-bilan à quantifier\n\n3. **Changements de méthodes comptables** : impacts sur la comparabilité avec les années précédentes\n\n4. **Provisions insuffisantes** (si réserve) : le CAC pense que des pertes supplémentaires devraient être provisionnées\n\n5. **Événements postérieurs à la clôture** : survenant entre la clôture et la date de signature du rapport\n\n**Procédure analytique vs audit approfondi :**\nLes PME (< 2 critères sur 3 : 4M€ bilan / 8M€ CA / 50 salariés) peuvent avoir des comptes non audités ou avec une mission de présentation simple (pas de certification). Dans ce cas, la fiabilité des comptes est moindre et le banquier doit en tenir compte dans son analyse.\n\n**Ce que le CAC ne contrôle pas :**\nLe CAC certifie les comptes, il ne garantit pas la viabilité future de l'entreprise, ni l'exactitude des projections. Un rapport sans réserve ne signifie pas que l'entreprise est saine financièrement."
+          },
+          {
+            "titre": "6. IAS 36 et IAS 37 — Goodwill, provisions et passifs éventuels",
+            "contenu": "**IAS 36 — Dépréciation des actifs (impairment) :**\nLe goodwill issu d'une acquisition (prix payé − actif net réévalué) n'est plus amorti sous IFRS (contrairement au PCG). Il est testé annuellement (impairment test) :\n\n1. Identifier l'Unité Génératrice de Trésorerie (UGT) à laquelle le goodwill est rattaché\n2. Calculer la valeur recouvrable = max(valeur d'utilité, juste valeur nette des coûts de cession)\n3. Valeur d'utilité = actualisation des FCF futurs de l'UGT\n4. Si valeur recouvrable < valeur comptable de l'UGT → dépréciation du goodwill\n\n**Signal d'alerte :** Une dépréciation de goodwill signale que l'acquisition ne crée pas la valeur attendue. Si récurrente, c'est un symptôme de mauvaise allocation du capital.\n\n**IAS 37 — Provisions, passifs éventuels et actifs éventuels :**\nProvision à comptabiliser si et seulement si les 3 conditions sont remplies :\n1. **Obligation actuelle** (juridique ou implicite) résultant d'un événement passé\n2. **Sortie probable** de ressources représentatives d'avantages économiques\n3. **Estimation fiable** du montant\n\nPassif éventuel (obligation possible mais non probable, ou probable mais non estimable) → mention en annexe uniquement, pas de provision au bilan.\n\n**Pour le banquier :**\nLire systématiquement l'annexe des comptes pour identifier les passifs éventuels (litiges, garanties données, engagements hors-bilan). Un litige de 5M€ non provisionné sur une société de 10M€ de fonds propres est un risque majeur non visible dans le bilan."
+          }
+        ],
+        "points_cles": [
+          "IFRS 16 force la comptabilisation des locations au bilan (droit d'utilisation + dette) depuis 2019 — compare toujours des ratios normalisés quand tu analyses des entreprises en PCG vs IFRS car l'EBITDA et la dette financière ne sont pas comparables.",
+          "IFRS 15 impose une reconnaissance du CA sur 5 étapes — dans la construction (VEFA) cela signifie un CA reconnu à l'avancement et non à l'achèvement, ce qui lisse les revenus mais nécessite d'analyser le backlog.",
+          "Le goodwill sous IFRS n'est pas amorti mais testé annuellement (impairment test IAS 36) — une dépréciation de goodwill récurrente est un signal fort de mauvaise allocation du capital lors des acquisitions.",
+          "Lire le rapport du commissaire aux comptes avant toute analyse : une mention 'continuité d'exploitation' ou une réserve sur les provisions sont des signaux d'alerte qui doivent modifier l'analyse de risque.",
+          "IAS 37 : une provision n'est comptabilisée que si l'obligation est actuelle, la sortie probable ET le montant estimable. Les passifs éventuels (litiges probables mais non estimables) figurent seulement en annexe — vérifier systématiquement l'annexe pour les hors-bilan."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Une entreprise passe de la comptabilité PCG à une consolidation IFRS 16. Elle a des loyers annuels de 500K€ sur 5 ans. Quel est l'impact sur l'EBITDA ?",
+          "options": [
+            "L'EBITDA baisse de 500K€ car les loyers restent en charges",
+            "L'EBITDA augmente de 500K€ car les loyers ne sont plus en charges d'exploitation mais remplacés par des dotations et des intérêts sous la ligne EBITDA",
+            "L'EBITDA ne change pas, seul le bilan est impacté",
+            "L'EBITDA baisse légèrement car les dotations IFRS 16 sont plus élevées que les loyers"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Sous IFRS 16, les loyers disparaissent des charges d'exploitation (donc au-dessus de l'EBITDA) et sont remplacés par : (1) des dotations aux amortissements sur le droit d'utilisation (en dessous de l'EBITDA) et (2) des charges d'intérêts sur la dette de location (en dessous de l'EBITDA). L'EBITDA augmente donc du montant des loyers annuels (ici +500K€), ce qui peut donner une image faussement positive de la performance opérationnelle. C'est pour cela qu'il faut toujours normaliser l'EBITDA avant de comparer des entreprises en PCG et en IFRS 16."
+        },
+        {
+          "question": "Un commissaire aux comptes émet une observation sur 'l'incertitude relative à la continuité d'exploitation'. Que cela signifie-t-il exactement ?",
+          "options": [
+            "L'entreprise va faire faillite dans les 12 mois — refus de financement automatique",
+            "Le CAC a détecté des incertitudes significatives qui pourraient remettre en cause la capacité de l'entreprise à poursuivre son activité, sans pour autant remettre en cause sa certification",
+            "C'est une mention purement administrative sans impact sur l'analyse financière",
+            "L'entreprise est en procédure collective et les comptes ne sont pas fiables"
+          ],
+          "reponse_correcte": 1,
+          "explication": "L'observation sur la continuité d'exploitation (going concern) est un signal d'alerte sérieux mais pas rédhibitoire. Le CAC certifie les comptes (il ne refuse pas de certifier) mais attire l'attention sur des éléments qui pourraient remettre en cause la poursuite d'activité : trésorerie tendue, pertes récurrentes, fonds propres négatifs, contentieux majeur... Pour le banquier, cette mention doit déclencher une analyse approfondie de la situation de trésorerie, un entretien avec le dirigeant et potentiellement un refus ou des conditions très strictes au financement."
+        },
+        {
+          "question": "Sous IAS 38, quand les frais de développement d'un logiciel peuvent-ils être activés (comptabilisés en actif) ?",
+          "options": [
+            "Jamais — tous les frais de R&D sont obligatoirement en charges sous IFRS",
+            "Toujours — toute dépense de développement crée un actif immatériel",
+            "Seulement si 6 critères sont remplis : faisabilité technique, intention d'achever, capacité d'utiliser, génération d'avantages économiques futurs probables, ressources disponibles, capacité à mesurer les coûts",
+            "Uniquement pour les logiciels destinés à la vente externe, pas pour les logiciels à usage interne"
+          ],
+          "reponse_correcte": 2,
+          "explication": "IAS 38 distingue la phase de recherche (toujours en charges) et la phase de développement (activable si les 6 critères sont simultanément remplis). Ces critères sont : (1) faisabilité technique de l'achèvement, (2) intention d'achever et d'utiliser/vendre, (3) capacité d'utiliser ou de vendre, (4) probabilité que l'actif génère des avantages économiques futurs, (5) disponibilité des ressources techniques, financières et humaines, (6) capacité à évaluer les dépenses de développement de façon fiable. En pratique, l'activation des frais de développement nécessite un suivi rigoureux par phase de projet."
+        },
+        {
+          "question": "Quelle est la différence entre une provision (IAS 37) et un passif éventuel ?",
+          "options": [
+            "Une provision est certaine, un passif éventuel est probable",
+            "Une provision est comptabilisée au bilan si l'obligation est actuelle, la sortie probable et le montant estimable. Un passif éventuel est mentionné en annexe seulement (obligation possible ou probable mais non estimable)",
+            "Un passif éventuel est toujours plus important qu'une provision",
+            "Il n'y a pas de différence — les deux sont comptabilisés de la même façon"
+          ],
+          "reponse_correcte": 1,
+          "explication": "IAS 37 est précis : provision si (1) obligation actuelle + (2) sortie probable + (3) estimation fiable → comptabilisation au bilan. Si l'une de ces conditions manque → passif éventuel mentionné uniquement en annexe. Pour le banquier, l'annexe est donc cruciale : un litige de 3M€ non provisionné (parce que le montant est incertain mais la probabilité de perte est élevée) est un risque hors-bilan qui ne figure que dans les notes annexes et peut modifier complètement le diagnostic financier."
+        },
+        {
+          "question": "Sous IFRS 15, un éditeur de logiciels vend une licence perpétuelle à 100K€ + un contrat de maintenance annuelle à 20K€ sur 3 ans. Comment le CA est-il reconnu ?",
+          "options": [
+            "200K€ reconnu intégralement à la livraison de la licence",
+            "160K€ au titre de la licence reconnu immédiatement, 40K€ au titre de la maintenance reconnus linéairement sur 3 ans (20K€/an × 2 ans restants)",
+            "La licence et la maintenance sont des obligations de performance distinctes : la valeur standalone de la licence (~80K€) est reconnue à la livraison, la maintenance (80K€ étalée sur 3 ans) est reconnue linéairement",
+            "Tout est reconnu de façon linéaire sur 3 ans (46,7K€/an)"
+          ],
+          "reponse_correcte": 2,
+          "explication": "Sous IFRS 15, la licence et la maintenance sont deux obligations de performance distinctes. Le prix de transaction total (160K€) est alloué en fonction des prix de vente standalone de chaque obligation. Si la licence se vend 80K€ en standalone et la maintenance 20K€/an (60K€ sur 3 ans), le prix total alloué représente 80K€ à la licence et 80K€ à la maintenance. La licence est reconnue immédiatement (livraison du droit), la maintenance linéairement sur 3 ans (26,7K€/an). C'est plus complexe que l'ancienne pratique PCG qui reconnaissait souvent tout à la livraison."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Retraitement IFRS d'une ETI en croissance externe — GROUPE ATLANTIS",
+        "contexte": "GROUPE ATLANTIS est une ETI française (distribution spécialisée, 350 salariés) qui vient d'acquérir un concurrent régional pour 8M€ (actif net réévalué : 5M€ → goodwill : 3M€). Vous analysez les comptes consolidés IFRS pour décider d'un financement de 2M€ pour financer l'intégration. Les comptes présentent plusieurs éléments IFRS complexes que vous devez analyser.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Éléments clés du bilan consolidé IFRS",
+              "Montant"
+            ],
+            [
+              "Goodwill",
+              "3 000 K€"
+            ],
+            [
+              "Droits d'utilisation (IFRS 16)",
+              "4 200 K€"
+            ],
+            [
+              "Immobilisations corporelles nettes",
+              "2 800 K€"
+            ],
+            [
+              "Stocks",
+              "3 100 K€"
+            ],
+            [
+              "Créances clients",
+              "4 500 K€"
+            ],
+            [
+              "Trésorerie",
+              "380 K€"
+            ],
+            [
+              "Fonds propres",
+              "6 100 K€"
+            ],
+            [
+              "Dette de location (IFRS 16)",
+              "4 100 K€"
+            ],
+            [
+              "Emprunts bancaires",
+              "3 200 K€"
+            ],
+            [
+              "Dettes fournisseurs",
+              "2 900 K€"
+            ]
+          ],
+          "compte_de_resultat": [
+            [
+              "P&L IFRS (extraits)",
+              "Montant"
+            ],
+            [
+              "CA",
+              "28 500 K€"
+            ],
+            [
+              "EBITDA (IFRS 16 inclus)",
+              "2 850 K€"
+            ],
+            [
+              "Dotations amortissements ROU (IFRS 16)",
+              "980 K€"
+            ],
+            [
+              "Dotations amortissements autres",
+              "420 K€"
+            ],
+            [
+              "Charges d'intérêts (dont IFRS 16 : 165K€)",
+              "385 K€"
+            ],
+            [
+              "Impairment test goodwill",
+              "500 K€"
+            ],
+            [
+              "Résultat net",
+              "680 K€"
+            ]
+          ],
+          "rapport_cac": "Le rapport du CAC contient une observation : 'Sans remettre en cause notre opinion, nous attirons l'attention sur la note 18 de l'annexe relative au litige commercial avec un fournisseur historique, dont la valeur réclamée est de 1 800K€. La direction estime que ce litige sera résolu favorablement mais reconnaît une incertitude significative.'"
+        },
+        "questions": [
+          "Calculez l'EBITDA retraité 'PCG-like' (hors IFRS 16) et expliquez pourquoi cette normalisation est importante pour comparer avec des concurrents en PCG.",
+          "Calculez le levier d'endettement en incluant et en excluant la dette de location IFRS 16. Quel est l'impact sur votre analyse du risque ?",
+          "La dépréciation de goodwill de 500K€ (impairment) vous préoccupe-t-elle ? Que cherchez-vous à comprendre ?",
+          "Comment traitez-vous l'observation du CAC sur le litige de 1 800K€ dans votre analyse financière ?",
+          "Donnez votre recommandation globale sur le financement de 2M€ avec les conditions que vous poseriez."
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "EBITDA retraité PCG-like",
+            "reponse": "EBITDA IFRS 16 : 2 850 K€ (inclut la reintégration des loyers IFRS 16 dans l'EBITDA)\nPour obtenir l'EBITDA 'PCG-like' (hors IFRS 16) :\nEBITDA PCG-like = EBITDA IFRS 16 − Loyers IFRS 16 annualisés\nLes loyers IFRS 16 = Dotations ROU (980K€) + Intérêts IFRS 16 (165K€) = 1 145K€\nEBITDA PCG-like = 2 850 − 1 145 = 1 705 K€\nMarge EBITDA PCG-like = 1 705 / 28 500 = 6,0%\n\nL'EBITDA IFRS 16 de 2 850K€ (10% de marge) est trompeur : la marge réelle de l'activité opérationnelle est de 6%. Un concurrent en PCG avec 6% de marge EBITDA est comparable — pas un concurrent avec 10%. Cette normalisation est indispensable pour tout benchmark sectoriel."
+          },
+          {
+            "question": "Levier avec et sans IFRS 16",
+            "reponse": "Dette nette avec IFRS 16 :\nEmprunts bancaires : 3 200K€\nDette de location IFRS 16 : 4 100K€\nTotal dette financière : 7 300K€\nTrésorerie : −380K€\nDette nette : 6 920K€\nLevier IFRS 16 = 6 920 / 2 850 = 2,43x\n\nDette nette hors IFRS 16 (comparable PCG) :\nDette nette hors IFRS 16 = 3 200 − 380 = 2 820K€\nLevier PCG-like = 2 820 / 1 705 = 1,65x\n\nImpact : le levier apparent (2,43x) masque un levier économique plus modéré (1,65x). La dette IFRS 16 représente des obligations contractuelles réelles (les loyers doivent être payés) mais elle ne reflète pas le même risque qu'une dette bancaire : les contrats de location peuvent être renégociés en cas de difficultés. Pour l'analyse risque, utiliser les deux niveaux de levier et mentionner explicitement la décomposition dans la note de crédit."
+          },
+          {
+            "question": "Impairment du goodwill",
+            "reponse": "La dépréciation de 500K€ sur un goodwill de 3 000K€ (soit 16,7%) est préoccupante pour plusieurs raisons :\n1. Elle intervient dès la première année post-acquisition → cela suggère que la valorisation de l'acquisition était trop optimiste ou que l'intégration déçoit\n2. 500K€ de dépréciation pèsent sur le résultat net (680K€ net incluant déjà l'impairment → sans impairment le résultat aurait été de ~1 180K€)\n3. Elle réduit la valeur du goodwill résiduel à 2 500K€ → nouveau test l'année prochaine\n\nQuestions à poser au dirigeant :\n- Pourquoi la valeur d'utilité de l'UGT acquise est-elle inférieure à la valeur comptable ?\n- Les synergies attendues lors de l'acquisition se matérialisent-elles ?\n- Les hypothèses du business plan (croissance du CA, amélioration des marges) sont-elles toujours valides ?\n\nSignal d'alerte : si l'impairment continue les années suivantes, c'est un red flag majeur sur la qualité de l'allocation du capital du groupe."
+          },
+          {
+            "question": "Traitement du litige CAC",
+            "reponse": "Traitement dans l'analyse financière :\n1. Le litige de 1 800K€ n'est pas provisionné (passif éventuel selon IAS 37) → il ne figure pas dans les fonds propres ajustés\n2. Il représente 29,5% des fonds propres (1 800/6 100) → risque très significatif\n3. La direction dit 'résolution favorable probable' → la provision n'a pas été comptabilisée car la condition 'sortie probable' n'est pas remplie selon eux\n\nMais le CAC mentionne une 'incertitude significative' → il n'est pas convaincu par l'analyse de la direction.\n\nAction du banquier :\n- Demander la note 18 de l'annexe et les avis juridiques\n- Quantifier le scénario adverse : si Atlantis perd, les fonds propres ajustés tombent à 6 100 − 1 800 = 4 300K€\n- Levier ajusté scénario adverse : 6 920 / (EBITDA inchangé) mais fonds propres réduits → analyser la solvabilité\n- Condition au financement : clause MAC (Material Adverse Change) — remboursement anticipé si condamnation > 500K€"
+          },
+          {
+            "question": "Recommandation globale",
+            "reponse": "Recommandation : FAVORABLE CONDITIONNEL\n\nPoints positifs : CA de 28,5M€ en croissance post-acquisition, EBITDA PCG-like à 6% (correct pour la distribution), levier bancaire réel modéré (1,65x), fonds propres de 6,1M€.\n\nRisques identifiés : (1) impairment goodwill dès année 1 — signal négatif sur l'intégration, (2) litige 1 800K€ — risque hors-bilan significatif, (3) dette de location IFRS 16 élevée (4 100K€) — contrainte sur la flexibilité financière.\n\nConditions au financement des 2M€ :\n1. Covenant levier bancaire (hors IFRS 16) ≤ 3,0x EBITDA PCG-like\n2. Clause MAC litige : remboursement accéléré si condamnation > 750K€\n3. Reporting trimestriel sur l'avancement du litige et les résultats de l'intégration\n4. Garantie Bpifrance à 50% recommandée compte tenu des incertitudes\n5. Résultats N+1 communiqués dans les 4 mois de clôture avec attestation CAC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mmarge",
+      "label": "Culture de la marge et rentabilité bancaire",
+      "tag": "Rentabilité",
+      "level": "Intermédiaire",
+      "duration": "4h",
+      "domain": "Comptabilité & Performance",
+      "cours": {
+        "introduction": "Un chargé d'affaires qui ne comprend pas comment sa banque gagne de l'argent ne peut pas structurer des dossiers rentables ni négocier intelligemment avec ses partenaires bancaires. Ce module décortique la mécanique de la rentabilité bancaire — du TCI à la tarification d'un crédit, en passant par les ratios de performance que regardent les comités de direction des banques.",
+        "sections": [
+          {
+            "titre": "1. Le Taux de Cession Interne (TCI) — mécanique et enjeux",
+            "contenu": "**Définition :**\nLe TCI (Taux de Cession Interne) est le taux auquel la direction financière centrale d'une banque 'vend' les ressources aux unités commerciales (directions régionales, agences, chargés d'affaires) et 'achète' leurs emplois.\n\n**Fonctionnement :**\n```\nDirection Financière (ALM — Asset-Liability Management)\n         ↕ TCI\n    Direction Commerciale\n         ↕ Taux client\n       Entreprise cliente\n```\n\n**Le mécanisme de transfert :**\n- Quand un chargé d'affaires accorde un crédit à 4% sur 5 ans, il 'achète' la ressource à la direction financière au TCI 5 ans (ex : 3,2%)\n- Sa marge commerciale brute = taux client − TCI = 4% − 3,2% = 0,8%\n- La direction financière gère le risque de taux (transformation) centralement\n\n**Construction du TCI :**\n\n| Composante | Description | Ordre de grandeur |\n|---|---|---|\n| Taux sans risque | OAT (Obligations Assimilables du Trésor) correspondante | 2,5-3,5% selon maturité |\n| Spread de liquidité | Coût supplémentaire pour se refinancer vs OAT | 0,3-0,8% |\n| Coût de transformation | Risque de taux géré par l'ALM | Inclus dans le spread |\n| **TCI total** | Somme des composantes | **3-4% en 2024-2025** |\n\n**L'importance du TCI pour le chargé d'affaires :**\n- Il définit le plancher de rentabilité : en dessous du TCI, le crédit est déficitaire pour la banque\n- Il varie selon la maturité : TCI 1 an ≠ TCI 5 ans ≠ TCI 10 ans (courbe des taux)\n- Il change quotidiennement en fonction des marchés\n- Les objectifs de marge commerciale (taux client − TCI) sont fixés par la direction dans les budgets"
+          },
+          {
+            "titre": "2. Les indicateurs de rentabilité bancaire",
+            "contenu": "**NIM — Net Interest Margin (Marge nette d'intérêt) :**\nNIM = (Produits d'intérêts − Charges d'intérêts) / Actifs productifs moyens\n\nLecture : mesure la rentabilité pure de l'intermédiation (prêter plus cher que le coût des ressources)\nBenchmark France 2024 : 1,0% − 1,5% pour les grandes banques\nPlus le NIM est élevé, plus la banque est efficace dans son activité de transformation\n\n**PNB — Produit Net Bancaire :**\nPNB = Marge d'intérêt + Commissions nettes + Résultat des activités de marché\nC'est le 'chiffre d'affaires' équivalent pour une banque\n\n**ROE — Return on Equity :**\nROE = Résultat net / Fonds propres moyens\nObjectif des grandes banques françaises : 10-12%\nContrainte : le ROE doit dépasser le coût du capital (WACC equity ≈ 10-12%)\nSi ROE < coût du capital → la banque détruit de la valeur\n\n**ROA — Return on Assets :**\nROA = Résultat net / Total actifs moyens\nBenchmark : 0,5-0,8% pour les banques européennes\nMoins pertinent que le ROE car ne tient pas compte de l'effet de levier\n\n**RoRWA — Return on Risk-Weighted Assets :**\nRoRWA = Résultat net / RWA moyens\nL'indicateur préféré des régulateurs et comités de direction post-Bâle III\nObjectif : 1,5-2,5%\nPermet de comparer la rentabilité de portefeuilles avec des profils de risque différents\nExemple : un portefeuille de crédit PME avec RoRWA de 2% est plus intéressant qu'un portefeuille corporate avec RoRWA de 1% même si le ROA apparent est identique\n\n**Cost-to-Income Ratio (CIR) :**\nCIR = Charges d'exploitation / PNB\nMesure l'efficacité opérationnelle : combien coûte chaque euro de PNB produit ?\nObjectif des grandes banques françaises : < 60%\nSi CIR > 70% → inefficacité structurelle, plan de réduction de coûts nécessaire\nCIR des néobanques (Revolut, N26) : souvent < 40% grâce aux coûts tech réduits"
+          },
+          {
+            "titre": "3. La tarification complète d'un crédit",
+            "contenu": "**Décomposition du taux client :**\n\n```\nTaux client = TCI\n            + Prime de risque (Expected Loss / EAD)\n            + Coût en fonds propres réglementaires\n            + Coût de fonctionnement (frais opérationnels alloués)\n            + Marge commerciale nette\n```\n\n**Calcul de la prime de risque :**\nPrime de risque = EL / EAD = PD × LGD\nExemple : PD = 1,5%, LGD = 40% → prime de risque = 0,6%\nCette prime doit être intégrée dans le taux pour que le crédit soit neutre en espérance de perte.\n\n**Calcul du coût en fonds propres :**\nCoût FP = (RWA / EAD) × Taux CET1 requis × ROE cible\nExemple : pondération PME 75%, CET1 requis 9,5%, ROE cible 12%\nCoût FP = 75% × 9,5% × 12% = 0,855% = environ 85 bps\n\n**Synthèse — taux minimum pour un crédit PME rentable (2024) :**\n\n| Composante | Bps |\n|---|---|\n| TCI 5 ans | 310 bps |\n| Prime de risque (PD 1,5%, LGD 40%) | 60 bps |\n| Coût en fonds propres | 85 bps |\n| Coût opérationnel alloué | 30 bps |\n| Marge nette cible | 25 bps |\n| **Taux client minimum** | **510 bps = 5,1%** |\n\nCeci explique pourquoi les taux PME en 2024 sont autour de 5-6% malgré un TCI qui a baissé en 2024 : les exigences réglementaires en fonds propres (Bâle III/IV) pèsent structurellement sur les marges.\n\n**Commissions sur les crédits :**\n- **Frais de dossier** : 0,5-1,5% du montant, facturés à la mise en place → revenus immédiats\n- **Commission d'engagement** : 0,2-0,5%/an sur la partie non tirée → rémunère la réservation de liquidité\n- **Commission de non-utilisation** : pénalité si sous-utilisation d'une ligne → incite à utiliser\n- **Indemnités de remboursement anticipé (IRA)** : 3-6 mois d'intérêts → couvre le coût de retransformation"
+          },
+          {
+            "titre": "4. La rentabilité client globale et le cross-selling",
+            "contenu": "**Le concept de rentabilité client globale (RCG) :**\nUn crédit seul est rarement rentable pour une banque. La rentabilité se construit sur l'ensemble de la relation client :\n\n```\nRCG = Marge crédit\n    + Commissions flux (virements, prélèvements, CB)\n    + Commissions services (assurances, change, dérivés)\n    + Revenus épargne (dépôts à terme, fonds d'investissement)\n    + Revenus ingénierie financière (montage, arrangement)\n    − Coût du risque (provisions)\n    − Coût des fonds propres alloués\n```\n\n**Segmentation client par rentabilité :**\n- Clients 'stars' : rentabilité globale > objectif, faible risque → fidéliser, cross-seller\n- Clients 'vaches à lait' : rentabilité ok mais peu de potentiel → maintenir\n- Clients 'question mark' : fort potentiel mais relation peu développée → cross-sell agressif\n- Clients 'boulets' : sous-rentables, risque élevé → renégocier ou sortir\n\n**Le cross-selling en pratique :**\nPour un crédit de 500K€ à 5% sur 5 ans → marge nette ≈ 25bps → 1 250€/an de marge nette crédit\nSi le client domicilie ses flux (20M€/an) → commissions flux ≈ 0,05% × 20M€ = 10 000€/an\nSi le client souscrit assurance risque pro → prime ≈ 3 000€/an\nRCG total = 1 250 + 10 000 + 3 000 = 14 250€/an vs 1 250€/an crédit seul → 11x plus rentable\n\n**Impact pour le chargé d'affaires Bpifrance :**\nBpifrance ne fait pas de cross-selling (pas de compte courant, pas d'assurance). Sa rentabilité est donc uniquement sur l'activité de financement et de garantie. C'est pourquoi les critères de sélection sont différents : Bpifrance évalue l'impact économique (emplois, innovation, transitions) autant que la rentabilité pure.\n\n**Le coût du risque — indicateur clé de performance :**\nCoût du risque = (Dotations aux provisions − Reprises de provisions + Pertes nettes) / Encours moyen\nBenchmark : 20-40 bps pour un portefeuille PME sain\nSi coût du risque > 80-100 bps → portefeuille dégradé, revue nécessaire\nLe coût du risque varie fortement selon le cycle : 20-30 bps en croissance, 80-120 bps en récession"
+          },
+          {
+            "titre": "5. Le PNB et les commissions bancaires",
+            "contenu": "**Structure du PNB d'une banque de détail/entreprises :**\n\n| Source | Part typique | Évolution récente |\n|---|---|---|\n| Marge d'intérêts nette | 55-65% | Hausse avec la remontée des taux |\n| Commissions nettes | 30-35% | Stable, sous pression concurrentielle |\n| Résultats des activités de marché | 5-10% | Volatil |\n\n**Les principales commissions sur crédits aux entreprises :**\n\n| Type | Déclencheur | Ordre de grandeur |\n|---|---|---|\n| Frais de montage/arrangement | Structuration d'un LBO ou financement complexe | 0,5-2% du montant total |\n| Commission d'agent | Rôle d'agent dans un syndicat bancaire | 10-25K€ fixe |\n| Commission de participation | Participation à un syndicat | 0,25-0,75% du montant participé |\n| Upfront fee (Bpifrance) | Mise en place d'une garantie | 0,25-0,5% du montant garanti |\n\n**Commission annuelle de garantie Bpifrance :**\nBpifrance facture une commission annuelle à la banque bénéficiaire (pas au client).\nTaux : 0,40% à 0,60%/an selon le dispositif et le profil de risque\nExemple : garantie Bpifrance de 200K€ sur un prêt de 400K€ → commission 200K€ × 0,5% = 1 000€/an payée par la banque à Bpifrance\n\n**Le 'pricing power' et la concurrence :**\nDepuis 2015, la concurrence entre banques et avec les FinTechs compresse les marges :\n- Plateformes de crowdlending prêtent à des taux inférieurs (mais avec des critères différents)\n- Les grandes entreprises négocient leurs conditions en mettant les banques en concurrence\n- Pour les PME, la relation bancaire et la garantie Bpifrance sont des facteurs différenciants qui permettent aux banques de préserver leurs marges"
+          }
+        ],
+        "points_cles": [
+          "Le TCI (Taux de Cession Interne) est le prix de revient de la ressource pour le chargé d'affaires — sa marge commerciale est la différence entre le taux client et le TCI. En 2024-2025, le TCI 5 ans est autour de 3,0-3,5%, ce qui explique des taux crédit PME autour de 5-6%.",
+          "Le RoRWA (Return on Risk-Weighted Assets) est l'indicateur de rentabilité préféré post-Bâle III : il mesure le résultat rapporté aux actifs pondérés par le risque, permettant de comparer des portefeuilles de profils différents. Objectif : 1,5-2,5%.",
+          "Un crédit seul n'est quasiment jamais rentable (marge nette ≈ 25 bps). La rentabilité client se construit sur la relation globale : flux, assurances, épargne, services — soit jusqu'à 10-15x la marge crédit seule.",
+          "Le coût en fonds propres réglementaires représente environ 85 bps dans la tarification d'un crédit PME standard (pondération 75% × CET1 requis 9,5% × ROE cible 12%). Bâle IV va augmenter cette composante.",
+          "Le cost-to-income ratio (CIR) mesure l'efficacité opérationnelle d'une banque. Un CIR > 70% signale une inefficacité structurelle. Les meilleures banques européennes visent < 55% grâce à la digitalisation."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Un chargé d'affaires accorde un crédit à 5,20% sur 7 ans. Le TCI 7 ans de sa banque est de 3,80%. Quelle est sa marge commerciale brute et quelles composantes viennent encore réduire cette marge ?",
+          "options": [
+            "Marge brute = 1,40%. Il faut ensuite déduire la prime de risque, le coût en fonds propres et les charges opérationnelles allouées.",
+            "Marge brute = 1,40%. C'est le profit net pour la banque, aucune autre déduction.",
+            "Marge brute = 5,20%. Le TCI n'est pas déduit de la marge commerciale.",
+            "Marge brute = 0,70% car la marge se partage à 50/50 avec la direction financière."
+          ],
+          "reponse_correcte": 0,
+          "explication": "Marge commerciale brute = taux client − TCI = 5,20% − 3,80% = 1,40% (140 bps). Mais ce n'est pas le profit net. Il faut encore déduire : (1) la prime de risque (environ 30-80 bps selon la qualité du client), (2) le coût en fonds propres réglementaires (environ 70-90 bps pour une PME), (3) les charges opérationnelles allouées (instruction, suivi, systèmes d'information, ~20-30 bps). La marge nette réelle peut donc être quasi-nulle ou même négative si le crédit n'est pas accompagné d'autres revenus (commissions, flux)."
+        },
+        {
+          "question": "Le cost-to-income ratio (CIR) d'une banque régionale est de 72%. Qu'est-ce que cela signifie et quelle est la situation par rapport aux benchmarks ?",
+          "options": [
+            "Pour chaque euro de PNB produit, la banque dépense 72 centimes en charges — situation préoccupante, au-dessus du seuil d'alerte de 70%",
+            "La banque est très efficace avec seulement 72% de revenus convertis en profit",
+            "72% des actifs de la banque sont des crédits — ratio de concentration standard",
+            "Le CIR de 72% est excellent, bien en dessous du seuil réglementaire de 80%"
+          ],
+          "reponse_correcte": 0,
+          "explication": "Le CIR = Charges d'exploitation / PNB. Un CIR de 72% signifie que pour chaque euro de PNB, la banque dépense 72 centimes en charges (personnel, IT, immobilier, conformité). Il reste donc 28 centimes pour absorber le coût du risque, les impôts et rémunérer les actionnaires. Les grandes banques françaises visent < 60%, et les plus efficaces < 55%. Un CIR de 72% est au-dessus du seuil d'alerte de 70% et signifie que des plans d'économies sont probablement en cours ou nécessaires (fermetures d'agences, digitalisation, optimisation RH)."
+        },
+        {
+          "question": "Pourquoi la rentabilité cliente globale (RCG) est-elle un concept plus pertinent que la marge sur un crédit isolé ?",
+          "options": [
+            "Parce que le crédit seul est toujours déficitaire et ne vaut rien sans les flux",
+            "Parce que la banque doit mesurer l'ensemble des revenus et coûts sur la relation complète (crédit + flux + assurances + épargne) pour savoir si un client est vraiment rentable",
+            "Parce que la RCG permet d'éviter la réglementation bancaire sur les marges crédit",
+            "Parce que les flux sont toujours plus rentables que le crédit dans tous les cas"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La marge nette sur un crédit seul est typiquement très faible (15-30 bps après déduction de tous les coûts). Accorder un crédit de 500K€ rapporte environ 750-1 500€/an de marge nette — insuffisant pour justifier l'investissement en temps d'instruction et de suivi. Mais si ce client domicilie ses flux (salaires, fournisseurs, clients), souscrit des assurances, place sa trésorerie et utilise des services à valeur ajoutée, la RCG totale peut être 10-15x supérieure. La banque doit donc évaluer le potentiel de relation globale, pas juste la marge crédit isolée."
+        },
+        {
+          "question": "Le RoRWA d'un portefeuille de crédit PME est de 2,1% et celui d'un portefeuille de crédit grandes entreprises est de 1,3%. Quelle conclusion tirer ?",
+          "options": [
+            "Le portefeuille grandes entreprises est plus rentable car les montants sont plus élevés",
+            "Le portefeuille PME génère plus de résultat par unité de risque (RWA) — il est plus efficace en termes d'allocation du capital réglementaire",
+            "Le portefeuille PME est trop risqué, un RoRWA élevé signifie des provisions élevées",
+            "Les deux portefeuilles sont équivalents car le RoRWA ne mesure pas la rentabilité absolue"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le RoRWA mesure la rentabilité par unité d'actifs pondérés par le risque — c'est l'indicateur clé post-Bâle III. Un RoRWA PME de 2,1% vs 1,3% grandes entreprises signifie que le portefeuille PME génère plus de résultat pour chaque euro de fonds propres réglementaires consommé. Cela s'explique souvent par des marges plus élevées sur PME (prime de risque + marge commerciale > grandes entreprises qui négocient au plus bas). Du point de vue de l'allocation du capital, le portefeuille PME est plus efficace malgré un risque unitaire plus élevé."
+        },
+        {
+          "question": "Quelle est la différence entre la commission d'engagement et la commission de non-utilisation ?",
+          "options": [
+            "Elles sont identiques, c'est juste deux terminologies différentes pour la même commission",
+            "La commission d'engagement rémunère la réservation de ressources et liquidité sur la partie non tirée d'une ligne dès sa mise en place. La commission de non-utilisation est une pénalité facturée si l'utilisation moyenne reste sous un seuil minimum contractuel",
+            "La commission d'engagement est payée à Bpifrance, la commission de non-utilisation à la banque",
+            "La commission d'engagement est ponctuelle (à la mise en place), la commission de non-utilisation est annuelle"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La commission d'engagement (0,2-0,5%/an) est systématiquement facturée sur la partie non tirée d'une ligne de crédit confirmée — elle rémunère la banque pour la réservation de liquidité (qui a un coût LCR/NSFR). La commission de non-utilisation est une clause contractuelle distincte : si le client utilise moins qu'un seuil minimum (ex: < 30% de la ligne en moyenne), une pénalité supplémentaire est facturée. Elle incite le client à utiliser effectivement la ligne et évite que la banque réserve des ressources pour une ligne inutilisée. Certains contrats incluent les deux, d'autres seulement la commission d'engagement."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Analyse de rentabilité — Faut-il accorder ce crédit à LOGIPRO SAS ?",
+        "contexte": "LOGIPRO SAS est un opérateur logistique (CA 15M€, EBITDA 900K€, 80 salariés, notation interne 6/10) qui demande un crédit de 1,2M€ sur 6 ans pour financer des chariots élévateurs. C'est un client historique de 8 ans. Vous êtes chargé d'affaires dans une banque commerciale partenaire de Bpifrance. Le comité commercial vous demande d'analyser la rentabilité de l'opération avant de statuer.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Paramètres de tarification",
+              "Valeur"
+            ],
+            [
+              "Montant du crédit",
+              "1 200 K€"
+            ],
+            [
+              "Durée",
+              "6 ans"
+            ],
+            [
+              "TCI 6 ans actuel",
+              "3,45%"
+            ],
+            [
+              "PD estimée (notation 6/10)",
+              "2,2%"
+            ],
+            [
+              "LGD estimée (garantie partielle matériel)",
+              "35%"
+            ],
+            [
+              "Pondération RWA (PME standard)",
+              "75%"
+            ],
+            [
+              "CET1 requis total",
+              "10%"
+            ],
+            [
+              "ROE cible banque",
+              "11%"
+            ],
+            [
+              "Charges opérationnelles allouées",
+              "25 bps/an"
+            ],
+            [
+              "Taux client proposé",
+              "5,50%"
+            ]
+          ],
+          "relation_client": [
+            [
+              "Revenus existants relation client",
+              "Montant/an"
+            ],
+            [
+              "Commissions flux (virements, prélèvements)",
+              "8 200 €"
+            ],
+            [
+              "Assurance risque pro (déjà souscrite)",
+              "2 800 €"
+            ],
+            [
+              "Compte courant (solde moyen créditeur 180K€)",
+              "1 800 €"
+            ],
+            [
+              "Frais de dossier (one-shot)",
+              "8 400 €"
+            ]
+          ]
+        },
+        "questions": [
+          "Calculez la prime de risque (en bps) à intégrer dans la tarification.",
+          "Calculez le coût en fonds propres réglementaires (en bps) pour ce crédit.",
+          "Décomposez la marge nette annuelle sur le crédit seul (taux client − TCI − prime risque − coût FP − charges opérat.).",
+          "Calculez la rentabilité client globale (RCG) annuelle en intégrant tous les revenus de la relation. Que concluez-vous ?",
+          "La garantie Bpifrance à 50% est disponible (commission annuelle 0,50%/an payée par la banque). Quel est son impact sur la rentabilité et recommandez-vous de l'activer ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "Prime de risque",
+            "reponse": "Prime de risque = PD × LGD = 2,2% × 35% = 0,77% = 77 bps/an\nSur l'encours moyen de 1 200K€ (en décroissance linéaire, encours moyen ≈ 700K€ sur 6 ans) :\nCoût du risque annuel moyen = 700K€ × 0,77% = 5 390€/an\nEn bps sur le montant initial : 77 bps"
+          },
+          {
+            "question": "Coût en fonds propres réglementaires",
+            "reponse": "RWA = EAD × pondération = 1 200K€ × 75% = 900K€\nFonds propres requis = RWA × CET1 requis = 900K€ × 10% = 90K€\nCoût annuel FP = 90K€ × ROE cible = 90K€ × 11% = 9 900€/an\nEn bps sur l'encours initial : 9 900 / 1 200 000 = 0,825% = 82,5 bps"
+          },
+          {
+            "question": "Marge nette sur le crédit seul",
+            "reponse": "Décomposition annuelle (sur encours initial 1 200K€) :\n- Taux client : 5,50% = 550 bps\n- TCI 6 ans : −3,45% = −345 bps\n- Prime de risque : −0,77% = −77 bps\n- Coût en fonds propres : −0,825% = −82,5 bps\n- Charges opérationnelles : −0,25% = −25 bps\n= **Marge nette crédit : 0,205% = 20,5 bps**\nEn valeur absolue : 1 200K€ × 0,205% = **2 460€/an de marge nette**\n\nConclusion crédit seul : la marge de 2 460€/an est très faible. Elle ne justifie pas à elle seule l'accord du crédit."
+          },
+          {
+            "question": "RCG annuelle",
+            "reponse": "Revenus annuels :\n- Marge nette crédit : 2 460 €\n- Commissions flux : 8 200 €\n- Assurance risque pro : 2 800 €\n- Compte courant (solde 180K€ × marge dépôt 1%) : 1 800 €\nTotal revenus annuels : 15 260 €\n\n+ Frais de dossier one-shot : 8 400 € (à amortir sur 6 ans → 1 400€/an)\nRCG totale annualisée : 15 260 + 1 400 = **16 660 €/an**\n\nLe crédit seul (2 460€/an) ne représente que 14,8% de la RCG. La relation globale (16 660€/an) est rentable grâce aux flux et à l'assurance. Conclusion : le crédit doit être accordé, non pas pour sa rentabilité propre, mais pour maintenir et développer la relation client globale profitable."
+          },
+          {
+            "question": "Impact garantie Bpifrance",
+            "reponse": "Avec garantie Bpifrance 50% (600K€ garantis) :\nNouveau calcul RWA :\n- Part garantie (600K€) : pondération 0% → RWA = 0\n- Part non garantie (600K€) : pondération 75% → RWA = 450K€\n- RWA total : 450K€ (vs 900K€ sans garantie)\n\nNouveau coût en FP = 450K€ × 10% × 11% = 4 950€/an (vs 9 900€)\nÉconomie FP = 4 950€/an\n\nCoût de la garantie = 600K€ × 0,50% = 3 000€/an (payé par la banque)\nGain net = 4 950 − 3 000 = **+1 950€/an**\n\nMarge nette crédit avec garantie = 2 460 + 1 950 = 4 410€/an (+79%)\n\nRecommandation : OUI, activer la garantie Bpifrance. Elle améliore la rentabilité du crédit de +79%, réduit le risque réglementaire et améliore le DSCR apparent du portefeuille. Pour un client noté 6/10 (risque intermédiaire), la garantie Bpifrance est la solution évidente."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mjur",
+      "label": "Cadre juridique de l'entreprise et du financement",
+      "tag": "Juridique",
+      "level": "Intermédiaire",
+      "duration": "5h",
+      "domain": "Droit · Fiscalité · Transmission",
+      "cours": {
+        "introduction": "Le droit des affaires est omniprésent dans chaque dossier de financement. Choisir la bonne forme juridique, comprendre les pouvoirs des dirigeants, savoir rédiger et interpréter une sûreté, anticiper les effets d'une procédure collective : autant de compétences qui différencient un chargé d'affaires junior d'un senior. Ce module vous donne les fondamentaux juridiques indispensables à la pratique bancaire.",
+        "sections": [
+          {
+            "titre": "1. Formes juridiques et implications pour le financement",
+            "contenu": "**Principales formes juridiques et leurs caractéristiques bancaires :**\n\n| Forme | Capital min. | Responsabilité | Dirigeant | Particularité bancaire |\n|---|---|---|---|---|\n| **SARL** | 1€ | Limitée aux apports | Gérant (associé ou non) | Caution du gérant quasi-systématique car peu d'actifs |\n| **SAS** | 1€ | Limitée aux apports | Président | Grande liberté statutaire, prisée des startups |\n| **SA** | 37 000€ | Limitée aux apports | DG + CA ou Directoire | Obligatoire pour cotation, meilleure gouvernance |\n| **SASU** | 1€ | Limitée aux apports | Président | SAS unipersonnelle, très fréquente en holding |\n| **EURL** | 1€ | Limitée aux apports | Gérant | SARL unipersonnelle |\n| **SNC** | Pas de min. | **Solidaire et indéfinie** | Gérants | Les associés répondent sur leur patrimoine personnel |\n| **SCI** | 1€ | Indéfinie et proportionnelle | Gérant | Outil de détention immobilière, pas d'activité commerciale |\n| **Entreprise individuelle** | — | **Totale** (sauf EIRL) | L'entrepreneur | Patrimoine personnel exposé sauf déclaration d'insaisissabilité |\n\n**Impact du choix de forme sur la caution personnelle :**\n- SARL/SAS/SA : la responsabilité est en principe limitée → mais les banques exigent quasi-systématiquement la caution personnelle du dirigeant pour les PME sans actifs solides\n- SNC : la responsabilité est déjà solidaire et indéfinie → la caution personnelle est redondante mais renforcée\n- Entrepreneur individuel (EI) : responsabilité totale par défaut. La loi du 14 février 2022 crée désormais une séparation automatique des patrimoines professionnel et personnel\n\n**Les pouvoirs des dirigeants — ce que le banquier doit vérifier :**\n- Statuts : vérifier les clauses de limitation de pouvoir (seuil au-delà duquel l'accord de l'assemblée est requis)\n- Délégation de pouvoirs : un directeur financier peut-il engager la société pour un crédit de 2M€ ?\n- Procès-verbal d'assemblée : pour les emprunts significatifs, une autorisation de l'AG peut être requise par les statuts\n- K-bis à jour : vérifier l'identité et les pouvoirs effectifs du signataire"
+          },
+          {
+            "titre": "2. Droit des contrats et des sûretés — les fondamentaux",
+            "contenu": "**Le contrat de prêt bancaire — éléments essentiels :**\nUn contrat de prêt valide doit comporter :\n1. **Identification des parties** (emprunteur, garants, banque)\n2. **Objet** : montant, destination (use of proceeds)\n3. **Conditions de tirage** (conditions préalables au décaissement)\n4. **Taux et modalités de remboursement** (TEG obligatoire)\n5. **Garanties** (liste précise des sûretés)\n6. **Covenants** (financiers et comportementaux)\n7. **Cas de défaut** (events of default) et conséquences\n8. **Droit applicable et juridiction**\n\n**La loi applicable aux crédits aux entreprises :**\n- Code monétaire et financier : régit l'activité bancaire\n- Code civil (réforme 2016) : droit commun des contrats\n- Code de commerce : droit des sociétés, des sûretés commerciales\n- Ordonnance du 23 mars 2006 : réforme des sûretés (gage, nantissement, hypothèque)\n\n**La cession de créance (Dailly) — rappel juridique :**\nLoi du 2 janvier 1981 (art. L313-23 à L313-35 CMF)\n- Cession ou nantissement de créances professionnelles par bordereau\n- Efficace par la simple remise du bordereau signé à la banque\n- Pas besoin d'acte notarié ni d'acceptation du débiteur cédé (sauf pour nantissement)\n- Opposable aux tiers dès la date portée sur le bordereau\n- La banque notifie (ou pas) le débiteur cédé selon stratégie de recouvrement\n\n**L'hypothèque — régime juridique :**\n- Acte notarié obligatoire (art. 2416 du Code civil)\n- Inscription au service de la publicité foncière (ex-conservation des hypothèques)\n- Rang : l'ordre d'inscription détermine la priorité entre créanciers hypothécaires\n- Purge : l'acquéreur d'un bien hypothéqué peut 'purger' l'hypothèque en payant les créanciers inscrits\n- Durée : jusqu'à 50 ans, renouvellement possible\n- Radiation : par mainlevée (accord du créancier) ou par voie judiciaire"
+          },
+          {
+            "titre": "3. Le nantissement — régime détaillé",
+            "contenu": "**Nantissement de fonds de commerce (art. L142-1 et s. C. com.) :**\n- Porte sur : enseigne, nom commercial, droit au bail, clientèle, matériel, licences\n- Acte notarié ou sous seing privé, inscription au greffe du TC dans les 15 jours\n- Durée : 10 ans, renouvelable\n- Effet : le fonds peut être réalisé (vendu aux enchères) en cas de défaut\n- Limite : la clientèle (l'actif principal) n'est pas tangible et difficile à valoriser en cas de réalisation\n- Prix de réserve : le créancier peut fixer un prix minimum lors de la vente\n\n**Nantissement de parts sociales (art. L223-31 C. com. pour SARL) :**\n- Pour les parts de SARL : signification aux associés + mention dans le registre des associés\n- Pour les actions de SAS/SA : inscription dans les comptes d'actionnaires (Euroclear pour cotées)\n- Covenant souvent associé : clause de 'negative pledge' (interdiction de créer d'autres sûretés sur les mêmes actifs)\n- Réalisation : en cas de défaut, attribution judiciaire des parts ou vente aux enchères\n\n**Nantissement de matériel et outillage :**\n- Acte sous seing privé, inscription au greffe du TC\n- Le débiteur conserve l'usage du matériel (pas de dépossession)\n- Couvre : machines, équipements, véhicules de travail\n- Inscription obligatoire dans les 15 jours\n- Assiette limitée au matériel identifié dans l'acte → mettre à jour si achat de nouveau matériel\n\n**Nantissement de compte d'instruments financiers :**\n- Porte sur des valeurs mobilières, OPCVM, parts de fonds\n- Constitution par inscription en compte\n- Très utilisé pour nantir des comptes titres d'une holding sur sa filiale\n- Réalisation : vente immédiate des titres sur le marché (si cotés) ou attribution"
+          },
+          {
+            "titre": "4. Les pactes d'associés et clauses de sortie",
+            "contenu": "**Rôle du pacte d'associés :**\nDocument contractuel (non public, contrairement aux statuts) qui régit les relations entre associés. Il s'impose aux signataires mais pas aux tiers.\n\n**Clauses clés dans un pacte d'associés :**\n\n| Clause | Description | Impact bancaire |\n|---|---|---|\n| **Droit de préemption** | Un associé peut racheter avant tout tiers | Protège la stabilité de l'actionnariat |\n| **Agrément** | Cession de parts soumise à accord des associés | Contrôle de l'actionnariat |\n| **Tag-along (droit de suite)** | Les minoritaires peuvent vendre en même temps que le majoritaire | Protège les minoritaires |\n| **Drag-along (obligation de cession)** | Le majoritaire peut forcer les minoritaires à vendre | Facilite les cessions à 100% |\n| **Ratchet (anti-dilution)** | Protection contre la dilution en cas de nouvelle levée | Protège les investisseurs |\n| **Good leaver / Bad leaver** | Conditions de rachat des parts selon les circonstances du départ | Structure l'exit du management |\n| **Clause de lock-up** | Interdiction de cession pendant une période | Stabilise l'actionnariat post-acquisition |\n\n**Clause de changement de contrôle (Change of Control) :**\nPresque tous les contrats de crédit importants contiennent une clause de changement de contrôle. Si l'actionnaire de référence change, la banque peut exiger le remboursement anticipé de sa dette. C'est pour cela que tout changement d'actionnariat significatif doit être notifié au prêteur."
+          },
+          {
+            "titre": "5. Procédures collectives et gestion des défaillances",
+            "contenu": "**Les procédures collectives françaises :**\n\n| Procédure | Condition d'ouverture | Objectif | Effets sur les créanciers |\n|---|---|---|---|\n| **Mandat ad hoc** | Difficultés sans cessation de paiement | Négociation amiable confidentielle | Pas de suspension des poursuites |\n| **Conciliation** | Difficulté avérée ou prévisible | Accord amiable avec quelques créanciers | Suspension négociée |\n| **Sauvegarde** | Difficultés sans cessation de paiement | Plan de sauvegarde (10 ans max) | Suspension des poursuites |\n| **Redressement judiciaire (RJ)** | Cessation de paiement ≤ 45 jours | Plan de redressement ou cession | Suspension des poursuites |\n| **Liquidation judiciaire (LJ)** | Cessation de paiement irrémédiable | Réalisation des actifs | Répartition aux créanciers |\n\n**Cessation de paiement :**\nDéfinie comme l'impossibilité de faire face au passif exigible avec l'actif disponible. C'est le déclencheur du RJ et de la LJ. Le dirigeant a 45 jours pour déposer le bilan après cessation de paiement.\n\n**Ordre de priorité des créanciers en LJ :**\n1. **Super-privilège des salariés** : salaires des 60 derniers jours (AGS — Association pour la Garantie des Salaires)\n2. **Frais de justice** (administrateur, mandataire judiciaire)\n3. **Créanciers post-procédure** (dettes nées pendant la période d'observation)\n4. **Créanciers hypothécaires et nantis** (rang selon inscription)\n5. **Créanciers privilégiés** (Trésor, URSSAF)\n6. **Créanciers chirographaires** (banques sans sûreté réelle, fournisseurs)\n7. **Actionnaires** (subordination maximale — généralement rien)\n\n**Pour le banquier :**\nUne banque sans sûreté réelle est créancière chirographaire → récupère souvent 0-20% de sa créance en LJ. D'où l'importance des garanties. Une banque avec hypothèque de 1er rang récupère jusqu'à la valeur du bien saisi. Bpifrance garant récupère 40-70% via la mise en jeu de sa garantie."
+          },
+          {
+            "titre": "6. Droit bancaire spécifique — conventions de compte et covenants",
+            "contenu": "**La convention de compte courant :**\n- Contrat cadre régissant le fonctionnement du compte bancaire de l'entreprise\n- Définit : conditions de découvert, date de valeur, frais de tenue de compte, conditions d'opposition\n- Le découvert bancaire est un crédit à court terme que la banque peut dénoncer à tout moment (contrairement à un prêt amortissable qui ne peut être exigé avant son terme sauf cas de défaut)\n\n**Dénonciation d'une autorisation de découvert :**\nLa banque peut réduire ou supprimer une autorisation de découvert avec un préavis. En pratique, la jurisprudence impose un préavis raisonnable (souvent 60 jours) pour ne pas engager sa responsabilité pour 'rupture abusive de crédit'. Sauf comportement fautif du client (chèques sans provision, incidents répétés).\n\n**Rédaction des covenants — points de vigilance :**\n1. **Définitions précises** : l'EBITDA doit être défini contractuellement (PCG ou IFRS ? avec ou sans IFRS 16 ? avec ou sans éléments exceptionnels ?)\n2. **Date de test** : trimestriel vs semestriel (plus fréquent = détection plus rapide mais plus contraignant)\n3. **Période de calcul** : LTM (Last Twelve Months) vs exercice fiscal\n4. **Equity cure** : droit pour les actionnaires d'injecter du capital pour remédier à un breach\n5. **Délai de grâce** : délai pour remédier au breach avant que l'event of default soit déclaré\n6. **Cross-default** : si défaut sur une dette → toutes les dettes deviennent exigibles"
+          }
+        ],
+        "points_cles": [
+          "La forme juridique détermine la responsabilité des associés : SARL/SAS limitée aux apports, SNC solidaire et indéfinie, entreprise individuelle totale. Mais en pratique, les banques exigent la caution personnelle du dirigeant pour les PME quelle que soit la forme.",
+          "Le nantissement de fonds de commerce doit être inscrit au greffe du tribunal de commerce dans les 15 jours pour être opposable aux tiers — une inscription tardive peut être inopposable en cas de procédure collective.",
+          "En liquidation judiciaire, les créanciers chirographaires (banques sans sûreté réelle) arrivent en bas de l'ordre de priorité et récupèrent souvent 0-20% de leur créance — d'où l'importance critique des sûretés réelles.",
+          "La clause de changement de contrôle dans les contrats de crédit (change of control) permet à la banque d'exiger le remboursement anticipé si l'actionnaire de référence change — tout rachat d'entreprise endettée doit anticiper cette clause.",
+          "Dans un contrat de crédit, les définitions des covenants financiers (notamment la définition de l'EBITDA) sont aussi importantes que les seuils eux-mêmes — une définition EBITDA mal rédigée peut déclencher un breach artificiel ou empêcher de détecter une vraie dégradation."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "En cas de liquidation judiciaire d'une PME, dans quel ordre les créanciers suivants sont-ils remboursés : banque sans sûreté (chirographaire), banque avec hypothèque 1er rang, salariés (60 derniers jours), Trésor public ?",
+          "options": [
+            "Trésor > banque hypothèque > salariés > banque chirographaire",
+            "Salariés (AGS) > banque hypothèque 1er rang > Trésor public > banque chirographaire",
+            "Banque hypothèque > salariés > Trésor > banque chirographaire",
+            "Tous les créanciers sont traités à égalité au prorata de leurs créances"
+          ],
+          "reponse_correcte": 1,
+          "explication": "L'ordre exact en liquidation judiciaire : (1) Super-privilège des salariés/AGS (60 derniers jours de salaire), (2) Frais de justice/procédure, (3) Créanciers post-procédure, (4) Créanciers hypothécaires et nantis selon leur rang d'inscription, (5) Trésor et URSSAF (créanciers privilégiés), (6) Créanciers chirographaires. La banque avec hypothèque de 1er rang est payée sur le produit de la vente du bien hypothéqué, avant le Trésor sur cet actif. La banque sans sûreté partage le reliquat avec les autres chirographaires, souvent pour un montant symbolique."
+        },
+        {
+          "question": "Une SARL veut emprunter 800K€. Le gérant refuse de donner sa caution personnelle en invoquant la responsabilité limitée de la SARL. Quelle est votre réponse ?",
+          "options": [
+            "Il a raison — la responsabilité limitée protège le gérant, la banque doit se contenter des actifs de la SARL",
+            "La responsabilité limitée protège le gérant vis-à-vis des dettes sociales de la SARL, mais la banque peut contractuellement demander sa caution personnelle, qui est un engagement volontaire distinct de la responsabilité statutaire",
+            "La banque ne peut pas demander de caution personnelle à un gérant de SARL — c'est illégal",
+            "Le gérant a tort — en SARL, la responsabilité est toujours illimitée pour les dettes bancaires"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La responsabilité limitée de la SARL signifie que les créanciers sociaux ne peuvent pas poursuivre les associés sur leur patrimoine personnel pour les dettes de la société en cas de défaillance (sauf faute de gestion). Mais la banque peut demander la caution personnelle du gérant comme engagement contractuel volontaire et distinct — c'est un contrat de cautionnement entre la banque et le gérant. La loi encadre cet engagement (mention manuscrite obligatoire, proportionnalité) mais ne l'interdit pas. En pratique, pour les PME sans actifs solides, la caution personnelle est quasi-systématiquement demandée et accordée."
+        },
+        {
+          "question": "Un nantissement de fonds de commerce a été constitué le 1er mars mais n'est inscrit au greffe du TC que le 20 mars (délai de 15 jours dépassé). Quelle est la conséquence ?",
+          "options": [
+            "Aucune conséquence — l'inscription tardive est régularisée automatiquement",
+            "Le nantissement peut être inopposable aux tiers, notamment aux autres créanciers du débiteur. En cas de procédure collective ouverte entre la constitution et l'inscription, le nantissement sera inopposable à la procédure",
+            "Le nantissement est nul et non avenu — il doit être refait",
+            "L'inscription tardive entraîne une amende administrative mais le nantissement reste valide"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le délai de 15 jours pour l'inscription au greffe du nantissement de fonds de commerce est un délai d'opposabilité (art. L142-4 C. com.). Si l'inscription est tardive, le nantissement est valide entre les parties (banque et débiteur) mais peut être inopposable aux tiers qui ont acquis des droits entre la date de constitution et l'inscription. En pratique, si une procédure collective s'ouvre dans ce délai, le juge peut écarter le nantissement comme fraude aux créanciers (période suspecte). C'est pourquoi les greffes et notaires agissent toujours dans ce délai strict."
+        },
+        {
+          "question": "Qu'est-ce qu'une clause drag-along dans un pacte d'associés et pourquoi un acquéreur potentiel l'apprécie-t-il ?",
+          "options": [
+            "C'est une clause qui permet aux minoritaires de bloquer une cession — protège les petits actionnaires",
+            "C'est une clause qui oblige les actionnaires minoritaires à vendre leurs parts aux mêmes conditions que le majoritaire lorsqu'il cède — permet une cession à 100% sans blocage",
+            "C'est une clause anti-dilution qui protège les actionnaires historiques en cas de nouvelle levée de fonds",
+            "C'est une clause de lock-up interdisant la cession pendant une période déterminée"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Le drag-along (ou clause de sortie forcée) permet à l'actionnaire majoritaire, lorsqu'il cède ses parts, d'obliger les actionnaires minoritaires à céder les leurs aux mêmes conditions (prix, acheteur, date). Pour un acquéreur, c'est essentiel : il veut souvent acquérir 100% de la cible, pas 70% avec des minoritaires bloquants. Sans drag-along, les minoritaires peuvent refuser de vendre ou exiger une prime de minorité très élevée, bloquant la transaction. Le tag-along est l'inverse : il permet aux minoritaires de suivre la cession du majoritaire (droit de suite), les protégeant d'être 'coincés' avec un nouveau majoritaire non choisi."
+        },
+        {
+          "question": "À partir de quel délai un dirigeant est-il en obligation légale de déposer le bilan (demander l'ouverture d'une procédure collective) après la cessation de paiement ?",
+          "options": [
+            "30 jours",
+            "45 jours",
+            "60 jours",
+            "90 jours"
+          ],
+          "reponse_correcte": 1,
+          "explication": "L'article L631-4 du Code de commerce impose au débiteur en état de cessation de paiement de demander l'ouverture d'un redressement ou d'une liquidation judiciaire dans les 45 jours suivant la cessation de paiement (sauf s'il a demandé l'ouverture d'une conciliation dans ce délai). Le non-respect de ce délai peut engager la responsabilité personnelle du dirigeant pour insuffisance d'actif (art. L651-2 C. com.) et entraîner une interdiction de gérer. C'est pour cela que dès les premiers signes de cessation de paiement, les conseils juridiques recommandent d'agir rapidement, idéalement via une conciliation ou un mandat ad hoc préventif."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Sécurisation juridique d'un financement de transmission — GROUPE MOREAU",
+        "contexte": "GROUPE MOREAU est une holding familiale détenant 100% de MOREAU INDUSTRIE SAS (machine-outil, CA 12M€, EBITDA 1,4M€) et 60% de MOREAU SERVICES SARL (maintenance industrielle, CA 4M€, EBITDA 320K€). M. Moreau (70 ans) souhaite céder l'intégralité du groupe à un directeur industriel externe (M. Petit, 45 ans) via un MBI structuré en holding d'acquisition. Bpifrance cofinance avec une banque partenaire. Le montant total : 9,5M€ dont 6M€ de dette.",
+        "donnees_financieres": {
+          "structure": "HOLDING MOREAU (100%) → MOREAU INDUSTRIE SAS (100%) + MOREAU SERVICES SARL (60%)",
+          "enjeux_juridiques": [
+            "Les statuts de MOREAU INDUSTRIE SAS prévoient un agrément des associés pour toute cession de parts",
+            "MOREAU SERVICES SARL a 40% de capital détenu par un associé minoritaire indépendant (M. Dupont)",
+            "Un contrat de crédit existant de 800K€ (solde résiduel) contient une clause de changement de contrôle",
+            "M. Moreau a consenti une caution personnelle sur ce crédit existant de 800K€",
+            "Le fonds de commerce de MOREAU INDUSTRIE est nanti au profit de la banque existante (rang 1)"
+          ]
+        },
+        "questions": [
+          "La clause d'agrément des statuts de MOREAU INDUSTRIE SAS est-elle un obstacle à la cession ? Comment procéder ?",
+          "M. Dupont (40% dans MOREAU SERVICES) refuse de vendre. Y a-t-il un mécanisme pour l'y contraindre ou contourner ce blocage ?",
+          "Comment traiter la clause de changement de contrôle sur le crédit existant de 800K€ ?",
+          "Proposez la structure de sûretés optimale pour le prêt Bpifrance de 3M€ dans ce montage.",
+          "Quelles conditions préalables juridiques devez-vous imposer avant le déblocage des fonds ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "Clause d'agrément",
+            "reponse": "La clause d'agrément (art. L227-14 pour SAS) requiert l'accord des associés (ou du président selon les statuts) pour toute cession de parts à un tiers. Dans ce cas, M. Moreau est le seul associé de MOREAU INDUSTRIE → il accorde l'agrément à lui-même (vend à la holding d'acquisition de M. Petit). L'agrément porte sur la cession des parts de MOREAU INDUSTRIE, pas sur la cession des titres de HOLDING MOREAU. Si la transaction est structurée comme une cession des titres de HOLDING MOREAU, la clause d'agrément de MOREAU INDUSTRIE peut ne pas s'appliquer (cession indirecte).\n\nSolution recommandée : restructurer la transaction comme une cession des titres de HOLDING MOREAU → pas d'agrément requis au niveau des filiales. Vérifier toutefois les clauses des statuts de HOLDING MOREAU elle-même."
+          },
+          {
+            "question": "Blocage de M. Dupont (40% MOREAU SERVICES)",
+            "reponse": "M. Dupont détient 40% de MOREAU SERVICES et n'est pas obligé de vendre. Options :\n1. Vérifier le pacte d'associés existant : y a-t-il un drag-along ? Si oui, M. Moreau (60%) peut forcer M. Dupont à vendre aux mêmes conditions.\n2. Si pas de drag-along : négocier le rachat des 40% par MOREAU INDUSTRIE (rachat de parts propres + annulation) ou par la nouvelle holding → nécessite l'accord de M. Dupont → levier de négociation du prix.\n3. Alternative : structurer le deal sans les 40% de MOREAU SERVICES (M. Petit acquiert 60% de MOREAU SERVICES via HOLDING MOREAU) et prévoir un droit de préemption si M. Dupont veut un jour céder.\n4. Garantie d'actif-passif étendue : M. Moreau garantit les risques liés à la minorité de M. Dupont (litiges éventuels sur gouvernance).\n\nImpact bancaire : si M. Dupont n'est pas racheté, MOREAU SERVICES doit être traité comme une entité avec actionnaire minoritaire significatif (contraintes sur distribution des dividendes à la holding)."
+          },
+          {
+            "question": "Clause de changement de contrôle",
+            "reponse": "La clause de changement de contrôle sur le crédit existant de 800K€ sera déclenchée par la cession du groupe à M. Petit. La banque existante peut exiger le remboursement anticipé des 800K€ résiduels.\n\nDémarche :\n1. Contacter la banque existante dès le début du processus (avant signing)\n2. Négocier un waiver : accord de la banque pour ne pas déclencher la clause de changement de contrôle contre remise d'une lettre de confort sur le nouveau profil de risque\n3. Alternative : inclure le remboursement du crédit existant (800K€) dans le plan de financement du MBI → la nouvelle holding rembourse intégralement lors du closing\n4. La caution personnelle de M. Moreau sur ce crédit sera libérée lors du remboursement → prévoir la mainlevée de caution dans les conditions préalables\n\nCoût à anticiper : IRA éventuelles (3-6 mois d'intérêts sur 800K€) = 12 000 à 24 000€ selon le contrat."
+          },
+          {
+            "question": "Structure de sûretés Bpifrance",
+            "reponse": "Pour le prêt Bpifrance de 3M€ sur la holding d'acquisition :\n\n1. Nantissement de 100% des parts de MOREAU INDUSTRIE SAS et de 60% des parts de MOREAU SERVICES SARL détenues par la nouvelle holding → sûreté principale, couvre la valeur des actifs opérationnels\n\n2. Suretés secondaires :\n- Nantissement du fonds de commerce de MOREAU INDUSTRIE (2ème rang, après mainlevée du 1er rang existant si refinancement)\n- Cession Dailly des créances clients de MOREAU INDUSTRIE à hauteur de 1,5M€ en garantie\n\n3. Garantie Bpifrance sur le prêt bancaire partenaire (3M€) à 60% → réduction des RWA de la banque\n\n4. Ne pas demander de caution personnelle à M. Petit (nouveau dirigeant) dans un premier temps (8 mois d'observation) sauf si résultats décevants → condition au renouvellement\n\n5. Intercreditor Agreement entre Bpifrance et la banque partenaire sur la subordination des sûretés"
+          },
+          {
+            "question": "Conditions préalables juridiques",
+            "reponse": "Conditions préalables au déblocage des fonds (closing juridique) :\n1. Acte de cession définitif des titres signé et enregistré (droits d'enregistrement 0,1% pour cession d'actions SAS)\n2. Remboursement du crédit existant (800K€) et mainlevée de la caution personnelle de M. Moreau\n3. Mainlevée du nantissement 1er rang sur fonds de commerce MOREAU INDUSTRIE (si refinancé)\n4. Constitution et inscription du nouveau nantissement parts sociales (greffe TC) dans les 15 jours\n5. Cession Dailly signée et border reçu par Bpifrance\n6. PV assemblée générale de la nouvelle holding autorisant l'emprunt et les garanties\n7. K-bis de la nouvelle holding à jour (immatriculation + M. Petit président)\n8. Pacte d'associés de la nouvelle holding signé entre M. Petit et les éventuels co-investisseurs\n9. Attestation de l'avocat conseil que la transaction est juridiquement régulière et opposable aux tiers\n10. Garantie d'actif-passif signée entre M. Moreau (garant) et nouvelle holding (bénéficiaire) avec séquestre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mfis",
+      "label": "Fiscalité des entreprises et financement",
+      "tag": "Fiscalité",
+      "level": "Intermédiaire",
+      "duration": "5h",
+      "domain": "Droit · Fiscalité · Transmission",
+      "cours": {
+        "introduction": "La fiscalité des entreprises n'est pas la chasse gardée des experts-comptables. Un chargé d'affaires qui comprend les grandes règles fiscales — IS, déductibilité des intérêts, amortissements, CIR, TVA — est capable d'analyser correctement la capacité d'autofinancement réelle d'une entreprise, d'identifier les optimisations possibles dans un montage, et d'anticiper les impacts fiscaux d'une transmission.",
+        "sections": [
+          {
+            "titre": "1. Impôt sur les sociétés (IS) — taux, régimes et base imposable",
+            "contenu": "**Le taux d'IS en France (2024) :**\n- Taux normal : **25%**\n- Taux réduit PME : **15%** sur les premiers 42 500€ de bénéfice (si CA < 10M€ et capital libéré et détenu à 75% par des personnes physiques)\n- Contribution additionnelle sur dividendes : 3% (taxe sur les dividendes versés — à surveiller)\n\n**La base imposable (résultat fiscal) ≠ résultat comptable :**\n\n| Différence | Description | Sens |\n|---|---|---|\n| Réintégrations fiscales | Charges déduites comptablement mais non fiscalement | Augmentent la base |\n| Déductions fiscales | Avantages fiscaux non comptables | Réduisent la base |\n| Amortissements dérogatoires | Différence amort. fiscal > amort. comptable | Réduisent temporairement la base |\n| Provisions non déductibles | Provisions comptables sans réalité fiscale | Augmentent la base |\n\n**Principales réintégrations :**\n- Amendes et pénalités fiscales (totalement non déductibles)\n- Charges excessives ou non professionnelles (voiture de luxe, cadeaux hors plafond)\n- Taxe sur les véhicules de société (TVS) — partiellement non déductible\n- Intérêts sur comptes courants d'associés au-delà du plafond légal\n\n**Le régime de l'intégration fiscale :**\n- Disponible pour les groupes dont la société mère détient ≥ 95% des filiales\n- Permet de compenser les bénéfices et pertes du groupe\n- L'IS est calculé sur le résultat d'ensemble du groupe\n- Avantage majeur en LBO : la holding d'acquisition (souvent déficitaire en début, avec ses charges d'intérêts) peut neutraliser fiscalement les bénéfices de la cible\n- Constitution de l'intégration : option annuelle, exercice à partir de l'exercice suivant la demande"
+          },
+          {
+            "titre": "2. La déductibilité des intérêts d'emprunt — règle EBITDA 30%",
+            "contenu": "**Principe général :**\nLes intérêts d'emprunts professionnels sont déductibles du résultat imposable. C'est un avantage fiscal fondamental du financement par dette (l'equity n'est pas déductible).\n\n**La règle du plafonnement EBITDA 30% (directive ATAD, art. 212 bis CGI) :**\nEn vigueur en France depuis le 1er janvier 2019.\n\nPlafond de déductibilité des charges financières nettes :\n= max(3 000 000€ ; 30% de l'EBITDA fiscal)\n\nCharges financières nettes = Charges d'intérêts − Produits d'intérêts\nEBITDA fiscal ≈ Résultat imposable + charges financières nettes + amortissements\n\n**Exemple :**\nSociété avec :\n- Charges d'intérêts : 2 000K€\n- Produits d'intérêts : 50K€\n- Charges financières nettes : 1 950K€\n- EBITDA fiscal : 4 500K€\n- Plafond 30% : 4 500K€ × 30% = 1 350K€\n- Plafond absolu : 3 000K€\n- Plafond applicable : max(1 350K€ ; 3 000K€) = **3 000K€**\n→ Les 1 950K€ sont en dessous du plafond de 3M€ → entièrement déductibles ✓\n\n**Quand le plafond est contraignant :**\nSi charges financières nettes = 5 000K€ et EBITDA fiscal = 8 000K€ :\n- 30% × 8 000K€ = 2 400K€\n- max(2 400K€ ; 3 000K€) = 3 000K€\n→ Charges déductibles : 3 000K€. Non déductibles : 2 000K€ → **réintégration de 2 000K€ dans la base IS**\n→ IS supplémentaire : 2 000K€ × 25% = 500K€\n\n**Impact en LBO :**\nLes LBO très leveragés (levier 5-6x EBITDA) avec des charges d'intérêts élevées peuvent être contraints par cette règle. Les intérêts non déductibles sont reportables sur les 5 exercices suivants (carry forward).\n\n**Ancien dispositif (rabot Charasse) :**\nLe dispositif 'Charasse' (art. 223 B al. 7 CGI) limite la déduction des intérêts dans les intégrations fiscales lors de l'acquisition d'une société par une société du même groupe. À connaître pour les opérations de refinancement intra-groupe."
+          },
+          {
+            "titre": "3. Les régimes d'amortissement",
+            "contenu": "**Amortissement linéaire (droit commun) :**\nQuote-part égale chaque année sur la durée d'usage\nTaux = 1 / durée d'usage\nExemple : matériel 5 ans → 20%/an\n\n**Amortissement dégressif (option fiscale avantageuse) :**\nCoefficient multiplicateur appliqué au taux linéaire\n- Durée 3-4 ans : coefficient 1,25\n- Durée 5-6 ans : coefficient 1,75\n- Durée ≥ 7 ans : coefficient 2,25\nAvantage : charge d'amortissement plus élevée en début de vie → réduction de l'IS les premières années (effet de trésorerie favorable)\nLimite : réservé aux biens neufs amortissables sur ≥ 3 ans\n\n**Durées d'amortissement fiscalement admises :**\n\n| Bien | Durée fiscale |\n|---|---|\n| Bâtiments industriels | 20 ans |\n| Bâtiments commerciaux | 25-50 ans |\n| Matériel et outillage | 5-10 ans |\n| Véhicules de tourisme | 5 ans (avec plafond) |\n| Mobilier de bureau | 10 ans |\n| Informatique | 3 ans |\n| Logiciels | 1 an (charge) ou 3 ans (si activé IAS 38) |\n\n**Amortissement dérogatoire :**\nDifférence entre amortissement fiscal accéléré et amortissement comptable linéaire. Inscrit au passif du bilan en 'provisions réglementées'. Avantage fiscal temporaire → réintégré ultérieurement.\n\n**Suramortissement exceptionnel (investissements productifs — dispositif Macron) :**\nDéduction exceptionnelle de 40% (parfois 140%) pour certains investissements (robotique, numérisation, performance énergétique). Très utilisé pour inciter à l'investissement industriel. Vérifier les dispositifs en vigueur car ils changent régulièrement."
+          },
+          {
+            "titre": "4. La TVA et son impact sur le BFR",
+            "contenu": "**Principe de la TVA :**\nTaxe sur la valeur ajoutée collectée par l'entreprise et reversée à l'État. Neutre en principe (la TVA collectée auprès des clients compense la TVA déductible sur les achats).\n\n**Taux de TVA applicables en France :**\n- Taux normal : **20%**\n- Taux intermédiaire : 10% (restauration, transport, certains travaux)\n- Taux réduit : 5,5% (produits alimentaires, livres, logements sociaux)\n- Taux super-réduit : 2,1% (médicaments remboursés, presse)\n\n**Impact de la TVA sur le BFR :**\nUne entreprise qui facture ses clients TTC et paie ses fournisseurs TTC a un décalage de TVA dans son BFR :\n- Elle collecte la TVA sur ses ventes (crédit TVA client)\n- Elle déduit la TVA sur ses achats (débit TVA fournisseur)\n- La différence est reversée mensuellement ou trimestriellement à l'État\n\n**TVA à décaisser = TVA collectée − TVA déductible**\nSi TVA à décaisser > 0 → la TVA est une ressource temporaire (l'entreprise perçoit avant de reverser) → **impact positif sur le BFR**\nSi TVA déductible > TVA collectée → crédit de TVA → l'État doit rembourser (cas des exportateurs, des investisseurs)\n\n**Crédit de TVA :**\nSi l'entreprise a un crédit de TVA persistant (investissements importants, exports), elle peut demander le remboursement. Le délai de remboursement (souvent 1-3 mois) représente un besoin de financement temporaire → à inclure dans l'analyse du BFR.\n\n**TVA et les activités exonérées :**\nCertaines activités sont exonérées de TVA (services financiers, santé, éducation, immobilier sous conditions). Ces entreprises ne collectent pas de TVA mais ne peuvent pas non plus déduire la TVA sur leurs achats → la TVA devient une charge réelle → impact sur la marge."
+          },
+          {
+            "titre": "5. Crédit d'Impôt Recherche (CIR) et autres crédits d'impôt",
+            "contenu": "**Le CIR — mécanisme :**\nArt. 244 quater B du CGI. Crédit d'impôt calculé sur les dépenses de R&D :\n- 30% des dépenses R&D jusqu'à 100M€\n- 5% au-delà de 100M€\nImputable sur l'IS de l'exercice. Excédent remboursable (PME, JEI, entreprises en difficulté) ou reportable 3 ans.\n\n**Dépenses éligibles au CIR :**\n- Salaires des chercheurs et techniciens de recherche (y compris charges sociales)\n- Dotations aux amortissements des équipements de recherche\n- Frais de brevets (dépôt, maintenance)\n- Sous-traitance à des organismes agréés (universités, laboratoires publics, CRT)\n- Veille technologique\n\n**Importance pour Bpifrance :**\nLe CIR est un élément clé du financement de l'innovation en France. Bpifrance travaille souvent en complémentarité avec le CIR :\n- Un projet avec fort CIR a une rentabilité fiscale qui améliore la capacité de remboursement\n- Le créance CIR (crédit d'impôt non encore utilisé) peut être mobilisée comme garantie ou préfinancée par une banque (escompte de CIR)\n\n**Le préfinancement du CIR :**\nLes banques et Bpifrance proposent de préfinancer le CIR avant son remboursement par l'État :\n- La banque avance la valeur actualisée du CIR\n- L'entreprise cède la créance CIR à la banque (cession Dailly)\n- Taux généralement attractif car risque faible (créance sur l'État)\n\n**Autres crédits d'impôt importants :**\n\n| Crédit d'impôt | Taux | Plafond | Condition |\n|---|---|---|---|\n| CIR | 30% | 100M€ | Dépenses R&D |\n| CII (Innovation) | 20% | 400K€ | PME, proto/pilotes |\n| CITE (Transition Énergie) | Variable | Variable | Travaux énergie |\n| Apprentissage | 6 000€/apprenti | — | TPE/PME |\n| CIFo (Formation) | Supprimé depuis 2022 | — | — |"
+          },
+          {
+            "titre": "6. Fiscalité de la plus-value de cession d'entreprise",
+            "contenu": "**Plus-value de cession de titres de société — régime général :**\nSous le régime IS (cession par une société) :\n- Si la société cédante est soumise à l'IS et cède des titres de participation qu'elle détient depuis plus de 2 ans → régime des **plus-values long terme à 0%** (avec une quote-part de frais de 12% réintégrée → IS effectif : 3%)\n- Si détention < 2 ans ou titres ne constituant pas des participations → taux IS normal de 25%\n\n**Plus-value de cession par une personne physique (dirigeant) :**\n- Flat Tax (Prélèvement Forfaitaire Unique — PFU) : **30%** (12,8% IR + 17,2% prélèvements sociaux)\n- Option pour le barème progressif si plus favorable\n- Abattement pour durée de détention (ancien régime, sur option) : 50% entre 1 et 4 ans, 65% entre 4 et 8 ans, 85% pour 'dirigeants partant en retraite'\n\n**Dispositif de l'article 150-0 D ter — dirigeants partant en retraite :**\nAbattement fixe de **500 000€** sur la plus-value, si :\n- Exercice de fonctions de direction dans la société pendant 5 ans avant la cession\n- Détention d'au moins 25% des droits de vote (seul ou avec la famille)\n- Départ en retraite dans les 2 ans avant ou après la cession\n- Cession à un tiers (pas à la famille ou au groupe)\n\n**Exemple :**\nDirigeant cède ses 100% pour 3M€ (prix de revient 0€ car création de la société) → plus-value brute : 3M€\nAbattement départ retraite : 500K€\nPlus-value nette imposable : 2 500K€\nFlat Tax 30% : 750K€\nSoit un taux effectif de 25% sur la plus-value totale\n\n**Le Pacte Dutreil (transmission à titre gratuit) :**\nExonération de 75% des droits de mutation à titre gratuit sur les titres transmis, sous conditions d'engagement de conservation (6 ans) et de direction. Permet de transmettre 4M€ de valeur avec des droits calculés sur 1M€ seulement. Abordé en détail dans le module Transmission."
+          }
+        ],
+        "points_cles": [
+          "La règle EBITDA 30% (art. 212 bis CGI) plafonne la déductibilité des charges financières nettes au plus élevé de 3M€ ou 30% de l'EBITDA fiscal — un LBO avec 5M€ d'intérêts et 10M€ d'EBITDA ne peut déduire que 3M€, avec une réintégration de 2M€ dans la base IS.",
+          "L'amortissement dégressif (coefficient 1,25 à 2,25 selon la durée) permet de concentrer les charges fiscales en début de vie d'un actif, réduisant l'IS les premières années — avantage de trésorerie à valoriser dans un plan de financement.",
+          "Le CIR (30% des dépenses R&D jusqu'à 100M€) est un levier majeur pour les entreprises innovantes — la créance CIR peut être préfinancée par une banque via une cession Dailly avant son remboursement par l'État.",
+          "L'intégration fiscale (détention ≥ 95%) permet de compenser les pertes de la holding d'acquisition (charges d'intérêts LBO) avec les bénéfices de la cible — c'est un avantage fiscal structurel du LBO qui améliore mécaniquement la capacité de remboursement.",
+          "La flat tax à 30% (PFU) s'applique aux plus-values de cession de titres par des personnes physiques. L'abattement de 500K€ pour les dirigeants partant en retraite peut réduire significativement la fiscalité sur la cession."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Une société a des charges financières nettes de 4M€ et un EBITDA fiscal de 9M€. Quel montant est fiscalement déductible selon la règle EBITDA 30% ?",
+          "options": [
+            "4M€ — tout est déductible car 4M€ < 9M€",
+            "2,7M€ — limité à 30% de 9M€",
+            "3M€ — le plancher absolu de 3M€ s'applique car supérieur à 30% × 9M€ = 2,7M€",
+            "4M€ — la règle EBITDA ne s'applique qu'aux groupes intégrés"
+          ],
+          "reponse_correcte": 2,
+          "explication": "30% × 9M€ = 2,7M€. Plancher absolu = 3M€. Plafond applicable = max(2,7M€ ; 3M€) = 3M€. Charges déductibles = min(4M€ ; 3M€) = 3M€. Réintégration = 4M€ − 3M€ = 1M€. IS supplémentaire = 1M€ × 25% = 250K€. Sans cette règle, la société aurait déduit 4M€ et économisé 4M€ × 25% = 1M€ d'IS. Avec la règle, elle ne déduit que 3M€ → économie de 750K€ au lieu de 1M€ → surcoût fiscal de 250K€."
+        },
+        {
+          "question": "Pourquoi l'intégration fiscale est-elle un avantage structurel dans un LBO ?",
+          "options": [
+            "Parce qu'elle permet de fusionner les bilans de la holding et de la cible",
+            "Parce que la holding d'acquisition (déficitaire à cause de ses charges d'intérêts) peut compenser fiscalement les bénéfices imposables de la cible, réduisant l'IS du groupe",
+            "Parce qu'elle exonère complètement les dividendes inter-sociétés",
+            "Parce qu'elle permet de déduire les amortissements du goodwill fiscalement"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Dans un LBO, la holding d'acquisition (NewCo) a des charges d'intérêts importantes sur sa dette d'acquisition → elle est souvent en déficit fiscal. Sans intégration fiscale, ce déficit est 'perdu' (non immédiatement compensé). Avec l'intégration fiscale (holding ≥ 95% de la cible), le résultat d'ensemble = déficit holding + bénéfice cible → l'IS est calculé sur le bénéfice net du groupe. Si la cible génère 2M€ de bénéfice imposable et que la holding a 1,5M€ de charges d'intérêts déductibles, l'IS groupe est calculé sur seulement 0,5M€ au lieu de 2M€ → économie d'IS de 1,5M€ × 25% = 375K€. Ce mécanisme améliore directement le FCF disponible pour rembourser la dette."
+        },
+        {
+          "question": "Une PME a 800K€ de dépenses R&D éligibles (salaires chercheurs + amortissements équipements). Quel est le montant du CIR et comment est-il utilisé si la PME est bénéficiaire avec un IS de 150K€ ?",
+          "options": [
+            "CIR = 160K€. Il s'impute sur l'IS de 150K€. Le reliquat de 10K€ est perdu.",
+            "CIR = 240K€. Il s'impute sur l'IS de 150K€. Le reliquat de 90K€ est remboursable immédiatement (PME).",
+            "CIR = 240K€. Il s'impute sur l'IS de 150K€. Le reliquat de 90K€ est reportable 3 ans puis remboursable.",
+            "CIR = 160K€. Il est remboursé par l'État en totalité indépendamment de l'IS."
+          ],
+          "reponse_correcte": 1,
+          "explication": "CIR = 800K€ × 30% = 240K€. Imputation sur IS = 150K€. Solde = 90K€. Pour les PME (CA < 50M€ ou bilan < 43M€), l'excédent de CIR est remboursable immédiatement par l'État — c'est l'un des avantages les plus précieux du CIR pour les PME innovantes qui ont souvent peu d'IS. Pour les grandes entreprises, l'excédent est reportable 3 ans puis remboursable. Le CIR est donc à la fois une réduction d'IS et potentiellement une source de cash pour les PME."
+        },
+        {
+          "question": "Un dirigeant cède 100% de sa société (qu'il a créée avec 0€ de capital, valeur de cession 2,5M€) et part en retraite dans la foulée. Il détient les titres depuis 12 ans. Quelle est sa plus-value imposable après l'abattement pour départ en retraite ?",
+          "options": [
+            "2 500K€ — aucun abattement car flat tax PFU obligatoire",
+            "2 125K€ — abattement de 15% pour durée de détention > 8 ans",
+            "2 000K€ — abattement fixe de 500K€ (art. 150-0 D ter) si conditions remplies",
+            "1 250K€ — abattement de 50% pour durée > 8 ans"
+          ],
+          "reponse_correcte": 2,
+          "explication": "L'abattement fixe de 500K€ (art. 150-0 D ter du CGI) s'applique si : (1) détention d'au moins 25% des droits et exercice de fonctions de direction pendant 5 ans, (2) départ en retraite dans les 2 ans avant/après la cession. Ici : 100% des titres détenus depuis 12 ans + départ en retraite → conditions remplies. Plus-value brute : 2 500K€. Abattement : 500K€. Plus-value imposable : 2 000K€. Flat Tax 30% : 600K€. Taux effectif : 24% sur la plus-value brute. Sans cet abattement, l'impôt serait de 750K€. Économie : 150K€."
+        },
+        {
+          "question": "Quelle est la différence entre le régime des plus-values long terme (cession par une société) et le régime PFU (cession par une personne physique) ?",
+          "options": [
+            "Le régime long terme s'applique aux cessions de moins de 2 ans, le PFU aux cessions de plus de 2 ans",
+            "Le régime long terme (IS à 3% effective pour participations > 2 ans) s'applique quand c'est une société qui cède. Le PFU (30%) s'applique quand c'est une personne physique qui cède",
+            "Les deux régimes aboutissent au même taux d'imposition de 30%",
+            "Le régime long terme est plus avantageux uniquement pour les PME, le PFU pour les grandes entreprises"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Deux régimes distincts selon la nature du cédant : (1) Si une société cède des titres de participation (détention ≥ 5% ou caractère de participation selon CGI) depuis plus de 2 ans → exonération IS avec quote-part de frais de 12% réintégrée → IS effectif sur la plus-value = 12% × 25% = 3%. Très avantageux pour les groupes. (2) Si une personne physique cède → PFU de 30% (ou barème progressif sur option). L'abattement départ retraite (500K€) s'applique uniquement aux personnes physiques. C'est pour cela que la structure de détention (société ou personne physique) est un enjeu fiscal majeur lors d'une transmission."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Optimisation fiscale d'un plan de financement — BIOPACK SAS",
+        "contexte": "BIOPACK SAS (emballages biosourcés, CA 18M€, EBITDA 2,1M€, 95 salariés, JEI) souhaite financer un programme d'investissement de 3,5M€ sur 3 ans : 2M€ en équipements de production (ligne d'extrusion), 1M€ en R&D (programme de recherche sur les bioplastiques), 500K€ en aménagement de bâtiments. Bpifrance cofinance avec une banque. Vous instruisez le dossier.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Données financières N",
+              "Valeur"
+            ],
+            [
+              "CA",
+              "18 000 K€"
+            ],
+            [
+              "EBITDA",
+              "2 100 K€"
+            ],
+            [
+              "Résultat avant IS",
+              "1 200 K€"
+            ],
+            [
+              "Charges d'intérêts actuelles",
+              "280 K€"
+            ],
+            [
+              "Dépenses R&D N (éligibles CIR)",
+              "1 100 K€"
+            ],
+            [
+              "IS payé N",
+              "180 K€"
+            ],
+            [
+              "Statut JEI",
+              "Oui (< 8 ans, R&D > 15% des charges)"
+            ],
+            [
+              "Dette financière nette actuelle",
+              "1 800 K€"
+            ]
+          ],
+          "investissements_prevus": [
+            [
+              "Investissement",
+              "Montant",
+              "Financement prévu"
+            ],
+            [
+              "Ligne extrusion (matériel)",
+              "2 000 K€",
+              "Crédit amortissable 7 ans"
+            ],
+            [
+              "Programme R&D bioplastiques",
+              "1 000 K€",
+              "Autofinancement + CIR"
+            ],
+            [
+              "Aménagement bâtiments",
+              "500 K€",
+              "Crédit amortissable 10 ans"
+            ]
+          ]
+        },
+        "questions": [
+          "Calculez le CIR attendu en N+1 avec le programme R&D de 1 000K€ supplémentaires (total R&D en N+1 : 2 100K€). Quel impact sur la capacité de remboursement ?",
+          "Pour la ligne d'extrusion (2M€, durée d'amortissement 7 ans), comparez l'amortissement linéaire vs dégressif (coefficient 2,25 pour 7 ans). Quel est le gain fiscal les 3 premières années ?",
+          "Calculez le DSCR prévisionnel après le programme d'investissement (annuités estimées : 320K€/an pour ligne + 56K€/an pour bâtiments). Intégrez le CIR dans la capacité de remboursement.",
+          "La règle EBITDA 30% va-t-elle contraindre la déductibilité des intérêts après le financement des 2,5M€ de dette supplémentaire (taux 5,5%) ?",
+          "Proposez une structuration optimale du financement en intégrant tous les avantages fiscaux disponibles pour BIOPACK."
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "CIR N+1 et impact capacité remboursement",
+            "reponse": "Dépenses R&D N+1 = 1 100K€ (existantes) + 1 000K€ (programme) = 2 100K€ éligibles\nCIR N+1 = 2 100K€ × 30% = **630K€**\n\nBIOPACK est une JEI → CIR remboursable immédiatement (pas d'attente 3 ans)\nImpôt N+1 estimé avant CIR = 1 200K€ × 25% = 300K€\nCIR imputable = 300K€ → solde remboursable = 630 − 300 = **330K€ de cash reçu de l'État**\n\nImpact sur capacité de remboursement :\nFCF avant CIR = EBITDA − Capex maintenance (~200K€) − IS − Variation BFR = 2 100 − 200 − 0 + 330 (CIR remboursé) = 2 230K€/an disponible pour le service de dette\nLe CIR représente 330K€/an de cash supplémentaire non négligeable."
+          },
+          {
+            "question": "Amortissement linéaire vs dégressif",
+            "reponse": "Linéaire : 2 000K€ / 7 ans = 286K€/an\n\nDégressif : taux dégressif = (1/7) × 2,25 = 32,14%/an\nAnnée 1 : 2 000 × 32,14% = 643K€\nAnnée 2 : (2 000 − 643) × 32,14% = 1 357 × 32,14% = 436K€\nAnnée 3 : (1 357 − 436) × 32,14% = 921 × 32,14% = 296K€\nTotal 3 ans dégressif : 643 + 436 + 296 = 1 375K€\n\nLinéaire 3 ans : 286 × 3 = 858K€\nDifférence amortie en plus (dégressif vs linéaire) : 1 375 − 858 = **517K€**\nÉconomie IS supplémentaire : 517K€ × 25% = **129K€ de trésorerie préservée sur les 3 premières années**\nRecommandation : opter pour le dégressif — avantage de trésorerie significatif en début de financement."
+          },
+          {
+            "question": "DSCR prévisionnel",
+            "reponse": "Service de dette total prévisionnel :\n- Service dette existante estimé : 380K€/an (hypothèse)\n- Annuité ligne extrusion : 320K€/an\n- Annuité bâtiments : 56K€/an\n- Total service de dette : 756K€/an\n\nEBITDA prévisionnel N+1 (croissance programme R&D → effet différé) : 2 100K€ (conservateur)\nIS effectif N+1 (net CIR) : 300 − 630 = 0 (CIR > IS → IS nul + remboursement 330K€)\n\nDSCR simplifié = EBITDA / Service dette total = 2 100 / 756 = **2,78x** ✓\n\nSi on intègre le CIR comme cash récurrent :\nDSCR ajusté = (EBITDA + CIR cash annuel) / Service dette = (2 100 + 330) / 756 = **3,21x** ✓\n\nConclusion : DSCR très confortable — le financement est clairement viable. Le CIR est un vrai argument pour accélérer la décision."
+          },
+          {
+            "question": "Règle EBITDA 30%",
+            "reponse": "Charges d'intérêts N+1 :\n- Actuelles : 280K€\n- Nouvelles (2 500K€ × 5,5%) : 138K€\n- Total : 418K€\n\nEBITDA fiscal estimé ≈ EBITDA comptable = 2 100K€\nPlafond 30% : 2 100K€ × 30% = 630K€\nPlafond absolu : 3 000K€\nPlafond applicable : max(630K€ ; 3 000K€) = 3 000K€\n\nCharges financières nettes (intérêts − produits) : 418K€ (hypothèse produits d'intérêts négligeables)\n\n418K€ << 3 000K€ → la règle EBITDA 30% ne contraindra PAS BIOPACK. Toutes les charges d'intérêts sont intégralement déductibles. La règle ne devient contraignante que pour des entreprises avec des niveaux d'endettement très élevés (LBO, grands groupes)."
+          },
+          {
+            "question": "Structuration optimale",
+            "reponse": "Structuration recommandée pour maximiser les avantages fiscaux de BIOPACK :\n\n1. **Ligne extrusion (2M€)** : Crédit amortissable 7 ans avec option amortissement dégressif → économie fiscale 129K€ sur 3 ans. Envisager aussi un crédit-bail pour préserver la trésorerie (les loyers sont déductibles en totalité, sans contrainte de durée d'amortissement).\n\n2. **Programme R&D (1M€)** : Financer par avance remboursable Bpifrance (dispositif Aide Innovation, taux 0% ou bonifié) + CIR préfinancé. La créance CIR (630K€ en N+1) peut être escomptée par la banque (Dailly sur créance fiscale) → cash immédiat avant remboursement fiscal.\n\n3. **Bâtiments (500K€)** : Crédit amortissable 10 ans, amortissement linéaire (coefficient dégressif non applicable aux immeubles). Envisager un bail professionnel avec option d'achat si BIOPACK ne veut pas immobiliser le capital.\n\n4. **Dispositif JEI** : S'assurer que le statut JEI est maintenu (R&D > 15% des charges totales). Les exonérations sociales JEI sur les salaires des chercheurs représentent une économie de charges significative qui améliore l'EBITDA.\n\n5. **Covenant fiscal** : Clause dans le contrat de prêt obligeant BIOPACK à maintenir le statut JEI et à déposer la déclaration CIR dans les délais — le CIR est un composant de la capacité de remboursement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mtra",
+      "label": "Transmission d'entreprise et LBO : approche complète",
+      "tag": "Transmission",
+      "level": "Expert",
+      "duration": "6h",
+      "domain": "Droit · Fiscalité · Transmission",
+      "cours": {
+        "introduction": "La transmission d'entreprise est le sujet le plus transversal de la finance bancaire. Il mobilise simultanément la finance (valorisation, structuration de la dette, TRI), le droit (formes juridiques, pactes, garanties) et la fiscalité (Dutreil, plus-value, intégration). Ce module synthétise les trois dimensions pour vous donner une vision complète et opérationnelle des opérations de transmission.",
+        "sections": [
+          {
+            "titre": "1. Les différentes formes de transmission",
+            "contenu": "**Transmission à titre onéreux (cession) :**\n\n| Forme | Définition | Qui achète | Fiscalité cédant |\n|---|---|---|---|\n| **LBO** | Acquisition financée par effet de levier | Fonds PE externe | PFU 30% ou abattement retraite |\n| **MBO** | Management Buy-Out | Management en place | PFU 30% ou abattement retraite |\n| **MBI** | Management Buy-In | Management externe | PFU 30% |\n| **OBO** | Owner Buy-Out | Le dirigeant lui-même via holding | PFU 30% + réinvestissement possible |\n| **BIMBO** | Combinaison MBO+MBI | Mix interne + externe | PFU 30% |\n| **Cession industrielle** | Rachat par un concurrent ou partenaire | Acquéreur stratégique | PFU 30% ou PVLT 3% (si société cédante) |\n\n**Transmission à titre gratuit :**\n\n| Forme | Mécanisme | Fiscalité |\n|---|---|---|\n| **Donation simple** | Transmission de titres du vivant | DMTG sur valeur totale (0-45% selon lien) |\n| **Donation avec Dutreil** | Transmission avec engagement conservation | DMTG sur 25% de la valeur (abattement 75%) |\n| **Succession** | Transmission au décès | DMTG sur valeur totale (si pas de Dutreil anticipé) |\n| **Donation-cession** | Donner d'abord, l'héritier cède | PV purgée par la donation (base = valeur donation) |\n\n**L'OBO — Owner Buy-Out — cas particulier :**\nLe dirigeant crée une holding (NewCo) qui rachète sa propre société avec effet de levier. Objectif : liquider partiellement son patrimoine tout en restant aux commandes.\n- Avantage : liquidité partielle sans perdre le contrôle\n- Levier fiscal : intégration fiscale holding + OpCo\n- Risque : le dirigeant est à la fois vendeur et emprunteur → tension entre intérêt personnel et intérêt de l'entreprise\n- Bpifrance regarde les OBO avec attention : vérifier que l'endettement ne compromet pas l'investissement futur de la société"
+          },
+          {
+            "titre": "2. La valorisation d'entreprise dans le contexte d'une transmission",
+            "contenu": "**Méthodes de valorisation par ordre de pertinence :**\n\n**1. Méthode des multiples (principale en transmission PME) :**\nEV = EBITDA × Multiple sectoriel\n\nMultiples EV/EBITDA par secteur (2024, fourchette PME) :\n\n| Secteur | Multiple bas | Multiple médian | Multiple haut |\n|---|---|---|---|\n| Distribution / Commerce | 4x | 6x | 8x |\n| Industrie manufacturière | 5x | 7x | 9x |\n| Services B2B | 6x | 8x | 11x |\n| Tech / SaaS | 8x | 12x | 20x+ |\n| Santé / Medtech | 8x | 12x | 18x |\n| Agroalimentaire | 5x | 7x | 10x |\n| Hôtellerie / Tourisme | 6x | 9x | 14x |\n\nPrimes et décotes sur le multiple de base :\n- Prime de croissance (+1 à +3x) : si CAGR CA > 15%\n- Prime de niche (+1 à +2x) : position dominante sur marché défensif\n- Décote de taille (−1 à −2x) : PME < 2M€ EBITDA moins comparables\n- Décote de dépendance (−1 à −2x) : concentration client > 50% sur 1 client\n- Décote de gestion (−0,5 à −1,5x) : dirigeant trop central, transition risquée\n\n**2. DCF — Discounted Cash Flow :**\nActualise les FCF futurs au WACC\nEV = Σ [FCF(t) / (1+WACC)^t] + Valeur terminale / (WACC − g)\n\nOù : WACC = kd × (1-IS) × D/(D+E) + ke × E/(D+E)\nValeur terminale = FCF(n+1) / (WACC − g)\n\nLimites du DCF en transmission PME : très sensible aux hypothèses (WACC, g), difficile pour les entreprises à cash flows volatils.\n\n**3. Valeur patrimoniale / Actif Net Corrigé (ANC) :**\nANC = Actif net comptable + Plus-values latentes sur actifs − Passifs non comptabilisés\nPertinent pour les sociétés patrimoniales, holdings, immobilier.\n\n**Le bridge EV → Valeur des fonds propres :**\n```\nEnterprise Value (EV)\n- Dette nette (dettes financières − trésorerie)\n- Intérêts minoritaires\n+ Participations mises en équivalence\n= Equity Value (valeur des fonds propres)\n```\nC'est le prix payé par l'acquéreur pour les actions."
+          },
+          {
+            "titre": "3. Le Pacte Dutreil — conditions et mécanisme",
+            "contenu": "**Fondement légal :**\nArticle 787 B du Code Général des Impôts (pour les titres de sociétés) et 787 C (pour les fonds de commerce individuels).\n\n**L'abattement Dutreil :**\nExonération de **75%** des droits de mutation à titre gratuit (DMTG) sur la valeur transmise, sous conditions.\n\n**Conditions du Pacte Dutreil 787 B :**\n\n1. **Engagement collectif de conservation (ECC) :**\n   - Durée : minimum 2 ans\n   - Porteurs : le défunt/donateur + au moins 1 autre associé\n   - Quantum : détention collective d'au moins 34% des droits financiers ET 34% des droits de vote (20% pour sociétés cotées)\n   - Formalisme : acte enregistré auprès des impôts\n\n2. **Engagement individuel de conservation (EIC) :**\n   - Pris par chaque héritier/donataire bénéficiaire\n   - Durée : minimum 4 ans à compter de la fin de l'ECC\n   - Les titres ne peuvent pas être cédés pendant cette période\n\n3. **Obligation de direction :**\n   - Pendant toute la durée de l'ECC et 3 ans après\n   - Un des signataires du pacte (ou un héritier) doit exercer une fonction de direction effective : gérant, DG, PDG, membre du directoire...\n\n**Exemple de calcul :**\nSociété valorisée à 4M€. Donation à 2 enfants avec Dutreil.\nBase taxable = 4M€ × (1 − 75%) = 1M€\nRépartition : 500K€ par enfant\nAbattement légal parent-enfant : 100K€ par enfant\nBase nette : 400K€ par enfant\nDMTG (barème progressif jusqu'à 45%) : environ 112K€ par enfant\nTotal DMTG avec Dutreil : 224K€\nSans Dutreil : DMTG sur 4M€ → environ 1 528K€\nÉconomie : 1 304K€ → le Dutreil est massivement intéressant\n\n**Le Dutreil réputé acquis :**\nSi l'entreprise est individuelle et le dirigeant la donne à son héritier qui reprend la direction → engagement réputé acquis sans formalité préalable (art. 787 C).\n\n**Pièges et remises en cause :**\n- Cession des titres pendant la période d'engagement → remise en cause des exonérations (intérêts de retard + rappel des droits)\n- Cessation de l'exercice de fonctions de direction → remise en cause\n- Transformation de la société en SCI ou holding passive → remise en cause partielle"
+          },
+          {
+            "titre": "4. La due diligence dans une transmission",
+            "contenu": "**Définition :**\nAudit préalable à l'acquisition visant à vérifier la réalité de la valorisation et identifier les risques cachés. La banque finançant le LBO exige généralement une due diligence complète.\n\n**Les 4 grands volets de la due diligence :**\n\n**1. Due diligence financière (Financial DD) :**\n- Normalisation de l'EBITDA : identifier les éléments non récurrents (provisions exceptionnelles, charges du dirigeant, intéressement exceptionnel)\n- EBITDA normalisé = EBITDA comptable ± ajustements\n- Analyse de la dette nette (y compris passifs cachés : retraites, litiges provisionnés)\n- Analyse du BFR normatif (BFR réel vs BFR comptable à la clôture)\n- Évolution historique des marges et du cash conversion\n\n**2. Due diligence juridique (Legal DD) :**\n- Vérification des titres : la cible possède bien ce qu'elle prétend posséder\n- Contrats clés : baux, contrats fournisseurs/clients avec clauses de changement de contrôle\n- Litiges en cours (identificés dans les notes annexes et auprès des avocats)\n- Propriété intellectuelle : brevets, marques, licences\n- Droit social : CCT applicable, accords d'entreprise, représentants du personnel\n\n**3. Due diligence fiscale (Tax DD) :**\n- Vérification des déclarations fiscales sur 3-5 ans\n- Risques de redressement fiscal (déficits fiscaux dont l'utilisation peut être contestée)\n- Impôts différés cachés\n- CIR et autres crédits d'impôt : vérifier qu'ils sont bien éligibles\n\n**4. Due diligence opérationnelle (Ops DD) :**\n- Qualité et fidélisation de la clientèle (taux de churn, NPS)\n- Dépendance aux fournisseurs\n- État des outils de production (capex de maintenance nécessaire)\n- Qualité du management intermédiaire (continuité sans le dirigeant)\n\n**La Garantie d'Actif et de Passif (GAP) :**\nContrat par lequel le vendeur garantit l'exactitude des comptes à la date de clôture de référence.\n- Durée : 3 ans (délai général) à 5 ans (pour les passifs fiscaux et sociaux)\n- Montant : 10% à 100% du prix de cession selon négociation\n- Franchise : seuil minimum par sinistre (de minimis) et seuil global avant mise en jeu\n- Séquestre : une partie du prix est bloquée sur un compte séquestre pour garantir les appels\n- Assurance GAP : produit assurantiel couvrant la garantie vendeur → libère le vendeur"
+          },
+          {
+            "titre": "5. Structuration complète d'un LBO et calcul du TRI",
+            "contenu": "**Plan de financement type d'un LBO PME (EBITDA 2M€, multiple 7x = 14M€) :**\n\n| Tranche | Montant | % Prix | Durée | Taux | Remboursement |\n|---|---|---|---|---|---|\n| Equity acquéreurs | 4 200K€ | 30% | — | TRI visé 20%+ | Sortie |\n| Dette senior A (banque) | 3 500K€ | 25% | 7 ans | TCI + 2,5% | Amortissable |\n| Dette senior B (banque) | 2 100K€ | 15% | 7 ans | TCI + 3,0% | Bullet 50% |\n| Bpifrance Transmission | 2 800K€ | 20% | 8 ans | Taux bonifié | Amortissable |\n| Mezzanine | 1 400K€ | 10% | 9 ans | 10% (cash+PIK) | Bullet |\n| **Total** | **14 000K€** | **100%** | — | — | — |\n\nLevier = (3 500 + 2 100 + 2 800 + 1 400) / 2 000 = 9 800 / 2 000 = **4,9x EBITDA**\n\n**Modélisation du remboursement :**\nFCF annuel disponible pour le service de dette = EBITDA − IS − Capex − Variation BFR\n= 2 000 − 300 − 250 − 100 = 1 350K€/an en année 1\n\nService de dette total (annuités hors mezzanine bullet) ≈ 900K€/an\nDSCR = 1 350 / 900 = 1,5x ✓\n\n**Calcul du TRI investisseur à la sortie (année 5) :**\nHypothèse : EBITDA N+5 = 2,6M€ (croissance 5%/an), multiple sortie 7x\nEV sortie = 2 600K€ × 7 = 18 200K€\nDette résiduelle N+5 (après remboursement) ≈ 3 500K€\nEquity value sortie = 18 200 − 3 500 = 14 700K€\nPart acquéreurs (30%) = 4 410K€\nInvestissement initial acquéreurs = 4 200K€\nTRI = (4 410/4 200)^(1/5) − 1 = 1,05^0,2 − 1 = **1,0%** → TRI trop faible !\n\n→ La valeur créée provient surtout de la croissance et du désendettement. Ici la croissance EBITDA ne suffit pas. En pratique, les fonds PE cherchent aussi à améliorer les marges et à faire des add-on acquisitions pour augmenter la valeur à la sortie."
+          },
+          {
+            "titre": "6. Les exits — modes de sortie dans un LBO",
+            "contenu": "**Les différentes formes d'exit :**\n\n| Mode de sortie | Description | Avantages | Inconvénients |\n|---|---|---|---|\n| **Cession industrielle** | Vente à un acteur stratégique | Prime de contrôle élevée, processus rapide | Pas toujours disponible, risque de casse sociale |\n| **LBO secondaire** | Revente à un autre fonds PE | Toujours disponible, processus connu | Renchérissement possible du levier, pas de prime stratégique |\n| **Introduction en bourse (IPO)** | Cotation sur un marché réglementé | Liquidité maximale, valorisation potentiellement élevée | Long (12-18 mois), coûteux, marché dépendant |\n| **Recapitalisation** | Sortie partielle via distribution de dividendes exceptionnels | Liquidité partielle sans changer d'actionnaire | Augmente le levier, risque si FCF insuffisant |\n| **MBO/OBO par le management** | Le management reprend les parts du fonds | Continuité assurée | Capacité financière du management limitée |\n\n**La recapitalisation (recap) :**\nTechnique permettant au fonds de récupérer une partie de sa mise sans céder la société :\n1. La société contracte une nouvelle dette (refinancement + dette supplémentaire)\n2. Le produit de la nouvelle dette est distribué comme dividende exceptionnel à la holding\n3. La holding distribue à son tour au fonds\nRisque : augmente le levier de la société opérationnelle. N'est praticable que si la société a significativement désendettée depuis le LBO initial.\n\n**MOIC — Multiple on Invested Capital :**\nMOIC = Total cash reçu / Total cash investi\nMOIC simple : seulement la cession finale\nMOIC total : cession + dividendes intermédiaires + intérêts sur prêts d'actionnaires\nObjectif PE : MOIC > 2,5x sur 5 ans (soit TRI > 20%)"
+          }
+        ],
+        "points_cles": [
+          "Le Pacte Dutreil permet une exonération de 75% des DMTG sur les titres transmis à titre gratuit — sur une société de 4M€, l'économie peut dépasser 1,3M€ par rapport à une donation sans pacte. Les conditions (ECC 2 ans + EIC 4 ans + direction effective) doivent être rigoureusement respectées sous peine de remise en cause.",
+          "La Garantie d'Actif et de Passif (GAP) est le mécanisme central de protection de l'acquéreur : le vendeur garantit l'exactitude des comptes sur 3 à 5 ans. Le séquestre partiel du prix d'achat est le mécanisme pratique qui sécurise son application.",
+          "Le DSCR en LBO doit être calculé au niveau de la holding (FCF remontable depuis la cible / service de dette holding) — un DSCR holding de 1,2x minimum est requis par Bpifrance. L'EBITDA de la cible et le taux de distribution des dividendes sont les paramètres clés.",
+          "L'EBITDA normalisé (hors éléments non récurrents) est la base de valorisation en LBO — une due diligence financière rigoureuse identifie les charges du dirigeant (voiture, assurance, salaires famille) à réintégrer et les éléments exceptionnels à exclure.",
+          "La donation-cession est une technique d'optimisation fiscale puissante : le donateur transmet les titres, l'héritier les cède, et la plus-value est calculée sur la base de la valeur de donation (pas du prix d'origine) — si la donation et la cession sont concomitantes, la PV est quasi-nulle pour l'héritier."
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Quelles sont les 3 conditions cumulatives du Pacte Dutreil pour bénéficier de l'abattement de 75% sur les DMTG ?",
+          "options": [
+            "Détenir 51% des titres, s'engager à conserver 10 ans, avoir plus de 60 ans",
+            "Engagement collectif de conservation minimum 2 ans (≥34% des droits) + engagement individuel 4 ans + exercice de fonctions de direction pendant la durée totale",
+            "Être membre de la famille du dirigeant, détenir les titres depuis 5 ans, payer un prix symbolique",
+            "Avoir un CA supérieur à 2M€, emploi d'au moins 10 salariés, activité industrielle uniquement"
+          ],
+          "reponse_correcte": 1,
+          "explication": "Les 3 conditions cumulatives du Pacte Dutreil (art. 787 B CGI) : (1) Engagement Collectif de Conservation (ECC) : au moins 2 ans, portant sur ≥ 34% des droits financiers et de vote, signé par le donateur + au moins 1 autre associé ; (2) Engagement Individuel de Conservation (EIC) : 4 ans minimum pris par chaque donataire ; (3) Obligation de direction : une fonction effective de direction (gérant, DG, PDG, directoire) doit être exercée pendant toute la durée de l'ECC et 3 ans après par l'un des signataires ou des héritiers. Le non-respect d'une seule condition entraîne la remise en cause de l'exonération."
+        },
+        {
+          "question": "Dans un LBO, pourquoi l'EBITDA normalisé est-il différent de l'EBITDA comptable ?",
+          "options": [
+            "Car l'EBITDA normalisé intègre les projections de croissance future",
+            "Car l'EBITDA normalisé retraite les éléments non récurrents et les avantages perçus par le dirigeant cédant qui ne se reproduiront pas après la cession",
+            "Car l'EBITDA normalisé est toujours inférieur à l'EBITDA comptable par définition",
+            "Car l'EBITDA normalisé est calculé selon les normes IFRS et l'EBITDA comptable selon le PCG"
+          ],
+          "reponse_correcte": 1,
+          "explication": "L'EBITDA normalisé vise à refléter la performance récurrente et reproductible de l'entreprise sous sa future direction. Ajustements typiques : (+) réintégration des charges excessives du dirigeant (voiture haut de gamme, assurance-vie, rémunération au-dessus du marché), réintégration des charges non récurrentes (litiges réglés, restructuration); (−) soustraction des revenus exceptionnels (cession d'actifs, subvention one-shot). La différence entre EBITDA comptable et normalisé peut être significative (±15 à 25% sur les PME familiales) et impacte directement la valorisation (multiple × EBITDA)."
+        },
+        {
+          "question": "Qu'est-ce qu'une Garantie d'Actif et de Passif (GAP) et à quoi sert le mécanisme de séquestre ?",
+          "options": [
+            "La GAP est une assurance obligatoire pour les LBO. Le séquestre protège les salariés.",
+            "La GAP est un engagement du vendeur garantissant l'exactitude des comptes à la cession. Le séquestre retient une partie du prix chez un tiers jusqu'à expiration de la garantie pour assurer son effectivité.",
+            "La GAP est un prêt participatif octroyé par le vendeur à l'acquéreur. Le séquestre est le compte bancaire de la holding.",
+            "La GAP n'existe qu'en droit anglais. En droit français, on parle de 'représentations et garanties'."
+          ],
+          "reponse_correcte": 1,
+          "explication": "La GAP (Garantie d'Actif et de Passif) est un contrat par lequel le vendeur garantit qu'à la date de cession, le bilan est sincère et qu'il n'existe pas de passifs cachés. Si un passif non déclaré apparaît après la cession (redressement fiscal, litige, dette sociale), le vendeur doit indemniser l'acquéreur. Le séquestre : une partie du prix (10-20%) est déposée auprès d'un tiers séquestre (notaire, banque) et ne sera libérée au vendeur qu'à l'expiration de la période de garantie si aucune réclamation n'a été formulée. Cela assure que le vendeur a les moyens d'honorer la garantie."
+        },
+        {
+          "question": "La donation-cession est avantageuse fiscalement car :",
+          "options": [
+            "Elle permet d'éviter totalement les droits de mutation à titre gratuit (DMTG)",
+            "Après une donation, la base de la plus-value de cession pour le donataire est la valeur retenue pour la donation (pas le prix d'acquisition original), ce qui réduit ou annule la plus-value imposable si donation et cession sont proches dans le temps",
+            "Elle permet de cumuler le Pacte Dutreil et l'abattement pour durée de détention",
+            "Elle est réservée aux donations entre époux et avantageuse car le taux d'imposition est de 0%"
+          ],
+          "reponse_correcte": 1,
+          "explication": "La donation-cession fonctionne ainsi : (1) Le parent donne les titres à son enfant. La base des DMTG est la valeur vénale à la date de donation — les droits sont payés sur cette valeur. (2) L'enfant cède immédiatement les titres (idéalement le même jour ou dans la même opération). Sa base de calcul de la plus-value = valeur de la donation. Si cession = valeur donation → plus-value = 0 → pas d'imposition sur la plus-value. C'est une technique légale mais encadrée : l'administration fiscale surveille les abus (donation 'à charge de revendre') et peut requalifier si l'intention est frauduleuse."
+        },
+        {
+          "question": "Dans un LBO, un fonds investit 5M€ en equity. 5 ans après, il cède pour 18M€ (equity value après remboursement de la dette). Il a aussi reçu 2M€ de dividendes intermédiaires. Quel est le MOIC total ?",
+          "options": [
+            "MOIC = 3,6x (18/5)",
+            "MOIC = 4,0x (20/5)",
+            "MOIC = 2,6x (13/5) — les dividendes sont déduits de la valeur de sortie",
+            "MOIC = 3,6x mais le TRI ne peut être calculé qu'avec les dates exactes des flux"
+          ],
+          "reponse_correcte": 1,
+          "explication": "MOIC total = (Cash reçu à la sortie + dividendes intermédiaires) / Investissement initial = (18M€ + 2M€) / 5M€ = 20M€ / 5M€ = 4,0x. Le MOIC est un multiple brut qui additionne TOUS les cash flows reçus (cession + dividendes + remboursements de prêts d'actionnaires). Il est différent du TRI qui tient compte des dates des flux. TRI approximatif : 4,0x sur 5 ans → TRI = (4,0)^(1/5) − 1 = 32% brut (avant frais de gestion et carried interest)."
+        }
+      ],
+      "cas_pratique": {
+        "titre": "Structuration complète d'une transmission — IMPRIMERIE LEFORT",
+        "contexte": "M. Lefort (67 ans) dirige LEFORT SAS (imprimerie packaging haut de gamme, CA 8,5M€, EBITDA 1,4M€, 45 salariés, fonds propres 2,8M€, dette nette 600K€). Il a 2 enfants : Sophie (38 ans, DG depuis 5 ans) et Thomas (35 ans, sans lien avec l'entreprise). Sa société vaut 9,8M€ (7x EBITDA). M. Lefort veut : transmettre l'entreprise à Sophie, obtenir une liquidité partielle de 4M€, minimiser la fiscalité, et assurer la pérennité pour Thomas. Il sollicite Bpifrance.",
+        "donnees_financieres": {
+          "tableau": [
+            [
+              "Données société",
+              "Valeur"
+            ],
+            [
+              "CA",
+              "8 500 K€"
+            ],
+            [
+              "EBITDA normalisé",
+              "1 400 K€"
+            ],
+            [
+              "Valorisation (7x)",
+              "9 800 K€"
+            ],
+            [
+              "Equity value (EV − dette nette)",
+              "9 200 K€"
+            ],
+            [
+              "Fonds propres comptables",
+              "2 800 K€"
+            ],
+            [
+              "Capex annuels",
+              "180 K€"
+            ],
+            [
+              "Variation BFR annuelle",
+              "60 K€"
+            ],
+            [
+              "IS effectif",
+              "25%"
+            ]
+          ],
+          "objectifs_fiscaux": [
+            "M. Lefort détient 100% depuis 30 ans (prix de revient : 100K€)",
+            "Sophie est DG depuis 5 ans",
+            "Thomas ne travaille pas dans la société",
+            "M. Lefort prévoit de partir à la retraite dans 18 mois"
+          ]
+        },
+        "questions": [
+          "Proposez une structuration juridique et financière permettant à M. Lefort d'obtenir 4M€ de liquidité tout en transmettant le contrôle à Sophie.",
+          "Calculez l'impact du Pacte Dutreil si M. Lefort donne 80% des titres à Sophie (valorisation au moment de la donation : 9 200K€ equity value). Comparez avec une cession directe.",
+          "Structurez le financement bancaire : Sophie reprend via une holding avec 20% d'equity. Calculez le levier, le DSCR et la durée de remboursement.",
+          "Quelle est la fiscalité de M. Lefort sur les 4M€ reçus (en supposant une cession à titre onéreux de 43% des parts à la holding de Sophie) ? Intégrez l'abattement départ en retraite.",
+          "Comment traiter Thomas pour qu'il ne soit pas lésé par rapport à Sophie qui reçoit l'entreprise ?"
+        ],
+        "elements_de_reponse": [
+          {
+            "question": "Structuration juridique",
+            "reponse": "Structuration recommandée en 3 étapes :\n\nÉtape 1 — OBO partiel de M. Lefort :\nM. Lefort crée HOLDING LEFORT SAS. Il lui apporte 57% des titres de LEFORT SAS (apport en nature, valeur : 57% × 9 200K€ = 5 244K€) en échange de parts de HOLDING LEFORT. La holding se finance par crédit LBO pour acquérir les 43% restants auprès de M. Lefort → M. Lefort reçoit 43% × 9 200K€ = **3 956K€ ≈ 4M€** de liquidité ✓\n\nÉtape 2 — Cession progressive à Sophie :\nSophie entre au capital de HOLDING LEFORT avec une participation de 20% (sa mise de fonds + crédit vendeur de M. Lefort). M. Lefort détient 80% de HOLDING LEFORT.\n\nÉtape 3 — Donation Dutreil progressive :\nM. Lefort donne progressivement ses parts de HOLDING LEFORT à Sophie (et Thomas selon équilibre familial) via Pacte Dutreil → exonération de 75% des DMTG sur les donations."
+          },
+          {
+            "question": "Impact Pacte Dutreil",
+            "reponse": "Données : M. Lefort donne 80% des titres de LEFORT SAS à Sophie (si structure directe sans holding intermédiaire)\nValeur donnée : 80% × 9 200K€ = 7 360K€\n\nAvec Pacte Dutreil (conditions : ECC déjà existant — Sophie est DG depuis 5 ans, M. Lefort + Sophie détiennent ensemble ≥ 34% → ✓) :\nBase taxable DMTG = 7 360K€ × (1 − 75%) = 1 840K€\nAbattement légal parent-enfant : 100K€\nBase nette : 1 740K€\nDMTG sur 1 740K€ (barème jusqu'à 45%) : environ 534K€\n\nSans Dutreil :\nBase taxable = 7 360K€\nAbattement légal 100K€\nBase nette : 7 260K€\nDMTG estimés : environ 2 912K€\n\nÉconomie Dutreil : 2 912 − 534 = **2 378K€** d'économie fiscale → Dutreil est ici indispensable.\n\nNota : EIC Sophie = conservation 4 ans + direction maintenue → conditions remplies."
+          },
+          {
+            "question": "Financement bancaire",
+            "reponse": "Plan de financement de la holding (acquisition des 43% de M. Lefort pour 3 956K€) :\n- Equity Sophie (20% du besoin) : 791K€ (apport personnel + crédit vendeur M. Lefort)\n- Prêt Bpifrance Transmission : 2 000K€ sur 8 ans\n- Prêt banque partenaire : 1 165K€ sur 7 ans\n- Total : 3 956K€ ✓\n\nLevier = (2 000 + 1 165) / 1 400 = 3 165 / 1 400 = **2,26x EBITDA** ✓ Très raisonnable\n\nFCF remontable vers la holding :\nEBITDA : 1 400K€\n− IS (25% × (EBITDA − amortissements − intérêts)) : estimé 220K€\n− Capex : 180K€\n− Variation BFR : 60K€\n= FCF cible : 940K€/an\nTaux distribution 75% : 705K€/an vers la holding\n\nService dette holding :\nAnnuité Bpifrance (2M€, 8 ans, 5%) : 305K€/an\nAnnuité banque (1,165M€, 7 ans, 5%) : 200K€/an\nTotal : 505K€/an\n\nDSCR holding = 705 / 505 = **1,40x** ✓ Acceptable"
+          },
+          {
+            "question": "Fiscalité M. Lefort",
+            "reponse": "M. Lefort reçoit 3 956K€ (≈ 4M€) pour la cession de 43% des titres de LEFORT SAS à la holding.\n\nPlus-value brute :\nPrix de cession : 3 956K€\nPrix de revient (43% × 100K€) : 43K€\nPlus-value brute : 3 913K€\n\nAbattement départ en retraite (art. 150-0 D ter) :\nConditions : dirigeant ≥ 5 ans ✓, départ retraite dans 18 mois ✓, détention ≥ 25% ✓, cession à tiers (la holding de Sophie n'est pas considérée comme lui-même) ✓\nAbattement : 500K€\nPlus-value nette : 3 413K€\n\nFlat Tax 30% :\nIS = 3 413K€ × 30% = **1 024K€**\nNet reçu par M. Lefort = 3 956 − 1 024 = **2 932K€**\n\nAlternative optimisée : si donation-cession des 57% restants à Sophie via Dutreil → PV sur ces 57% purgée par la donation. Seuls les 43% cédés à titre onéreux sont imposés."
+          },
+          {
+            "question": "Traitement de Thomas",
+            "reponse": "Thomas ne reprend pas l'entreprise → risque de perception d'inégalité successorale. Solutions :\n\n1. **Donation en numéraire à Thomas :** M. Lefort utilise une partie des 3 956K€ reçus pour donner de l'argent à Thomas. Abattement parent-enfant : 100K€ exonéré. Le solde est soumis aux DMTG.\n\n2. **Rapport successoral :** La donation de l'entreprise à Sophie (valorisée à 9 200K€) sera rapportée à la succession de M. Lefort. Si le patrimoine total hors entreprise est insuffisant pour équilibrer, Thomas peut exiger une soulte.\n\n3. **Clause d'égalisation :** Dans l'acte de donation, insérer une clause d'égalisation prévoyant que la valeur de la donation à Sophie sera compensée sur la succession (Thomas reçoit une part équivalente d'autres actifs).\n\n4. **Assurance-vie :** M. Lefort souscrit une assurance-vie au bénéfice de Thomas pour rééquilibrer (capitaux décès hors succession dans la limite de 152 500€ par bénéficiaire sans droits).\n\n5. **Pacte de famille (art. 2448 C. civ.) :** Accord entre M. Lefort, Sophie et Thomas sur la répartition successorale anticipée. Nécessite l'accord de tous et la présence d'un notaire."
+          }
+        ]
+      }
+    }
+  ]
+}
