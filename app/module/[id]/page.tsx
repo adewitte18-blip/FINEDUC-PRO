@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, use } from 'react'
+import { useState, useEffect } from 'react'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import {
@@ -19,11 +19,11 @@ import { cn } from '@/lib/utils'
 type Tab = 'cours' | 'quiz' | 'cas' | 'flashcards'
 
 interface Props {
-  params: Promise<{ id: string }>
+  params: { id: string }
 }
 
 export default function ModulePage({ params }: Props) {
-  const { id } = use(params)
+  const { id } = params
   const module = getModuleById(id)
   const flashcards = getFlashcardsByModule(id)
 
