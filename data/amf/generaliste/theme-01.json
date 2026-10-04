@@ -1,0 +1,136 @@
+{
+  "exam": "generaliste",
+  "theme_id": 1,
+  "label": "Cadre institutionnel et réglementaire français, européen et international",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t01",
+    "exam": "generaliste",
+    "theme_id": 1,
+    "label": "Cadre institutionnel et réglementaire",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La finance est encadrée par un ensemble d'autorités et de réglementations à trois niveaux : français, européen et international. Comprendre cette architecture institutionnelle est indispensable pour situer les règles applicables aux prestataires de services d'investissement (PSI) et à leurs collaborateurs.",
+      "sections": [
+        {
+          "titre": "1. Les autorités de tutelle françaises",
+          "contenu": "**L'Autorité des marchés financiers (AMF)**\nL'AMF est une autorité publique indépendante dotée de la personnalité morale, créée par la loi de sécurité financière du 1er août 2003. Elle a pour missions :\n- Veiller à la protection de l'épargne investie en instruments financiers\n- Veiller à l'information des investisseurs\n- Veiller au bon fonctionnement des marchés financiers\n\nL'AMF dispose d'un pouvoir réglementaire (Règlement général AMF), d'un pouvoir de contrôle et d'enquête, et d'un pouvoir de sanction.\n\n**L'Autorité de contrôle prudentiel et de résolution (ACPR)**\nL'ACPR est une autorité administrative indépendante adossée à la Banque de France. Elle est chargée du contrôle des banques et des assurances en France. En matière de services d'investissement, elle supervise les établissements de crédit fournissant ces services.\n\n**La Banque de France**\nInstitution participant au Système européen de banques centrales (SEBC), elle assure notamment la stabilité financière et le contrôle de la circulation monétaire."
+        },
+        {
+          "titre": "2. L'architecture réglementaire européenne",
+          "contenu": "**Les autorités européennes de surveillance (AES)**\n- **ESMA** (European Securities and Markets Authority) : supervision des marchés financiers et des prestataires\n- **EBA** (European Banking Authority) : supervision bancaire\n- **EIOPA** (European Insurance and Occupational Pensions Authority) : assurance et retraite\n\nLe **Conseil européen du risque systémique (CERS/ESRB)** surveille le risque systémique macroprudentiel.\n\n**Les textes fondamentaux**\n- **MiFID II** (Directive 2014/65/UE) et **MiFIR** (Règlement 600/2014) : encadrement des marchés d'instruments financiers, entrés en vigueur en janvier 2018\n- **MAR** (Market Abuse Regulation, 596/2014) : abus de marché\n- **PRIIPS** (1286/2014) : documents d'informations clés pour les produits d'investissement packagés\n- **SFDR** (2019/2088) : publication d'informations en matière de durabilité\n\n**La hiérarchie des normes européennes**\nNiveau 1 : directive ou règlement (texte législatif)\nNiveau 2 : actes délégués ou d'exécution de la Commission\nNiveau 3 : orientations et recommandations des AES (ESMA notamment)"
+        },
+        {
+          "titre": "3. Politique économique et monétaire — indicateurs clés",
+          "contenu": "**La politique monétaire de la BCE**\nLa Banque centrale européenne (BCE) a pour mandat principal la stabilité des prix dans la zone euro (objectif : inflation proche de 2 %). Ses principaux outils sont :\n- Les taux directeurs (taux de refinancement, taux de dépôt, taux marginal)\n- Les opérations d'open market (refinancement des banques)\n- Les programmes d'achats d'actifs (APP, PEPP)\n\n**Les indicateurs macroéconomiques à connaître**\n- **PIB** : mesure de la richesse produite sur un territoire\n- **Inflation (IPC)** : mesure de la hausse des prix à la consommation\n- **Taux de chômage** : proportion de la population active sans emploi\n- **Solde commercial** : différence entre exportations et importations\n- **Déficit public** : différence entre dépenses et recettes de l'État\n\n**Le rôle des marchés financiers**\nLes marchés financiers assurent trois fonctions économiques :\n1. **Financement** : permettre aux émetteurs (États, entreprises) de lever des capitaux\n2. **Transfert des risques** : via les produits dérivés et la diversification\n3. **Allocation des ressources** : orienter l'épargne vers les investissements les plus productifs"
+        }
+      ],
+      "points_cles": [
+        "L'AMF est l'autorité de régulation des marchés financiers français, dotée de pouvoirs réglementaire, de contrôle et de sanction.",
+        "L'ACPR supervise les banques et assurances ; elle est adossée à la Banque de France.",
+        "MiFID II et MiFIR encadrent les marchés d'instruments financiers en Europe depuis janvier 2018.",
+        "L'ESMA coordonne la supervision des marchés au niveau européen.",
+        "La BCE vise une inflation proche de 2 % et pilote la politique monétaire de la zone euro.",
+        "Les marchés financiers assurent trois fonctions : financement, transfert des risques, allocation des ressources."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t01-q001",
+      "exam": "generaliste",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quelle est la mission principale de l'AMF ?",
+      "options": [
+        "Superviser les banques et les compagnies d'assurance françaises",
+        "Veiller à la protection de l'épargne investie en instruments financiers et au bon fonctionnement des marchés",
+        "Fixer les taux directeurs de la politique monétaire française",
+        "Coordonner la supervision bancaire au niveau européen"
+      ],
+      "correct_index": 1,
+      "explication": "L'AMF a pour missions de veiller à la protection de l'épargne investie en instruments financiers, à l'information des investisseurs et au bon fonctionnement des marchés. La supervision bancaire relève de l'ACPR ; les taux directeurs sont fixés par la BCE ; la coordination européenne est assurée par l'ESMA.",
+      "source": "Loi de sécurité financière du 1er août 2003 ; Code monétaire et financier, art. L.621-1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t01-q002",
+      "exam": "generaliste",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quelle autorité européenne est chargée de la supervision des marchés financiers ?",
+      "options": [
+        "EBA (European Banking Authority)",
+        "EIOPA (European Insurance and Occupational Pensions Authority)",
+        "ESMA (European Securities and Markets Authority)",
+        "BCE (Banque centrale européenne)"
+      ],
+      "correct_index": 2,
+      "explication": "L'ESMA est l'autorité européenne de supervision des marchés financiers. L'EBA supervise les banques, l'EIOPA les assurances et retraites, la BCE conduit la politique monétaire.",
+      "source": "Règlement (UE) n°1095/2010 instituant l'ESMA",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t01-q003",
+      "exam": "generaliste",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "MiFID II est entrée en vigueur en :",
+      "options": [
+        "Novembre 2007",
+        "Janvier 2018",
+        "Janvier 2021",
+        "Juillet 2024"
+      ],
+      "correct_index": 1,
+      "explication": "MiFID II (Directive 2014/65/UE) et MiFIR (Règlement 600/2014) sont entrés en application le 3 janvier 2018, après plusieurs reports. MiFID I était entrée en vigueur en novembre 2007.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 93",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t01-q004",
+      "exam": "generaliste",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Lequel de ces rôles n'est PAS une fonction économique des marchés financiers ?",
+      "options": [
+        "Financement des entreprises et des États",
+        "Transfert des risques",
+        "Fixation des taux directeurs de la banque centrale",
+        "Allocation des ressources vers les investissements productifs"
+      ],
+      "correct_index": 2,
+      "explication": "Les taux directeurs sont fixés par la banque centrale (BCE pour la zone euro), pas par les marchés financiers. Les trois fonctions économiques classiques des marchés sont : financement, transfert des risques et allocation des ressources.",
+      "source": "Guide Pro AMF, Thème 1 — Cadre institutionnel",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t01-q005",
+      "exam": "generaliste",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "L'ACPR est adossée à :",
+      "options": [
+        "L'AMF",
+        "La Banque de France",
+        "La Caisse des Dépôts",
+        "Le Ministère de l'Économie"
+      ],
+      "correct_index": 1,
+      "explication": "L'Autorité de contrôle prudentiel et de résolution (ACPR) est une autorité administrative indépendante adossée à la Banque de France, dont le gouverneur est membre de droit de son collège de supervision.",
+      "source": "Code monétaire et financier, art. L.612-1",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

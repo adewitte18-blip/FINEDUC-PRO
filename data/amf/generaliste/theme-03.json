@@ -1,0 +1,136 @@
+{
+  "exam": "generaliste",
+  "theme_id": 3,
+  "label": "Sécurité financière",
+  "category": "A",
+  "module": {
+    "id": "amf-gen-t03",
+    "exam": "generaliste",
+    "theme_id": 3,
+    "label": "Sécurité financière (LCB-FT)",
+    "category": "A",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La lutte contre le blanchiment de capitaux et le financement du terrorisme (LCB-FT) est une obligation légale absolue pour tous les acteurs du secteur financier. Le non-respect de ces obligations expose à des sanctions pénales et administratives sévères.",
+      "sections": [
+        {
+          "titre": "1. Cadre juridique LCB-FT",
+          "contenu": "**Les textes de référence**\n- Directive européenne LCB-FT (5ème directive : 2018/843/UE)\n- Code monétaire et financier, articles L.561-1 et suivants\n- Règlement général de l'AMF\n\n**Les entités assujetties**\nLes PSI sont des entités assujetties aux obligations LCB-FT. Elles doivent mettre en place un dispositif de conformité incluant :\n- Une évaluation des risques (risk assessment)\n- Des procédures de vigilance (KYC : Know Your Customer)\n- Un système de déclaration (TRACFIN)\n- Une formation des salariés\n\n**Les personnes politiquement exposées (PPE)**\nLes PPE font l'objet d'une vigilance renforcée. Ce sont les personnes qui exercent ou ont exercé des fonctions publiques importantes (chefs d'État, membres du gouvernement, dirigeants d'entreprises publiques…) ainsi que leurs proches."
+        },
+        {
+          "titre": "2. Le processus de blanchiment",
+          "contenu": "Le blanchiment de capitaux consiste à réintégrer dans le circuit économique légal des fonds d'origine illicite. Il se déroule en trois étapes :\n\n**Étape 1 — Placement (Placement)**\nIntroduction des fonds illicites dans le système financier (dépôts en espèces, achat d'actifs).\n\n**Étape 2 — Empilement (Layering)**\nMultiplication des transactions pour brouiller les pistes et dissimuler l'origine des fonds (virements en cascade, sociétés-écrans).\n\n**Étape 3 — Intégration (Integration)**\nRéintégration des fonds dans l'économie légale sous une forme apparemment licite (achat d'immobilier, de sociétés commerciales).\n\n**Le financement du terrorisme**\nContrairement au blanchiment (fonds illicites → légaux), le financement du terrorisme peut utiliser des fonds d'origine licite (dons, revenus légaux) pour financer des actes terroristes. La vigilance s'applique indépendamment du montant."
+        },
+        {
+          "titre": "3. TRACFIN, sanctions et dispositifs complémentaires",
+          "contenu": "**TRACFIN**\nTraitement du renseignement et action contre les circuits financiers clandestins. Cellule de renseignement financier française, placée sous l'autorité du ministère de l'Économie. Les entités assujetties lui déclarent les opérations suspectes via une **déclaration de soupçon (DS)**.\n\nObligation de déclaration : dès qu'il y a **soupçon** (pas de certitude requise). La déclaration est confidentielle (interdiction de tipping-off : ne pas informer le client de la déclaration effectuée).\n\n**Les sanctions**\n- Sanctions administratives (AMF) : jusqu'à 100 M€ ou 10 % du chiffre d'affaires\n- Sanctions pénales : jusqu'à 10 ans d'emprisonnement et 750 000 € d'amende pour blanchiment aggravé\n\n**FATCA (Foreign Account Tax Compliance Act)**\nLoi américaine extraterritoriale obligeant les institutions financières étrangères à déclarer les comptes détenus par des contribuables américains à l'IRS (fisc américain).\n\n**Loi Sapin II — volet anti-corruption**\nOutre l'alerte éthique, la loi Sapin II impose aux grandes entreprises (plus de 500 salariés et 100 M€ de CA) un programme de conformité anti-corruption comprenant notamment une cartographie des risques et une procédure d'alerte interne."
+        }
+      ],
+      "points_cles": [
+        "Le blanchiment se déroule en 3 étapes : placement, empilement, intégration.",
+        "La déclaration de soupçon à TRACFIN est obligatoire dès qu'il y a soupçon — pas besoin de certitude.",
+        "L'interdiction de tipping-off interdit d'informer le client qu'une déclaration de soupçon a été faite.",
+        "Les PPE (personnes politiquement exposées) font l'objet d'une vigilance renforcée obligatoire.",
+        "FATCA oblige les institutions financières étrangères à déclarer les comptes de contribuables américains à l'IRS.",
+        "Sanctions LCB-FT : jusqu'à 100 M€ (AMF) ou 750 000 € + 10 ans de prison (pénal)."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t03-q001",
+      "exam": "generaliste",
+      "theme_id": 3,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Dans quel ordre se déroulent les étapes du blanchiment de capitaux ?",
+      "options": [
+        "Intégration → Empilement → Placement",
+        "Empilement → Placement → Intégration",
+        "Placement → Empilement → Intégration",
+        "Placement → Intégration → Empilement"
+      ],
+      "correct_index": 2,
+      "explication": "Le processus de blanchiment suit trois étapes dans cet ordre : 1) Placement : introduction des fonds illicites dans le système financier. 2) Empilement : multiplication des transactions pour brouiller les pistes. 3) Intégration : réintégration dans l'économie légale sous une forme apparemment licite.",
+      "source": "Code monétaire et financier, art. L.561-1 et s. ; Guide AMF Thème 3",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t03-q002",
+      "exam": "generaliste",
+      "theme_id": 3,
+      "category": "A",
+      "difficulty": 1,
+      "question": "À quel niveau de certitude une entité assujettie doit-elle effectuer une déclaration de soupçon à TRACFIN ?",
+      "options": [
+        "Certitude que l'opération est liée au blanchiment",
+        "Présomption sérieuse établie après enquête interne",
+        "Dès qu'il existe un soupçon, sans qu'une certitude soit requise",
+        "Uniquement si le montant dépasse 15 000 €"
+      ],
+      "correct_index": 2,
+      "explication": "L'obligation de déclaration à TRACFIN naît dès l'existence d'un soupçon, sans qu'une certitude soit requise. Attendre une certitude serait contraire à l'esprit du dispositif LCB-FT. Le seuil de 15 000 € concerne certaines opérations de change, pas la déclaration de soupçon.",
+      "source": "Code monétaire et financier, art. L.561-15",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t03-q003",
+      "exam": "generaliste",
+      "theme_id": 3,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Qu'est-ce que le 'tipping-off' et pourquoi est-il interdit ?",
+      "options": [
+        "La pratique consistant à informer un client qu'une déclaration de soupçon a été effectuée le concernant — interdit car cela compromettrait l'enquête",
+        "L'action d'augmenter les frais de surveillance pour les clients à risque — interdit car discriminatoire",
+        "La communication interne des déclarations de soupçon — interdite pour des raisons de confidentialité",
+        "L'obligation de déclarer les opérations supérieures à 10 000 € — non applicable en France"
+      ],
+      "correct_index": 0,
+      "explication": "Le tipping-off consiste à avertir un client (ou un tiers) qu'une déclaration de soupçon a été transmise à TRACFIN ou qu'une enquête est en cours. Cette pratique est strictement interdite car elle permettrait au suspect de dissimuler les fonds ou de fuir. La confidentialité de la déclaration est absolue.",
+      "source": "Code monétaire et financier, art. L.561-19",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t03-q004",
+      "exam": "generaliste",
+      "theme_id": 3,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Quelle est la principale différence entre le blanchiment de capitaux et le financement du terrorisme ?",
+      "options": [
+        "Le blanchiment utilise toujours des espèces, le financement du terrorisme passe par des virements",
+        "Le blanchiment part de fonds illicites qu'on rend légaux ; le financement du terrorisme peut utiliser des fonds d'origine licite",
+        "Le financement du terrorisme est uniquement transfrontalier, le blanchiment est national",
+        "Il n'y a pas de différence : les deux sont soumis aux mêmes obligations et traitements"
+      ],
+      "correct_index": 1,
+      "explication": "Le blanchiment consiste à transformer des fonds d'origine illicite (crime, trafic…) en fonds apparemment licites. Le financement du terrorisme est inverse : des fonds d'origine parfois parfaitement licite (dons, revenus légaux) sont utilisés pour financer des actes terroristes. Cette différence justifie une vigilance spécifique indépendante du montant.",
+      "source": "Code monétaire et financier, art. L.561-1 et L.561-30 ; Guide AMF Thème 3",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t03-q005",
+      "exam": "generaliste",
+      "theme_id": 3,
+      "category": "A",
+      "difficulty": 3,
+      "question": "FATCA oblige les institutions financières étrangères à :",
+      "options": [
+        "Refuser d'ouvrir des comptes aux ressortissants américains",
+        "Déclarer à l'IRS les comptes détenus par des contribuables américains",
+        "Appliquer une retenue à la source de 30 % sur tous les flux vers les États-Unis",
+        "Déclarer à l'AMF les investissements de clients américains en France"
+      ],
+      "correct_index": 1,
+      "explication": "FATCA (Foreign Account Tax Compliance Act, loi américaine de 2010) oblige les institutions financières étrangères (dont les banques françaises) à identifier et déclarer à l'IRS (fisc américain) les comptes détenus par des contribuables américains. Le non-respect expose à une retenue à la source de 30 % sur les flux de source américaine.",
+      "source": "Foreign Account Tax Compliance Act (FATCA), 2010 ; accord intergouvernemental France-États-Unis",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

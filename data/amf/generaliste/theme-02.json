@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 2,
+  "label": "Déontologie, conformité et organisation déontologique des établissements",
+  "category": "A",
+  "module": {
+    "id": "amf-gen-t02",
+    "exam": "generaliste",
+    "theme_id": 2,
+    "label": "Déontologie et conformité",
+    "category": "A",
+    "duration": "3h",
+    "cours": {
+      "introduction": "Les règles de déontologie et de conformité constituent le socle éthique du secteur financier. Elles s'imposent à toute personne en contact avec des clients ou intervenant sur les marchés, quelle que soit sa fonction au sein d'un PSI.",
+      "sections": [
+        {
+          "titre": "1. Règles de bonne conduite (MiFID II)",
+          "contenu": "**Les obligations fondamentales envers les clients**\nSelon MiFID II, les prestataires de services d'investissement (PSI) doivent :\n- Agir d'une manière honnête, équitable et professionnelle qui serve au mieux les intérêts de leurs clients\n- Fournir des informations correctes, claires et non trompeuses\n- Fournir des services et produits appropriés au profil du client\n\n**Le principe de primauté de l'intérêt du client**\nL'intérêt du client prime sur celui du PSI ou de ses employés. Tout acte contraire à ce principe constitue un manquement déontologique.\n\n**Les obligations d'organisation interne**\nLes PSI doivent mettre en place :\n- Une fonction de conformité (compliance) indépendante\n- Une procédure de gestion des conflits d'intérêts\n- Un responsable de la conformité pour les services d'investissement (RCSI)"
+        },
+        {
+          "titre": "2. Conflits d'intérêts",
+          "contenu": "**Définition**\nUn conflit d'intérêts survient lorsqu'une situation est susceptible de porter atteinte aux intérêts d'un client, au profit du PSI, d'un salarié ou d'un autre client.\n\n**Exemples typiques**\n- Un salarié recommande un produit maison (rémunération à la commission) sans que ce soit le meilleur choix pour le client\n- Un analyste publie une note favorable sur un titre dont son établissement gère l'émission\n- Un gestionnaire achète pour ses clients des titres qu'il détient personnellement (front-running)\n\n**Obligations du PSI**\n1. Identifier les conflits potentiels\n2. Mettre en place des procédures pour les prévenir (murailles de Chine)\n3. En cas d'impossibilité de prévention : informer le client avant d'agir\n4. Tenir un registre des conflits d'intérêts identifiés\n\n**Murailles de Chine (Chinese Walls)**\nSéparations organisationnelles et informationnelles entre les activités susceptibles de générer des conflits (ex : banque de financement et salle de marché)."
+        },
+        {
+          "titre": "3. Alerte éthique et réclamations",
+          "contenu": "**Le dispositif d'alerte éthique (whistleblowing)**\nLa loi Sapin II (2016) a renforcé les obligations en matière d'alerte :\n- Les établissements de plus de 50 salariés doivent mettre en place un dispositif de recueil des signalements\n- Le lanceur d'alerte bénéficie d'une protection contre les représailles\n- L'alerte peut porter sur des crimes, délits, violations graves de la loi ou de règlements\n\nEn matière financière, l'AMF dispose d'un portail de signalement dédié.\n\n**Gestion des réclamations clients**\nLe PSI doit :\n- Accuser réception de toute réclamation dans les 10 jours ouvrables\n- Apporter une réponse dans un délai maximum de 2 mois\n- Informer le client de la possibilité de recourir au médiateur de l'AMF\n- Tenir un registre des réclamations et en analyser les tendances (amélioration continue)"
+        }
+      ],
+      "points_cles": [
+        "Le PSI doit agir honnêtement, équitablement et professionnellement dans l'intérêt de ses clients (principe MiFID II).",
+        "Tout conflit d'intérêts doit être identifié, prévenu, et en dernier recours, déclaré au client avant d'agir.",
+        "Le RCSI (Responsable Conformité Services d'Investissement) est la fonction clé de conformité dans un PSI.",
+        "Loi Sapin II : les établissements de plus de 50 salariés doivent disposer d'un dispositif d'alerte éthique.",
+        "Réclamations : accusé de réception sous 10 jours ouvrables, réponse sous 2 mois maximum."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t02-q001",
+      "exam": "generaliste",
+      "theme_id": 2,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Selon MiFID II, comment un PSI doit-il se comporter envers ses clients ?",
+      "options": [
+        "D'une manière profitable maximisant les revenus de l'établissement",
+        "D'une manière honnête, équitable et professionnelle servant au mieux leurs intérêts",
+        "En priorité dans l'intérêt des actionnaires de l'établissement",
+        "En respectant uniquement les règles fixées par son conseil d'administration"
+      ],
+      "correct_index": 1,
+      "explication": "MiFID II impose aux PSI d'agir d'une manière honnête, équitable et professionnelle qui serve au mieux les intérêts des clients. Ce principe de primauté de l'intérêt du client est fondamental et prime sur l'intérêt commercial de l'établissement.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 24 ; Règlement général AMF",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t02-q002",
+      "exam": "generaliste",
+      "theme_id": 2,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Dans quel délai maximum un PSI doit-il apporter une réponse de fond à une réclamation client ?",
+      "options": [
+        "10 jours ouvrables",
+        "1 mois",
+        "2 mois",
+        "3 mois"
+      ],
+      "correct_index": 2,
+      "explication": "Le PSI doit accuser réception de la réclamation dans les 10 jours ouvrables et apporter une réponse de fond dans un délai maximum de 2 mois à compter de la réception de la réclamation. En cas de délai supérieur, il doit en informer le client.",
+      "source": "Instruction AMF DOC-2012-07 relative au traitement des réclamations",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t02-q003",
+      "exam": "generaliste",
+      "theme_id": 2,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Laquelle de ces situations constitue un conflit d'intérêts ?",
+      "options": [
+        "Un conseiller recommande un OPC dont la performance passée est la meilleure de sa catégorie",
+        "Un gestionnaire achète pour le compte de clients des titres qu'il détient personnellement avant qu'ils ne montent (front-running)",
+        "Un analyste émet une recommandation neutre sur un titre de son univers de couverture",
+        "Un PSI informe ses clients d'une hausse des frais de courtage"
+      ],
+      "correct_index": 1,
+      "explication": "Le front-running consiste à passer des ordres personnels avant ceux des clients pour profiter du mouvement de prix que les ordres clients vont générer. C'est un conflit d'intérêts majeur et un manquement grave à l'éthique professionnelle, prohibé par la réglementation.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 23 ; Règlement général AMF, art. 313-18 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t02-q004",
+      "exam": "generaliste",
+      "theme_id": 2,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Quel est le seuil d'effectifs à partir duquel la loi Sapin II impose un dispositif d'alerte éthique ?",
+      "options": [
+        "10 salariés",
+        "50 salariés",
+        "250 salariés",
+        "500 salariés"
+      ],
+      "correct_index": 1,
+      "explication": "La loi Sapin II du 9 décembre 2016 impose aux établissements d'au moins 50 salariés de mettre en place un dispositif de recueil des signalements (alerte éthique), sécurisé et permettant de garantir la confidentialité de l'identité de l'auteur du signalement.",
+      "source": "Loi n°2016-1691 du 9 décembre 2016 (Sapin II), art. 8",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t02-q005",
+      "exam": "generaliste",
+      "theme_id": 2,
+      "category": "A",
+      "difficulty": 3,
+      "question": "Un PSI identifie un conflit d'intérêts qu'il ne peut pas prévenir. Que doit-il faire ?",
+      "options": [
+        "Refuser systématiquement de réaliser l'opération concernée",
+        "Ne rien faire si le conflit reste théorique",
+        "Informer le client de la nature du conflit avant d'agir pour lui",
+        "Solliciter l'accord de l'AMF avant de procéder"
+      ],
+      "correct_index": 2,
+      "explication": "La réglementation prévoit une hiérarchie : 1) Prévenir le conflit d'intérêts (politique de gestion des conflits). 2) Si la prévention est impossible : informer clairement le client de la nature générale et des sources du conflit avant d'agir pour lui. Cette information doit être suffisante pour que le client puisse prendre une décision éclairée.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 23(2) ; Règlement général AMF, art. 313-21",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

@@ -3,13 +3,14 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { BookOpen, Layers, Zap, Users, Target, Trophy, Menu, X, LogOut, User } from 'lucide-react'
+import { BookOpen, Layers, Zap, Users, Target, Trophy, Menu, X, LogOut, User, GraduationCap } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { getUser, signOut } from '@/lib/supabase'
 
 const NAV_LINKS = [
   { href: '/parcours', label: 'Parcours', icon: Layers },
   { href: '/module', label: 'Modules', icon: BookOpen },
+  { href: '/amf', label: 'AMF', icon: GraduationCap },
   { href: '/flashcards', label: 'Flashcards', icon: Zap },
   { href: '/positionnement', label: 'Positionnement', icon: Target },
   { href: '/comite', label: 'Mode Comité', icon: Trophy },

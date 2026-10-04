@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 5,
+  "label": "Commercialisation d'instruments financiers",
+  "category": "A+C",
+  "module": {
+    "id": "amf-gen-t05",
+    "exam": "generaliste",
+    "theme_id": 5,
+    "label": "Commercialisation d'instruments financiers",
+    "category": "A+C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La commercialisation d'instruments financiers est encadrée par un ensemble de règles visant à protéger les investisseurs et à garantir la transparence des offres. Ces règles couvrent notamment le démarchage bancaire et financier, la vente à distance, le conseil en investissement et les exigences en matière de publicité.",
+      "sections": [
+        {
+          "titre": "1. Démarchage bancaire et financier",
+          "contenu": "**Définition**\nLe démarchage bancaire ou financier est le fait de se rendre physiquement au domicile d'une personne ou en tout autre lieu non destiné à la commercialisation de produits financiers, ou de la contacter à distance (téléphone, courriel), de manière non sollicitée, pour lui proposer des produits ou services financiers.\n\n**Conditions**\n- Les démarcheurs doivent être habilités par un PSI ou un établissement de crédit\n- Obligation de présenter une carte de démarcheur\n- Droit de rétractation : 14 jours calendaires pour les particuliers (sauf exceptions)\n\n**Interdictions**\n- Démarchage pour des produits à risque élevé (ex : FCIMT — fonds communs d'intervention sur les marchés à terme) auprès du grand public\n- Démarchage à des heures indues (avant 8h, après 20h, dimanches et jours fériés)"
+        },
+        {
+          "titre": "2. Vente à distance et conseil en investissement",
+          "contenu": "**La vente à distance de services financiers**\nEncadrée par la directive européenne sur la commercialisation à distance de services financiers (2002/65/CE), transposée en droit français.\n\nObligations :\n- Information précontractuelle complète avant la conclusion du contrat\n- Délai de rétractation : 14 jours (non applicable à certains instruments dont le prix fluctue)\n\n**Le conseil en investissement (service d'investissement)**\nLe conseil en investissement consiste à fournir des recommandations personnalisées à un client concernant des instruments financiers. C'est un service d'investissement réglementé.\n\nLe conseil est dit **indépendant** (MiFID II) lorsque le conseiller :\n- Évalue un éventail suffisamment diversifié d'instruments\n- Ne perçoit pas de rémunération versée par des tiers (rétrocessions)\n\nDans le cas contraire, le conseil est **non indépendant** et les rétrocessions sont possibles sous conditions de transparence."
+        },
+        {
+          "titre": "3. Publicité et communication promotionnelle",
+          "contenu": "**Principes généraux**\nToute communication à caractère promotionnel doit :\n- Être clairement identifiable comme telle\n- Être exacte, claire et non trompeuse\n- Mentionner les risques liés à l'investissement (principe de cohérence risque/rendement)\n- Être présentée de manière équilibrée (les risques aussi clairement que les avantages)\n\n**Les mentions obligatoires**\nSelon la nature du produit, certaines mentions légales sont obligatoires :\n- \"Les performances passées ne préjugent pas des performances futures\"\n- Pour les produits à capital non garanti : avertissement explicite sur le risque de perte en capital\n\n**Contrôle de l'AMF**\nL'AMF peut demander la modification ou l'interdiction de toute communication qu'elle considère non conforme. Les conseillers en investissements financiers (CIF) doivent faire viser leurs supports par leur association professionnelle agréée."
+        }
+      ],
+      "points_cles": [
+        "Démarchage : droit de rétractation de 14 jours pour les particuliers ; interdiction à des heures indues.",
+        "Le conseil en investissement est un service d'investissement réglementé nécessitant une évaluation du profil client.",
+        "Conseil indépendant (MiFID II) : éventail diversifié d'instruments et pas de rétrocessions.",
+        "Toute communication promotionnelle doit être équilibrée : risques aussi visibles que les avantages.",
+        "Mention obligatoire : 'Les performances passées ne préjugent pas des performances futures'."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t05-q001",
+      "exam": "generaliste",
+      "theme_id": 5,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Quel est le délai de rétractation dont dispose un particulier à la suite d'un démarchage bancaire ou financier ?",
+      "options": [
+        "7 jours ouvrables",
+        "10 jours calendaires",
+        "14 jours calendaires",
+        "30 jours calendaires"
+      ],
+      "correct_index": 2,
+      "explication": "Le délai de rétractation pour un particulier ayant souscrit à la suite d'un démarchage bancaire ou financier est de 14 jours calendaires à compter de la conclusion du contrat. Ce droit de rétractation est prévu par le Code monétaire et financier et s'applique sans pénalités ni frais.",
+      "source": "Code monétaire et financier, art. L.341-16",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t05-q002",
+      "exam": "generaliste",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Qu'est-ce qui caractérise un conseil en investissement 'indépendant' au sens de MiFID II ?",
+      "options": [
+        "Le conseiller est salarié d'une société indépendante, non adossée à un grand groupe bancaire",
+        "Le conseiller évalue un éventail diversifié d'instruments et ne perçoit pas de rémunération de tiers (rétrocessions)",
+        "Le conseiller est enregistré comme CIF auprès de l'AMF",
+        "Le conseiller fournit une garantie de capital sur les produits recommandés"
+      ],
+      "correct_index": 1,
+      "explication": "MiFID II définit le conseil indépendant par deux critères : 1) le conseiller doit évaluer un éventail suffisamment diversifié d'instruments financiers, sans se limiter aux produits maison ; 2) il ne perçoit pas de rémunération versée par des émetteurs ou gérants (rétrocessions interdites). La structure juridique du conseiller ou son statut CIF ne détermine pas en soi le caractère indépendant du conseil.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 24(7)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t05-q003",
+      "exam": "generaliste",
+      "theme_id": 5,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Une publicité pour un produit financier à capital non garanti doit obligatoirement :",
+      "options": [
+        "Mentionner la liste complète des risques selon un modèle AMF normalisé",
+        "Être soumise à l'accord préalable de l'AMF avant diffusion",
+        "Comporter un avertissement explicite sur le risque de perte en capital",
+        "Indiquer les performances passées sur les 5 dernières années"
+      ],
+      "correct_index": 2,
+      "explication": "Toute communication promotionnelle pour un produit à capital non garanti doit comporter un avertissement explicite sur le risque de perte en capital. L'information doit être équilibrée : les risques doivent être présentés aussi clairement que les avantages. L'accord préalable de l'AMF n'est pas requis pour toutes les communications, mais l'AMF peut en demander la modification ou l'interdiction.",
+      "source": "Règlement général AMF, art. 314-10 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t05-q004",
+      "exam": "generaliste",
+      "theme_id": 5,
+      "category": "A",
+      "difficulty": 2,
+      "question": "À quelles heures le démarchage bancaire et financier par téléphone est-il interdit ?",
+      "options": [
+        "Avant 9h et après 19h",
+        "Avant 8h et après 20h, ainsi que les dimanches et jours fériés",
+        "Avant 8h et après 18h en semaine uniquement",
+        "Il n'existe pas de restriction horaire pour le démarchage professionnel"
+      ],
+      "correct_index": 1,
+      "explication": "Le démarchage bancaire et financier est interdit avant 8h et après 20h, ainsi que les dimanches et jours fériés. Ces restrictions visent à protéger les consommateurs contre le harcèlement commercial à des horaires indus.",
+      "source": "Code monétaire et financier, art. L.341-2",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t05-q005",
+      "exam": "generaliste",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Une publicité affirme : 'Ce fonds a réalisé +25 % l'année passée, profitez de cette performance.' Cette communication est-elle conforme ?",
+      "options": [
+        "Oui, si les chiffres cités sont exacts et vérifiables",
+        "Non, car elle présente les performances passées comme une garantie de performances futures sans avertissement approprié",
+        "Oui, si le fonds est agréé par l'AMF",
+        "Non, car toute mention de performance est interdite dans les publicités financières"
+      ],
+      "correct_index": 1,
+      "explication": "Cette communication est non conforme. Elle utilise la performance passée de manière trompeuse, en incitant l'investisseur à 'profiter de cette performance' sans avertir que les performances passées ne préjugent pas des performances futures. La mention obligatoire doit figurer de manière lisible, sans être minimisée par la mise en page.",
+      "source": "Règlement général AMF, art. 314-10 ; position-recommandation AMF 2011-24",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

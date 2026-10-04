@@ -1,0 +1,135 @@
+{
+  "exam": "durable",
+  "theme_id": 4,
+  "label": "Approches extra-financières en gestion d'actifs",
+  "category": "C",
+  "module": {
+    "id": "amf-dur-t04",
+    "exam": "durable",
+    "theme_id": 4,
+    "label": "Approches ESG en gestion d'actifs",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La gestion d'actifs durable recouvre un ensemble d'approches permettant d'intégrer les critères ESG dans les portefeuilles. Ces approches vont de la simple exclusion à l'investissement à impact, avec des contraintes et des philosophies très différentes.",
+      "sections": [
+        {
+          "titre": "1. Intégration ESG et approches d'exclusion",
+          "contenu": "**Intégration ESG**\nIncorporation systématique des facteurs ESG dans l'analyse financière et le processus d'investissement, sans nécessairement modifier la composition finale du portefeuille. Vise à mieux évaluer les risques et opportunités non financiers.\n\n**Les exclusions**\nDeux types d'exclusions :\n- **Exclusions normatives** : exclusion d'émetteurs qui violent des conventions internationales (Pacte Mondial ONU, convention sur les mines antipersonnel…)\n- **Exclusions sectorielles** : exclusion de secteurs entiers (armement controversé, tabac, charbon thermique, jeux d'argent)\n\nL'Union européenne impose des exclusions sectorielles minimales pour les indices PAB (entreprises avec > 10 % de CA tiré du charbon thermique ou > 50 % du pétrole/gaz non conventionnel).\n\n**Best-in-class vs Best-in-universe**\n- **Best-in-class** : sélectionne les meilleurs émetteurs ESG au sein de chaque secteur. Permet de maintenir une diversification sectorielle.\n- **Best-in-universe** : sélectionne les meilleurs émetteurs ESG tous secteurs confondus. Peut conduire à une concentration sur certains secteurs naturellement plus vertueux (technologie, santé vs énergie, industrie lourde)."
+        },
+        {
+          "titre": "2. Fonds green bonds et fonds à impact",
+          "contenu": "**Green Bonds (obligations vertes)**\nObligations dont les fonds sont exclusivement affectés au financement de projets ayant des bénéfices environnementaux. Le marché est encadré par les Green Bond Principles (ICMA) et le European Green Bond Standard (EuGBS, entré en vigueur en 2024).\n\nCaractéristiques :\n- Affectation exclusive des fonds à des projets verts\n- Reporting annuel sur l'utilisation des fonds\n- Rapport d'impact (quantification des bénéfices environnementaux)\n\n**Social Bonds et Sustainability Bonds**\n- Social Bonds : fonds affectés à des projets à bénéfice social\n- Sustainability Bonds : mix de projets verts et sociaux\n\n**Fonds à impact (impact investing)**\nInvestissements réalisés avec l'intention de générer un impact social ou environnemental positif et mesurable, en plus d'un rendement financier.\n\nCaractéristiques distinctives de l'impact :\n- **Intentionnalité** : l'impact est délibérément recherché\n- **Additionnalité** : l'investissement génère un impact qui n'aurait pas eu lieu sans lui\n- **Mesurabilité** : l'impact est quantifié et reporté"
+        },
+        {
+          "titre": "3. Position-Recommandation AMF 2020-03",
+          "contenu": "**La position-recommandation AMF 2020-03 (mise à jour 2022)**\nCadre français pour les OPC prenant en compte des critères ESG dans leur gestion. Elle définit trois niveaux d'engagement ESG pour les fonds :\n\n**Niveau 1 — Approche ESG** : le fonds intègre des critères ESG dans son processus d'investissement mais l'ESG n'est pas le critère central.\n\n**Niveau 2 — Démarche ESG marquée** : l'ESG est un élément central de la stratégie d'investissement. Le fonds doit démontrer une approche ESG significativement meilleure que son univers d'investissement.\n\n**Niveau 3 — Fonds à objectif de durabilité** : le fonds vise une contribution positive à l'environnement ou à la société avec une mesure d'impact.\n\n**Conditions d'utilisation des termes ESG dans les communications**\nL'AMF impose que les communications des fonds ESG soient cohérentes avec leur niveau d'engagement réel. L'utilisation abusive de termes comme 'vert', 'durable', 'ESG' constitue du greenwashing et peut entraîner des sanctions."
+        }
+      ],
+      "points_cles": [
+        "Best-in-class : meilleurs émetteurs ESG par secteur (diversification maintenue). Best-in-universe : tous secteurs confondus (concentration possible).",
+        "Green bonds : affectation exclusive à des projets verts + reporting d'utilisation des fonds + rapport d'impact.",
+        "Impact investing : intentionnalité + additionnalité + mesurabilité.",
+        "Position-recommandation AMF 2020-03 : 3 niveaux d'engagement ESG pour les OPC français.",
+        "European Green Bond Standard (EuGBS) : encadrement officiel des green bonds en Europe depuis 2024."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-dur-t04-q001",
+      "exam": "durable",
+      "theme_id": 4,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quelle est la différence entre l'approche Best-in-class et Best-in-universe ?",
+      "options": [
+        "Best-in-class sélectionne les titres par capitalisation boursière ; Best-in-universe par zone géographique",
+        "Best-in-class sélectionne les meilleurs émetteurs ESG au sein de chaque secteur ; Best-in-universe sélectionne les meilleurs tous secteurs confondus",
+        "Best-in-class concerne les actions ; Best-in-universe concerne les obligations",
+        "Il n'y a pas de différence, les deux termes sont synonymes"
+      ],
+      "correct_index": 1,
+      "explication": "L'approche Best-in-class sélectionne les émetteurs ayant les meilleurs scores ESG au sein de chaque secteur (ex : la meilleure compagnie pétrolière sur critères ESG est conservée dans le portefeuille). L'approche Best-in-universe sélectionne les meilleurs émetteurs tous secteurs confondus, ce qui peut conduire à exclure des secteurs entiers à faibles scores ESG.",
+      "source": "Guide Pro AMF Finance durable, Thème 4 ; position-recommandation AMF 2020-03",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t04-q002",
+      "exam": "durable",
+      "theme_id": 4,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Pour qu'un investissement soit qualifié d'investissement à impact, il doit présenter :",
+      "options": [
+        "Un rendement financier supérieur à 8 % par an",
+        "L'intentionnalité, l'additionnalité et la mesurabilité de l'impact",
+        "Un label ESG reconnu et une notation MSCI supérieure à AA",
+        "Une classification SFDR article 9 et un indice de référence PAB"
+      ],
+      "correct_index": 1,
+      "explication": "L'impact investing se distingue par trois caractéristiques : 1) l'intentionnalité (l'impact positif est délibérément recherché, pas un effet secondaire), 2) l'additionnalité (l'investissement génère un impact qui n'aurait pas eu lieu sans lui), 3) la mesurabilité (l'impact est quantifié et reporté régulièrement). Ces critères le distinguent d'un simple investissement ESG.",
+      "source": "GIIN (Global Impact Investing Network) ; Guide Pro AMF Finance durable, Thème 4",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t04-q003",
+      "exam": "durable",
+      "theme_id": 4,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quelle est l'obligation principale d'un émetteur d'obligations vertes (green bonds) ?",
+      "options": [
+        "Obtenir une notation ESG minimum de BBB auprès d'une agence de notation reconnue",
+        "Affecter exclusivement les fonds levés à des projets ayant des bénéfices environnementaux",
+        "Compenser intégralement les émissions de CO2 de l'entreprise",
+        "Publier un rapport annuel de gouvernance avec audit externe"
+      ],
+      "correct_index": 1,
+      "explication": "Le principe fondamental des green bonds (Green Bond Principles de l'ICMA) est l'affectation exclusive des fonds levés à des projets verts clairement identifiés et ayant des bénéfices environnementaux mesurables. L'émetteur doit également publier un rapport annuel sur l'utilisation des fonds et un rapport d'impact quantifiant les bénéfices environnementaux.",
+      "source": "Green Bond Principles (ICMA, 2021) ; Règlement (UE) 2023/2631 (EuGBS)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t04-q004",
+      "exam": "durable",
+      "theme_id": 4,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Selon la position-recommandation AMF 2020-03, un fonds de niveau 3 est :",
+      "options": [
+        "Un fonds qui intègre des critères ESG de manière marginale dans son analyse",
+        "Un fonds avec une démarche ESG marquée et des scores ESG supérieurs à son univers",
+        "Un fonds visant une contribution positive et mesurable à l'environnement ou à la société",
+        "Un fonds exclu du marché français par l'AMF pour greenwashing"
+      ],
+      "correct_index": 2,
+      "explication": "Dans la position-recommandation AMF 2020-03, le niveau 3 correspond aux fonds ayant un objectif de durabilité : ils visent une contribution positive et mesurable à l'environnement ou à la société, avec une mesure d'impact. C'est le niveau d'engagement ESG le plus élevé, correspondant aux fonds SFDR article 9.",
+      "source": "Position-recommandation AMF 2020-03 (mise à jour 2022)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t04-q005",
+      "exam": "durable",
+      "theme_id": 4,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Les exclusions normatives dans les fonds ISR portent sur :",
+      "options": [
+        "Les entreprises dont le chiffre d'affaires dépasse 1 milliard d'euros",
+        "Les émetteurs qui violent des conventions internationales comme le Pacte Mondial de l'ONU",
+        "Les sociétés dont le PER dépasse 30x",
+        "Les États notés moins de BBB par les agences de notation"
+      ],
+      "correct_index": 1,
+      "explication": "Les exclusions normatives consistent à exclure les émetteurs qui violent les normes et conventions internationales : Pacte Mondial de l'ONU (droits humains, droits du travail, environnement, lutte contre la corruption), convention d'Ottawa (mines antipersonnel), convention sur les armes à sous-munitions, etc. Elles sont distinctes des exclusions sectorielles qui visent des secteurs entiers.",
+      "source": "Guide Pro AMF Finance durable, Thème 4 — Approches d'exclusion",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

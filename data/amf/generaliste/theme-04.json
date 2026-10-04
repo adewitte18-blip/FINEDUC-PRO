@@ -1,0 +1,136 @@
+{
+  "exam": "generaliste",
+  "theme_id": 4,
+  "label": "Réglementation Abus de marché",
+  "category": "A",
+  "module": {
+    "id": "amf-gen-t04",
+    "exam": "generaliste",
+    "theme_id": 4,
+    "label": "Abus de marché (MAR)",
+    "category": "A",
+    "duration": "3h",
+    "cours": {
+      "introduction": "Le règlement européen sur les abus de marché (MAR, Market Abuse Regulation, n°596/2014) est entré en application le 3 juillet 2016. Il harmonise les règles européennes relatives aux opérations d'initiés, à la manipulation de cours et à la diffusion d'informations trompeuses.",
+      "sections": [
+        {
+          "titre": "1. L'information privilégiée",
+          "contenu": "**Définition (art. 7 MAR)**\nUne information est privilégiée lorsqu'elle réunit quatre critères cumulatifs :\n1. **Précise** : elle désigne des circonstances existantes ou dont la réalisation est raisonnablement attendue\n2. **Non publique** : elle n'a pas été rendue accessible au grand public\n3. **Concernant un émetteur ou un instrument financier**\n4. **Susceptible d'influencer le cours** : un investisseur raisonnable l'utiliserait probablement comme élément de sa décision d'investissement (test de l'investisseur raisonnable)\n\n**Exemples**\n- Résultats financiers non encore publiés\n- Projet d'OPA non annoncé\n- Décision de dividende exceptionnel non encore divulguée\n- Information sur une rupture de stock majeure avant annonce"
+        },
+        {
+          "titre": "2. Obligations d'abstention et délit d'initié",
+          "contenu": "**Obligation d'abstention**\nToute personne détenant une information privilégiée doit s'abstenir de :\n- Utiliser cette information pour acquérir ou céder des instruments financiers concernés (trading)\n- Recommander à un tiers d'acquérir ou céder (tipping)\n- Divulguer l'information à des tiers non habilités\n\n**Le délit d'initié**\nLe délit d'initié est constitué lorsqu'une personne disposant d'une information privilégiée l'utilise pour réaliser des opérations sur les instruments concernés.\n\nIl n'est pas nécessaire que l'opérateur ait réalisé un gain : **la tentative est également sanctionnée**.\n\n**Les initiés primaires et secondaires**\n- Initiés primaires : personnes ayant accès à l'information par leurs fonctions (dirigeants, employés, actionnaires de contrôle, conseillers)\n- Initiés secondaires (tippees) : personnes ayant reçu l'information d'un initié primaire\nLes deux catégories sont sanctionnables."
+        },
+        {
+          "titre": "3. Manipulation de cours, fausses informations et sanctions",
+          "contenu": "**Manipulation de cours**\nToute transaction ou ordre qui donne ou est susceptible de donner des signaux faux ou trompeurs sur l'offre, la demande ou le cours d'instruments financiers.\n\nExemples : wash trading (achats/ventes croisés entre comptes liés), spoofing (ordres annulés avant exécution pour créer une apparence de liquidité), layering.\n\n**Diffusion de fausses informations**\nDiffuser des informations fausses ou trompeuses sur la situation d'un émetteur ou sur un instrument financier, susceptibles d'influencer leur cours.\n\n**Sanctions (France)**\n- Sanction administrative (AMF) : amende jusqu'à 100 M€ ou 3 fois le profit réalisé (le plus élevé des deux) + interdiction professionnelle\n- Sanction pénale : jusqu'à 5 ans d'emprisonnement et 100 M€ d'amende\n\n**Les listes d'initiés**\nLes émetteurs dont les titres sont admis à la négociation doivent tenir à jour une liste des personnes ayant accès à des informations privilégiées (liste d'initiés permanents et ponctuels). Cette liste doit être transmise à l'AMF sur demande."
+        }
+      ],
+      "points_cles": [
+        "Information privilégiée : précise, non publique, concernant un émetteur/instrument, susceptible d'influencer le cours.",
+        "Trois comportements interdits : utiliser l'info (trading), recommander (tipping), divulguer sans habilitation.",
+        "Le délit d'initié est constitué même sans profit réalisé ; la tentative est sanctionnée.",
+        "Les initiés secondaires (tippees) sont également sanctionnables.",
+        "Sanctions AMF : jusqu'à 100 M€ ou 3 fois le profit. Sanctions pénales : 5 ans + 100 M€.",
+        "Les émetteurs doivent tenir des listes d'initiés à jour et les transmettre à l'AMF sur demande."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t04-q001",
+      "exam": "generaliste",
+      "theme_id": 4,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Parmi les propositions suivantes, laquelle définit correctement une information privilégiée selon le règlement MAR ?",
+      "options": [
+        "Toute information interne à une entreprise, quel qu'en soit le contenu",
+        "Une information précise, non publique, relative à un émetteur ou instrument financier, susceptible d'influencer son cours",
+        "Une information connue par les dirigeants uniquement, même si déjà publiée",
+        "Toute information obtenue lors d'un conseil d'administration"
+      ],
+      "correct_index": 1,
+      "explication": "L'article 7 du règlement MAR définit l'information privilégiée par quatre critères cumulatifs : précise, non publique, relative à un émetteur/instrument financier, et susceptible d'influencer significativement le cours (test de l'investisseur raisonnable). Une information déjà publiée ou non susceptible d'influencer le cours ne répond pas à cette définition.",
+      "source": "Règlement (UE) n°596/2014 (MAR), art. 7",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t04-q002",
+      "exam": "generaliste",
+      "theme_id": 4,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Le délit d'initié est-il constitué si l'opérateur n'a réalisé aucun profit ?",
+      "options": [
+        "Non, l'absence de profit exclut la qualification de délit d'initié",
+        "Oui, le délit est constitué dès l'utilisation d'une information privilégiée, même sans profit",
+        "Uniquement si l'opération a causé un préjudice à d'autres investisseurs",
+        "Seulement si l'opérateur est un initié primaire"
+      ],
+      "correct_index": 1,
+      "explication": "Le délit d'initié est constitué dès lors qu'une personne disposant d'une information privilégiée utilise celle-ci pour réaliser des opérations, indépendamment du résultat financier. Ni le profit effectif, ni la perte éventuelle, ni l'identité de l'initié (primaire ou secondaire) ne conditionnent la qualification du délit.",
+      "source": "Règlement (UE) n°596/2014 (MAR), art. 8 ; Code monétaire et financier, art. L.465-1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t04-q003",
+      "exam": "generaliste",
+      "theme_id": 4,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Le spoofing est une forme de :",
+      "options": [
+        "Délit d'initié",
+        "Manipulation de cours",
+        "Diffusion de fausses informations",
+        "Violation des règles de tenue de compte"
+      ],
+      "correct_index": 1,
+      "explication": "Le spoofing consiste à passer des ordres d'achat ou de vente sans intention de les exécuter, pour créer une apparence artificielle de liquidité ou d'intérêt sur un titre, puis à les annuler avant exécution. C'est une forme de manipulation de cours prohibée par le règlement MAR.",
+      "source": "Règlement (UE) n°596/2014 (MAR), art. 12",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t04-q004",
+      "exam": "generaliste",
+      "theme_id": 4,
+      "category": "A",
+      "difficulty": 3,
+      "question": "Un employé d'une banque conseil pour une OPA en cours transmet l'information à son beau-frère qui achète des actions de la cible. Quelle qualification retenir ?",
+      "options": [
+        "L'employé seul est coupable de délit d'initié en tant qu'initié primaire ; le beau-frère n'est pas sanctionnable",
+        "L'employé est coupable de divulgation illicite d'information privilégiée ; le beau-frère est coupable de délit d'initié en tant qu'initié secondaire",
+        "Aucune infraction si le beau-frère ne travaille pas dans la finance",
+        "Seul le beau-frère est sanctionnable car c'est lui qui a passé l'ordre"
+      ],
+      "correct_index": 1,
+      "explication": "Le règlement MAR sanctionne les deux parties : l'employé est coupable de divulgation illicite d'information privilégiée (tipping), et le beau-frère est coupable de délit d'initié en tant qu'initié secondaire (tippee), car il savait ou aurait dû savoir qu'il utilisait une information privilégiée. La qualité professionnelle du secondaire est indifférente.",
+      "source": "Règlement (UE) n°596/2014 (MAR), art. 8(4) et 10",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t04-q005",
+      "exam": "generaliste",
+      "theme_id": 4,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Quel est le montant maximum de l'amende administrative que l'AMF peut prononcer en cas de manquement aux règles sur les abus de marché ?",
+      "options": [
+        "1 million d'euros",
+        "10 millions d'euros",
+        "100 millions d'euros ou 3 fois le profit réalisé, le plus élevé des deux",
+        "Illimité selon la gravité du manquement"
+      ],
+      "correct_index": 2,
+      "explication": "Le règlement MAR, transposé en droit français, prévoit pour les personnes morales une sanction administrative pouvant atteindre 100 millions d'euros ou trois fois le montant des profits retirés de l'infraction si celui-ci peut être déterminé, le montant le plus élevé étant retenu.",
+      "source": "Règlement (UE) n°596/2014 (MAR), art. 30 ; Code monétaire et financier, art. L.621-15",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

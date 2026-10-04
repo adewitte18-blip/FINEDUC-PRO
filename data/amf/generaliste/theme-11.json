@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 11,
+  "label": "Émissions et opérations sur titres",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t11",
+    "exam": "generaliste",
+    "theme_id": 11,
+    "label": "Émissions et opérations sur titres",
+    "category": "C",
+    "duration": "2h",
+    "cours": {
+      "introduction": "Le marché primaire est le lieu où les émetteurs lèvent des capitaux neufs. Les introductions en bourse, les émissions obligataires et le financement participatif sont les principaux mécanismes que tout professionnel des services d'investissement doit connaître.",
+      "sections": [
+        {
+          "titre": "1. Le marché primaire",
+          "contenu": "**Définition**\nLe marché primaire est celui des émissions nouvelles de titres. Il se distingue du marché secondaire (négociation de titres déjà émis).\n\n**Les offres au public de titres financiers**\nDepuis le règlement Prospectus (2017/1129/UE), une offre au public nécessite la publication d'un prospectus approuvé par l'AMF (ou par l'autorité d'un autre État membre de l'UE).\n\nExceptions à l'obligation de prospectus :\n- Offres destinées uniquement à des investisseurs qualifiés\n- Offres dont le montant total est inférieur à 8 M€ (seuil français après options nationales)\n- Offres adressées à moins de 150 personnes\n\n**Les types d'offres lors d'une IPO**\n- **OPF** (Offre à Prix Fixe) : prix déterminé à l'avance\n- **OPO** (Offre à Prix Ouvert) : fourchette de prix indicative, prix final déterminé après la constitution du livre d'ordres\n- **Placement global** : réservé aux investisseurs institutionnels (bookbuilding)"
+        },
+        {
+          "titre": "2. Introductions en bourse et crowdfunding",
+          "contenu": "**L'introduction en bourse (IPO — Initial Public Offering)**\nProcessus permettant à une société non cotée d'accéder à un marché réglementé ou à un SMN (ex : Euronext Growth).\n\nÉtapes clés :\n1. Choix du marché et sélection des intermédiaires (chef de file)\n2. Préparation du prospectus (due diligence, valorisation)\n3. Approbation du prospectus par l'AMF\n4. Roadshow et constitution du livre d'ordres\n5. Fixation du prix et allocation des titres\n6. Première cotation\n\n**Le financement participatif (crowdfunding)**\nEncadré par le règlement européen 2020/1503/UE depuis novembre 2021. Les PSFP (Prestataires de services de financement participatif) peuvent proposer :\n- Des prêts (crowdlending)\n- Des titres financiers (crowdequity)\n\nSeuil : jusqu'à 5 M€ par projet sur 12 mois sans obligation de prospectus complet."
+        },
+        {
+          "titre": "3. Opérations sur titres (OST)",
+          "contenu": "**Les principales opérations sur titres**\n\n| Opération | Description |\n|---|---|\n| Détachement de dividende | Distribution de bénéfices aux actionnaires |\n| Augmentation de capital | Émission de nouvelles actions (DPS — Droit préférentiel de souscription) |\n| Réduction de capital | Rachat et annulation d'actions (buyback) |\n| Division/regroupement d'actions (split/reverse split) | Modification nominale du nombre d'actions |\n| OPA / OPE | Offre publique d'achat / d'échange sur les titres d'une société cotée |\n| Fusion-absorption | Absorption d'une société par une autre avec échange de titres |\n\n**Le Droit Préférentiel de Souscription (DPS)**\nLors d'une augmentation de capital, les actionnaires existants reçoivent des DPS qui leur permettent de souscrire de nouvelles actions prioritairement (protection contre la dilution). Ils peuvent aussi vendre leurs DPS en bourse."
+        }
+      ],
+      "points_cles": [
+        "Marché primaire = émissions nouvelles ; marché secondaire = négociation de titres existants.",
+        "Prospectus obligatoire pour les offres au public sauf exceptions (investisseurs qualifiés, montant < 8 M€, moins de 150 personnes).",
+        "IPO : OPF (prix fixe), OPO (fourchette), placement global (institutionnels).",
+        "Crowdfunding : règlement 2020/1503/UE, jusqu'à 5 M€ par projet sans prospectus complet.",
+        "DPS : droit des actionnaires existants de souscrire en priorité lors d'une augmentation de capital."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t11-q001",
+      "exam": "generaliste",
+      "theme_id": 11,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Qu'est-ce que le marché primaire ?",
+      "options": [
+        "Le marché où s'échangent les titres déjà émis entre investisseurs",
+        "Le marché sur lequel les émetteurs lèvent des capitaux via l'émission de nouveaux titres",
+        "Le marché des produits dérivés sur les grandes valeurs boursières",
+        "Le premier marché réglementé historiquement créé en France"
+      ],
+      "correct_index": 1,
+      "explication": "Le marché primaire est celui des émissions nouvelles de titres financiers (actions, obligations…). C'est sur ce marché que les émetteurs (États, entreprises) lèvent des capitaux neufs. Le marché secondaire, lui, permet la négociation ultérieure de ces titres entre investisseurs sans apport de capitaux à l'émetteur.",
+      "source": "Guide AMF Thème 11 — Émissions et OST",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t11-q002",
+      "exam": "generaliste",
+      "theme_id": 11,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Dans quel cas une offre au public de titres financiers est-elle dispensée de l'obligation de publier un prospectus ?",
+      "options": [
+        "Lorsque l'offre est destinée uniquement à des investisseurs qualifiés",
+        "Lorsque la société est déjà cotée sur un marché réglementé",
+        "Lorsque l'émetteur est une PME de moins de 50 salariés",
+        "Lorsque le taux d'intérêt offert est inférieur au taux directeur de la BCE"
+      ],
+      "correct_index": 0,
+      "explication": "Parmi les exceptions à l'obligation de prospectus, le règlement européen Prospectus prévoit notamment les offres destinées uniquement à des investisseurs qualifiés (qui sont présumés avoir la capacité d'évaluer eux-mêmes les risques). Les autres exceptions principales sont : moins de 150 personnes, montant inférieur à 8 M€ (seuil français).",
+      "source": "Règlement (UE) n°2017/1129 (Prospectus), art. 1(4)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t11-q003",
+      "exam": "generaliste",
+      "theme_id": 11,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Lors d'une introduction en bourse, qu'est-ce qu'une OPO ?",
+      "options": [
+        "Une offre publique d'obligations",
+        "Une offre à prix ouvert : le prix final est déterminé après constitution du livre d'ordres dans une fourchette indicative",
+        "Une offre réservée aux seuls investisseurs institutionnels",
+        "Une offre à prix fixe déterminée à l'avance et identique pour tous les souscripteurs"
+      ],
+      "correct_index": 1,
+      "explication": "L'OPO (Offre à Prix Ouvert) est une procédure d'introduction en bourse où une fourchette de prix indicative est communiquée. Le prix définitif est fixé après la période de souscription, en fonction des ordres reçus (constitution du livre d'ordres). Contrairement à l'OPF (Offre à Prix Fixe), le prix n'est pas connu à l'avance.",
+      "source": "Guide AMF Thème 11 — Introductions en bourse",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t11-q004",
+      "exam": "generaliste",
+      "theme_id": 11,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quel est le rôle du Droit Préférentiel de Souscription (DPS) lors d'une augmentation de capital ?",
+      "options": [
+        "Permettre à la société émettrice de fixer librement le prix d'émission des nouvelles actions",
+        "Protéger les actionnaires existants contre la dilution en leur donnant la priorité pour souscrire aux nouvelles actions",
+        "Garantir aux nouveaux souscripteurs un rendement minimum sur leur investissement",
+        "Donner à l'AMF le droit de suspendre l'augmentation de capital en cas d'abus"
+      ],
+      "correct_index": 1,
+      "explication": "Le DPS est un droit attribué aux actionnaires existants proportionnellement à leur participation. Il leur permet de souscrire aux nouvelles actions en priorité et dans des conditions préférentielles, les protégeant ainsi de la dilution de leur participation. S'ils ne souhaitent pas souscrire, ils peuvent vendre leur DPS en bourse pendant la période de souscription.",
+      "source": "Code de commerce, art. L.225-132 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t11-q005",
+      "exam": "generaliste",
+      "theme_id": 11,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Jusqu'à quel montant par projet les PSFP (prestataires de financement participatif) peuvent-ils proposer des offres sans prospectus complet ?",
+      "options": [
+        "1 million d'euros",
+        "2,5 millions d'euros",
+        "5 millions d'euros",
+        "10 millions d'euros"
+      ],
+      "correct_index": 2,
+      "explication": "Le règlement européen sur le financement participatif (2020/1503/UE) fixe à 5 millions d'euros par projet sur 12 mois le seuil en dessous duquel les PSFP (Prestataires de Services de Financement Participatif) peuvent opérer sans obligation de prospectus complet. Au-delà, les règles du règlement Prospectus s'appliquent.",
+      "source": "Règlement (UE) n°2020/1503, art. 1",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 9,
+  "label": "Fonctionnement et organisation des marchés",
+  "category": "A+C",
+  "module": {
+    "id": "amf-gen-t09",
+    "exam": "generaliste",
+    "theme_id": 9,
+    "label": "Fonctionnement et organisation des marchés",
+    "category": "A+C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "Les marchés financiers sont des espaces d'échange entre offreurs et demandeurs de capitaux. Leur organisation, leur transparence et la manière dont les ordres sont traités sont étroitement réglementées par MiFID II.",
+      "sections": [
+        {
+          "titre": "1. Typologies de marchés et lieux d'exécution",
+          "contenu": "**Les marchés réglementés**\nMarchés officiels organisés, agréés par une autorité nationale (ex : Euronext Paris). Soumis aux règles les plus strictes de transparence et d'admission.\n\n**Les systèmes multilatéraux de négociation (SMN / MTF)**\nPlateforme exploitée par un PSI ou un opérateur de marché, qui confronte des ordres d'achat et de vente selon des règles non discrétionnaires.\n\n**Les systèmes organisés de négociation (SON / OTF)**\nNouvelle catégorie introduite par MiFID II pour les instruments autres qu'actions (obligations, dérivés). La confrontation des ordres est discrétionnaire (contrairement aux MTF).\n\n**L'internalisation systématique**\nUn PSI qui, de façon organisée, fréquente et systématique, exécute des ordres pour son compte propre (hors marché réglementé ou MTF/OTF) en dehors d'une plateforme multilatérale."
+        },
+        {
+          "titre": "2. Traitement des ordres de bourse",
+          "contenu": "**Les principaux types d'ordres**\n\n| Type d'ordre | Description |\n|---|---|\n| Au marché (market order) | Exécution immédiate au meilleur prix disponible |\n| À cours limité (limit order) | Exécution uniquement si le prix atteint la limite fixée |\n| À seuil de déclenchement (stop) | Déclenché quand le cours franchit un seuil |\n| À plage de déclenchement | Version du stop avec une limite de prix additionnelle |\n| Tout ou rien (FOK — Fill or Kill) | Exécution totale immédiate ou annulation |\n\n**La valeur liquidative**\nPour les OPC, le prix est la valeur liquidative (VL), calculée en divisant l'actif net total par le nombre de parts en circulation. Elle est calculée quotidiennement (J) mais publiée en J+1 ou J+2."
+        },
+        {
+          "titre": "3. Transparence et reporting MiFID II",
+          "contenu": "**Transparence pré-négociation**\nObligation de publier les offres d'achat et de vente en temps réel pour les actions cotées sur un marché réglementé. Ces informations permettent aux investisseurs de connaître les conditions de marché avant d'agir.\n\n**Transparence post-négociation**\nObligation de publier le prix, le volume et l'heure de chaque transaction dès que possible après son exécution.\n\n**Le reporting des transactions (TREM)**\nLes PSI doivent déclarer toutes leurs transactions sur instruments financiers à l'AMF (via un mécanisme de reporting approuvé — ARM) le jour de la transaction. Ces données permettent la surveillance des marchés et la détection des abus.\n\n**Les participants au marché**\n- **Brokers** : intermédiaires qui transmettent les ordres des clients\n- **Market makers (teneurs de marché)** : fournissent la liquidité en cotant en permanence des prix acheteurs et vendeurs\n- **Investors** : acheteurs et vendeurs finaux (institutionnels ou particuliers)\n- **Algorithmic traders** : utilisent des algorithmes pour passer des ordres automatiquement"
+        }
+      ],
+      "points_cles": [
+        "Trois types de lieux d'exécution MiFID II : marché réglementé, SMN/MTF, SON/OTF.",
+        "L'internalisation systématique est l'exécution d'ordres contre le compte propre du PSI, hors plateforme multilatérale.",
+        "Ordre 'au marché' = exécution immédiate au meilleur prix ; ordre 'à cours limité' = exécution uniquement si le cours atteint la limite.",
+        "Transparence pré-négociation (carnet d'ordres) et post-négociation (publication des transactions) sont obligatoires.",
+        "Les PSI doivent reporter toutes leurs transactions à l'AMF le jour même (TREM)."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t09-q001",
+      "exam": "generaliste",
+      "theme_id": 9,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Qu'est-ce qui distingue un SMN (Système multilatéral de négociation) d'un SON (Système organisé de négociation) ?",
+      "options": [
+        "Le SMN est réservé aux actions ; le SON ne traite que les obligations et dérivés",
+        "Dans un SMN, la confrontation des ordres est non discrétionnaire ; dans un SON, elle est discrétionnaire",
+        "Le SMN est géré par l'AMF ; le SON est géré par des opérateurs privés",
+        "Il n'y a pas de différence fonctionnelle, seulement une différence de nom"
+      ],
+      "correct_index": 1,
+      "explication": "La distinction clé est le mode de confrontation des ordres. Dans un SMN (MTF), les règles de confrontation sont non discrétionnaires (automatiques, définies à l'avance). Dans un SON (OTF), l'opérateur dispose d'une discrétion dans l'exécution des ordres. Les SON ont été créés par MiFID II pour couvrir les marchés d'obligations et de dérivés qui ne rentraient pas dans les catégories existantes.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 4(1)(22) et (23)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t09-q002",
+      "exam": "generaliste",
+      "theme_id": 9,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quel type d'ordre garantit une exécution immédiate mais pas à un prix fixé à l'avance ?",
+      "options": [
+        "L'ordre à cours limité",
+        "L'ordre à seuil de déclenchement",
+        "L'ordre au marché",
+        "L'ordre tout ou rien (FOK)"
+      ],
+      "correct_index": 2,
+      "explication": "L'ordre au marché (market order) garantit une exécution immédiate car il sera satisfait au meilleur prix disponible, mais le prix d'exécution n'est pas connu à l'avance et peut être défavorable en cas de manque de liquidité. L'ordre à cours limité, lui, fixe un prix maximum (achat) ou minimum (vente), mais l'exécution n'est pas garantie.",
+      "source": "Guide AMF Thème 9 — Traitement des ordres",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t09-q003",
+      "exam": "generaliste",
+      "theme_id": 9,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Dans quel délai les PSI doivent-ils reporter leurs transactions sur instruments financiers à l'AMF ?",
+      "options": [
+        "Dans les 24 heures ouvrées suivant la transaction",
+        "Le jour de la transaction (J)",
+        "Dans les 3 jours ouvrés (date de règlement-livraison)",
+        "En fin de semaine, par reporting hebdomadaire"
+      ],
+      "correct_index": 1,
+      "explication": "Conformément à l'article 26 de MiFIR, les PSI doivent déclarer le détail de leurs transactions à l'autorité compétente (AMF) au plus tard à la fin du jour ouvrable suivant l'exécution, c'est-à-dire le jour J. Ce reporting permet la surveillance des marchés et la détection des abus de marché.",
+      "source": "Règlement (UE) n°600/2014 (MiFIR), art. 26",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t09-q004",
+      "exam": "generaliste",
+      "theme_id": 9,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quelle est la fonction d'un teneur de marché (market maker) ?",
+      "options": [
+        "Gérer les portefeuilles d'investisseurs institutionnels",
+        "Fournir la liquidité en cotant en permanence des prix acheteurs et vendeurs",
+        "Émettre des titres pour le compte d'entreprises cherchant à lever des capitaux",
+        "Superviser la conformité des transactions passées sur les marchés réglementés"
+      ],
+      "correct_index": 1,
+      "explication": "Le teneur de marché (market maker) fournit la liquidité en cotant en permanence un prix acheteur (bid) et un prix vendeur (ask) sur un titre. Il s'engage à acheter ou vendre à tout moment, ce qui permet aux autres intervenants de trouver une contrepartie immédiate. En contrepartie, il bénéficie d'exemptions réglementaires (notamment sur les règles d'abus de marché).",
+      "source": "Directive 2014/65/UE (MiFID II), art. 4(1)(7) ; Règlement MAR, art. 9",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t09-q005",
+      "exam": "generaliste",
+      "theme_id": 9,
+      "category": "A",
+      "difficulty": 3,
+      "question": "La transparence post-négociation oblige les marchés à :",
+      "options": [
+        "Publier les ordres en carnet avant qu'ils ne soient exécutés",
+        "Publier le prix, le volume et l'heure de chaque transaction dès que possible après son exécution",
+        "Informer les régulateurs des ordres de plus de 100 000 € avant exécution",
+        "Communiquer les positions nettes des participants chaque semaine"
+      ],
+      "correct_index": 1,
+      "explication": "La transparence post-négociation impose de publier, dès que possible après exécution, le prix, le volume et l'heure de chaque transaction. Cela permet aux participants de vérifier les conditions d'exécution et d'assurer l'équité du marché. La transparence pré-négociation, elle, concerne la publication des ordres en carnet avant exécution.",
+      "source": "Règlement (UE) n°600/2014 (MiFIR), art. 10 et s.",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

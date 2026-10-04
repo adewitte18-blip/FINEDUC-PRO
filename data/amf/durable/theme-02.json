@@ -1,0 +1,135 @@
+{
+  "exam": "durable",
+  "theme_id": 2,
+  "label": "Le cadre réglementaire français et européen",
+  "category": "C",
+  "module": {
+    "id": "amf-dur-t02",
+    "exam": "durable",
+    "theme_id": 2,
+    "label": "Cadre réglementaire finance durable (SFDR, Taxonomie, Indices)",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La réglementation européenne sur la finance durable s'est considérablement développée depuis 2019. Elle repose sur trois piliers principaux : la taxonomie verte qui définit les activités durables, le règlement SFDR qui encadre la transparence des produits financiers, et les indices de référence climatiques PAB et CTB.",
+      "sections": [
+        {
+          "titre": "1. Le règlement SFDR (Sustainable Finance Disclosure Regulation)",
+          "contenu": "**Règlement (UE) 2019/2088 — entré en application le 10 mars 2021**\n\nSFDR impose aux participants aux marchés financiers (SGP, assureurs, conseillers) des obligations de transparence sur :\n- L'intégration des risques en matière de durabilité dans le processus d'investissement\n- La prise en compte des incidences négatives sur les facteurs de durabilité (PAI — Principal Adverse Impacts)\n\n**La classification des produits financiers selon SFDR**\n- **Article 6** : produits sans promotion de caractéristiques ESG (obligation d'expliquer pourquoi les risques de durabilité ne sont pas pertinents ou comment ils sont intégrés)\n- **Article 8** : produits qui 'promeuvent' des caractéristiques environnementales ou sociales ('light green')\n- **Article 9** : produits ayant pour objectif l'investissement durable ('dark green')\n\n**Les PAI (Principal Adverse Impacts)**\nIndicateurs mesurant l'impact négatif des investissements sur les facteurs de durabilité. Publication obligatoire à partir d'un certain seuil (500 employés ou 500 M€ d'actifs sous gestion)."
+        },
+        {
+          "titre": "2. La Taxonomie européenne",
+          "contenu": "**Règlement (UE) 2020/852 — Taxonomie verte**\nSystème de classification des activités économiques durables sur le plan environnemental. Une activité est taxonomique si elle :\n\n1. **Contribue substantiellement** à au moins un des 6 objectifs environnementaux :\n   - Atténuation du changement climatique\n   - Adaptation au changement climatique\n   - Utilisation durable des ressources aquatiques\n   - Transition vers l'économie circulaire\n   - Prévention et contrôle de la pollution\n   - Protection et restauration de la biodiversité\n\n2. **Ne cause pas de préjudice important** (DNSH — Do No Significant Harm) aux 5 autres objectifs\n\n3. **Respecte les garanties minimales** sociales (droits humains, normes de l'OIT)\n\n**Indicateurs de la Taxonomie pour les produits financiers**\nLes fonds Article 8 et 9 doivent communiquer leur pourcentage d'investissements alignés sur la Taxonomie."
+        },
+        {
+          "titre": "3. Les indices de référence climatiques PAB et CTB",
+          "contenu": "**Règlement (UE) 2019/2089 — Indices de référence climatiques**\n\n**PAB — Paris-Aligned Benchmark**\nIndice aligné sur l'Accord de Paris. Il vise à :\n- Réduire immédiatement de 50 % l'intensité carbone par rapport à l'indice standard\n- Réduire de 7 % minimum par an l'intensité carbone\n- Exclure les entreprises fortement exposées aux combustibles fossiles\n\n**CTB — Climate Transition Benchmark**\nIndice de transition climatique. Plus souple que le PAB :\n- Réduction de 30 % de l'intensité carbone par rapport à l'indice standard\n- Réduction de 7 % minimum par an\n- Exclusions moins strictes que le PAB\n\n**Utilisation des indices PAB/CTB**\nLes fonds passifs se référant à ces indices peuvent prétendre à la classification SFDR article 9 (sous conditions). Les indices PAB sont alignés sur les ambitions de l'Accord de Paris (1,5°C), les CTB sur une trajectoire de transition (2°C)."
+        }
+      ],
+      "points_cles": [
+        "SFDR : article 6 (standard), article 8 (promeut ESG), article 9 (objectif investissement durable).",
+        "Taxonomie : 6 objectifs environnementaux ; contribution substantielle + DNSH + garanties sociales.",
+        "PAB : −50 % d'intensité carbone immédiate, −7 % par an ; exclusions strictes sur les fossiles.",
+        "CTB : −30 % d'intensité carbone, −7 % par an ; transition climatique moins contraignante que PAB.",
+        "PAI (Principal Adverse Impacts) : indicateurs SFDR d'impacts négatifs des investissements sur les facteurs de durabilité."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-dur-t02-q001",
+      "exam": "durable",
+      "theme_id": 2,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Combien d'objectifs environnementaux la Taxonomie européenne définit-elle ?",
+      "options": [
+        "3 objectifs",
+        "4 objectifs",
+        "6 objectifs",
+        "10 objectifs"
+      ],
+      "correct_index": 2,
+      "explication": "La Taxonomie européenne (règlement 2020/852) définit 6 objectifs environnementaux : 1) atténuation du changement climatique, 2) adaptation au changement climatique, 3) utilisation durable des ressources aquatiques et marines, 4) transition vers une économie circulaire, 5) prévention et contrôle de la pollution, 6) protection et restauration de la biodiversité et des écosystèmes.",
+      "source": "Règlement (UE) n°2020/852 (Taxonomie), art. 9",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t02-q002",
+      "exam": "durable",
+      "theme_id": 2,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Qu'est-ce que le principe DNSH dans la Taxonomie européenne ?",
+      "options": [
+        "Do No Significant Harm : une activité ne doit pas causer de préjudice important aux 5 autres objectifs environnementaux",
+        "Diversify, Neutralize, Sustain, Hedge : les 4 critères de gestion durable",
+        "Data, Network, Standards, Harmonization : les piliers du reporting ESG",
+        "Disclose Now, Share History : obligation de transparence rétroactive des émetteurs"
+      ],
+      "correct_index": 0,
+      "explication": "DNSH signifie 'Do No Significant Harm' (ne pas causer de préjudice important). Une activité économique est considérée comme taxonomiquement alignée si elle contribue substantiellement à au moins un des 6 objectifs environnementaux ET ne cause pas de préjudice important aux 5 autres. Par exemple, une activité contribuant à l'atténuation du changement climatique ne doit pas nuire à la biodiversité.",
+      "source": "Règlement (UE) n°2020/852 (Taxonomie), art. 17",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t02-q003",
+      "exam": "durable",
+      "theme_id": 2,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Un fonds SFDR Article 9 a pour caractéristique :",
+      "options": [
+        "D'être exclu de toute obligation de transparence ESG",
+        "De simplement intégrer les risques de durabilité dans son analyse",
+        "D'avoir l'investissement durable comme objectif principal",
+        "De promouvoir des caractéristiques ESG sans objectif spécifique"
+      ],
+      "correct_index": 2,
+      "explication": "Les fonds SFDR Article 9 ('dark green') ont pour objectif principal l'investissement durable. Ils ont les exigences de transparence les plus strictes et doivent démontrer que leurs investissements contribuent à un objectif de durabilité sans causer de préjudice aux autres. Les fonds Article 8 'promeuvent' des caractéristiques ESG, et les Article 6 n'ont pas de caractéristique ESG spécifique.",
+      "source": "Règlement (UE) n°2019/2088 (SFDR), art. 9",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t02-q004",
+      "exam": "durable",
+      "theme_id": 2,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Quelle est la réduction minimale immédiate d'intensité carbone d'un indice PAB par rapport à l'univers standard ?",
+      "options": [
+        "20 %",
+        "30 %",
+        "50 %",
+        "70 %"
+      ],
+      "correct_index": 2,
+      "explication": "Un indice PAB (Paris-Aligned Benchmark) doit réduire immédiatement d'au moins 50 % l'intensité carbone par rapport à l'univers d'investissement de référence (l'indice standard non climatique), et ensuite se décarboner d'au moins 7 % par an. L'indice CTB (Climate Transition Benchmark) impose une réduction initiale de 30 % avec le même rythme annuel de 7 %.",
+      "source": "Règlement délégué (UE) 2020/1818 relatif aux indices PAB et CTB",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t02-q005",
+      "exam": "durable",
+      "theme_id": 2,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Les PAI (Principal Adverse Impacts) dans le cadre du SFDR sont :",
+      "options": [
+        "Les performances passées des fonds article 9 sur une période de 5 ans",
+        "Les indicateurs mesurant l'impact négatif des investissements sur les facteurs de durabilité",
+        "Les exclusions sectorielles obligatoires pour les fonds article 8",
+        "Les sanctions administratives applicables en cas de greenwashing"
+      ],
+      "correct_index": 1,
+      "explication": "Les PAI (Principal Adverse Impacts on sustainability factors) sont des indicateurs définis par SFDR qui mesurent les principaux effets négatifs des décisions d'investissement sur les facteurs de durabilité (environnement, questions sociales, droit du travail, droits humains…). Leur publication est obligatoire pour les entités dépassant certains seuils (500 salariés ou 500 M€ d'AUM).",
+      "source": "Règlement (UE) n°2019/2088 (SFDR), art. 4 ; règlement délégué 2022/1288",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

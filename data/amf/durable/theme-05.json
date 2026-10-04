@@ -1,0 +1,135 @@
+{
+  "exam": "durable",
+  "theme_id": 5,
+  "label": "Commercialisation des produits liés à la finance durable",
+  "category": "C",
+  "module": {
+    "id": "amf-dur-t05",
+    "exam": "durable",
+    "theme_id": 5,
+    "label": "Commercialisation des produits durables (labels, préférences)",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La commercialisation des produits de finance durable nécessite de connaître les labels qui permettent aux investisseurs de s'orienter, ainsi que les nouvelles obligations de prise en compte des préférences des clients en matière de durabilité introduites par MiFID II.",
+      "sections": [
+        {
+          "titre": "1. Les labels français et européens",
+          "contenu": "**Le label ISR (Investissement Socialement Responsable)**\nLabel public français créé en 2016 par le ministère de l'Économie. Il atteste qu'un fonds intègre des critères ESG dans sa gestion.\n\nCaractéristiques :\n- Attribution par des organismes de labellisation accrédités (Afnor Certification, EY, Deloitte…)\n- Validité 3 ans, renouvellement obligatoire\n- Réforme de 2024 : renforcement des exigences, notamment exclusion du charbon et des hydrocarbures non conventionnels\n\n**Le label Greenfin**\nLabel public français créé par le Ministère de la Transition écologique. Destiné aux fonds investis dans la transition énergétique et écologique.\n\nCaractéristiques :\n- Exclusions sectorielles strictes (nucléaire, énergies fossiles)\n- Au moins 75 % des actifs verts\n- Mesure d'impact environnemental obligatoire\n\n**L'Ecolabel européen**\nLabel volontaire européen en cours de développement pour les produits financiers de détail (OPCVM et fonds d'assurance-vie). Il repose sur la Taxonomie européenne et est plus strict que le label ISR.\n\n**Le label Finansol**\nLabel de la finance solidaire, attribué par le Comité Finansol. Certifie les produits d'épargne solidaire qui financent des associations ou entreprises sociales et solidaires."
+        },
+        {
+          "titre": "2. Les préférences en matière de durabilité (MiFID II)",
+          "contenu": "**L'intégration des préférences de durabilité dans le conseil (depuis août 2022)**\nDepuis août 2022, MiFID II exige que les conseillers en investissement et les gestionnaires sous mandat recueillent les préférences de durabilité de leurs clients dans le cadre du test d'adéquation.\n\n**Trois dimensions de préférences à recueillir**\n1. **Taxonomie** : le client souhaite-t-il un pourcentage minimum d'investissements alignés sur la Taxonomie ?\n2. **SFDR** : le client souhaite-t-il un pourcentage minimum d'investissements durables au sens du règlement SFDR ?\n3. **PAI** : le client souhaite-t-il que les principales incidences négatives (PAI) soient prises en compte ?\n\n**Principe de primauté de l'intérêt du client**\nSi aucun produit ne correspond aux préférences exprimées, le conseiller doit le signaler et adapter les recommandations. Il ne peut pas proposer un produit non conforme aux préférences sans explication et accord explicite du client.\n\n**Le risque de greenwashing**\nL'AMF veille à ce que les produits financiers durables soient conformes à leur présentation. Le greenwashing consiste à présenter de manière trompeuse un produit comme plus durable qu'il ne l'est réellement."
+        },
+        {
+          "titre": "3. Synthèse : panorama des labels et obligations",
+          "contenu": "**Comparaison des labels français**\n\n| Label | Créateur | Secteurs exclus | Niveau ESG |\n|---|---|---|---|\n| ISR | Ministère Économie | Charbon (réforme 2024), hydrocarbures NC | Modéré à élevé |\n| Greenfin | Min. Transition éco. | Nucléaire, fossiles | Élevé (transition écolo.) |\n| Finansol | Comité Finansol | Pas de secteur exclu | Solidarité et inclusion |\n| Ecolabel EU | Commission EU | Selon Taxonomie | Élevé (Taxonomie) |\n\n**Les obligations du conseiller depuis août 2022**\n1. Recueillir les préférences de durabilité du client\n2. Proposer des produits en adéquation avec ces préférences\n3. Si impossible : expliquer l'écart et obtenir l'accord du client\n4. Documenter les échanges sur les préférences de durabilité\n\n**Attention au greenwashing**\nL'utilisation de termes comme 'vert', 'durable', 'ESG', 'responsable' dans les communications commerciales est encadrée par l'AMF (position 2020-03) et les règlements européens. Toute communication doit être cohérente avec le niveau d'engagement réel du produit."
+        }
+      ],
+      "points_cles": [
+        "Label ISR : label public français, valable 3 ans, réforme 2024 avec exclusion du charbon.",
+        "Label Greenfin : transition écologique, exclusion du nucléaire et des fossiles, mesure d'impact obligatoire.",
+        "Depuis août 2022 (MiFID II) : le conseiller doit recueillir les préférences de durabilité dans le test d'adéquation.",
+        "3 dimensions de préférences : alignement Taxonomie, pourcentage SFDR, prise en compte des PAI.",
+        "Greenwashing : présentation trompeuse d'un produit comme plus durable qu'il ne l'est — sanctionné par l'AMF."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-dur-t05-q001",
+      "exam": "durable",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Lequel de ces labels exclut strictement le nucléaire de son univers d'investissement ?",
+      "options": [
+        "Le label ISR",
+        "Le label Greenfin",
+        "L'Ecolabel européen",
+        "Le label Finansol"
+      ],
+      "correct_index": 1,
+      "explication": "Le label Greenfin (anciennement label TEEC), créé par le Ministère de la Transition écologique, exclut strictement les entreprises dont l'activité est liée au nucléaire et aux énergies fossiles. C'est l'une de ses principales caractéristiques qui le distingue du label ISR, lequel ne prévoit pas d'exclusion du nucléaire.",
+      "source": "Référentiel du label Greenfin (Ministère de la Transition écologique) ; Guide Pro AMF Finance durable, Thème 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t05-q002",
+      "exam": "durable",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Depuis quand les conseillers en investissement doivent-ils recueillir les préférences de durabilité de leurs clients ?",
+      "options": [
+        "Depuis janvier 2018 (entrée en vigueur de MiFID II)",
+        "Depuis mars 2021 (entrée en vigueur de SFDR)",
+        "Depuis août 2022 (modification du règlement délégué MiFID II)",
+        "Depuis janvier 2024 (entrée en application complète de la CSRD)"
+      ],
+      "correct_index": 2,
+      "explication": "Depuis août 2022, les modifications du règlement délégué MiFID II (2017/565) obligent les conseillers en investissement et les gestionnaires sous mandat à intégrer les préférences de durabilité de leurs clients dans le test d'adéquation. Cette obligation couvre trois dimensions : Taxonomie, SFDR et PAI.",
+      "source": "Règlement délégué (UE) 2021/1253 modifiant le règlement 2017/565 (MiFID II) ; Guide Pro AMF Finance durable, Thème 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t05-q003",
+      "exam": "durable",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quelles sont les trois dimensions des préférences de durabilité à recueillir dans le test d'adéquation MiFID II ?",
+      "options": [
+        "Climat, Biodiversité, Eau",
+        "Alignement Taxonomie, pourcentage SFDR, prise en compte des PAI",
+        "Label ISR, Label Greenfin, Finansol",
+        "Article 6, Article 8, Article 9"
+      ],
+      "correct_index": 1,
+      "explication": "Depuis août 2022, le conseiller doit recueillir trois dimensions de préférences de durabilité : 1) Si le client souhaite un pourcentage minimum d'investissements alignés sur la Taxonomie européenne. 2) Si le client souhaite un pourcentage minimum d'investissements durables au sens du règlement SFDR. 3) Si le client souhaite que les principales incidences négatives (PAI) soient prises en compte.",
+      "source": "Règlement délégué (UE) 2021/1253 ; Guide Pro AMF Finance durable, Thème 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t05-q004",
+      "exam": "durable",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Que certifie le label Finansol ?",
+      "options": [
+        "Qu'un fonds a obtenu la note ESG la plus élevée de sa catégorie",
+        "Qu'un produit d'épargne finance des associations ou entreprises de l'économie sociale et solidaire",
+        "Que les actifs d'un fonds sont exclusivement investis dans des obligations vertes",
+        "Qu'un fonds est conforme aux critères de la Taxonomie européenne"
+      ],
+      "correct_index": 1,
+      "explication": "Le label Finansol, attribué par le Comité Finansol, certifie les produits d'épargne solidaire. Ces produits financent des activités à forte utilité sociale (insertion professionnelle, logement pour personnes en difficulté, coopératives…). Il se distingue des autres labels par son orientation vers la solidarité et l'inclusion sociale plutôt que vers l'environnement.",
+      "source": "Référentiel du label Finansol (Comité Finansol) ; Guide Pro AMF Finance durable, Thème 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t05-q005",
+      "exam": "durable",
+      "theme_id": 5,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Un client exprime des préférences de durabilité fortes mais aucun produit disponible ne correspond parfaitement. Que doit faire le conseiller ?",
+      "options": [
+        "Refuser de fournir le service d'investissement jusqu'à ce qu'un produit adapté soit disponible",
+        "Proposer le produit le plus proche des préférences, l'expliquer au client et documenter son accord",
+        "Ignorer les préférences de durabilité si elles sont incompatibles avec les objectifs financiers",
+        "Orienter automatiquement le client vers un produit article 9 SFDR sans autre vérification"
+      ],
+      "correct_index": 1,
+      "explication": "Lorsqu'aucun produit ne correspond exactement aux préférences de durabilité exprimées, le règlement délégué MiFID II prévoit que le conseiller propose le produit le plus proche, en explique l'écart avec les préférences du client et documente l'accord explicite du client pour procéder ainsi. Il ne peut pas ignorer les préférences sans information ni accord.",
+      "source": "Règlement délégué (UE) 2021/1253 ; Guide Pro AMF Finance durable, Thème 5",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

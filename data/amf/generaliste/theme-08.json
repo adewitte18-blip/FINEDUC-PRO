@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 8,
+  "label": "Gestion collective et gestion pour compte de tiers",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t08",
+    "exam": "generaliste",
+    "theme_id": 8,
+    "label": "Gestion collective et gestion pour compte de tiers",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La gestion collective permet à des investisseurs de mutualiser leurs actifs au sein de fonds gérés par des professionnels. C'est un secteur fortement réglementé, encadré principalement par la directive OPCVM V et la directive AIFM en Europe.",
+      "sections": [
+        {
+          "titre": "1. Acteurs de la gestion collective",
+          "contenu": "**La société de gestion de portefeuille (SGP)**\nAgréée par l'AMF, elle gère les fonds pour le compte des porteurs. Elle doit disposer de fonds propres minimaux et d'une organisation adaptée.\n\n**Le dépositaire**\nEstablissement de crédit indépendant qui conserve les actifs du fonds et contrôle la régularité des décisions de la SGP. Il est garant des droits des porteurs.\n\n**Les investisseurs / porteurs de parts**\nPersonnes physiques ou morales qui souscrivent des parts ou actions de l'OPC.\n\n**L'AMF**\nAutorise la création des OPCVM et des FIA ouverts au public ; contrôle les SGP et les fonds."
+        },
+        {
+          "titre": "2. Typologie des OPC",
+          "contenu": "**OPCVM (Organismes de placement collectif en valeurs mobilières)**\nHarmonisés au niveau européen (Directive UCITS V — 2014/91/UE). Passeport européen permettant leur commercialisation dans toute l'UE.\n\n| Type | Caractéristiques |\n|---|---|\n| SICAV | Société d'investissement à capital variable — personnalité morale |\n| FCP | Fonds commun de placement — copropriété de valeurs mobilières, pas de personnalité morale |\n\n**FIA (Fonds d'investissement alternatifs)**\nEncadrés par la directive AIFM (2011/61/UE). Plus souples que les OPCVM mais moins accessibles aux particuliers.\n- FCPR (Fonds communs de placement à risques) — capital-investissement\n- FPCI (Fonds professionnels de capital-investissement)\n- OPCI (Organismes de placement collectif immobilier)\n- SCPI (Sociétés civiles de placement immobilier)\n- Hedge funds\n\n**Fonds monétaires (MMF)**\nEncadrés par le règlement (UE) 2017/1131, ce sont des fonds investis sur des instruments à court terme. Deux grandes catégories : MMF à valeur liquidative constante (CNAV) et MMF à valeur liquidative variable (VNAV)."
+        },
+        {
+          "titre": "3. Frais et finance durable dans les OPC",
+          "contenu": "**Les frais des OPC**\n- Frais de souscription/rachat : prélevés lors de l'entrée ou la sortie\n- Frais courants (TER — Total Expense Ratio) : frais de gestion + autres charges opérationnelles\n- Commission de surperformance : prélevée si le fonds dépasse son benchmark\n\nDepuis MiFID II, les frais doivent être présentés en valeur absolue (euros) et en pourcentage.\n\n**Finance durable dans la gestion collective**\nLe règlement SFDR (2019/2088) impose aux SGP de classer leurs fonds :\n- **Article 6** : fonds sans caractéristique ESG particulière\n- **Article 8** : fonds qui 'promeuvent' des caractéristiques environnementales ou sociales\n- **Article 9** : fonds ayant pour objectif l'investissement durable\n\nL'AMF, via sa position-recommandation 2020-03, a précisé les conditions d'utilisation des termes ESG dans la communication des fonds français."
+        }
+      ],
+      "points_cles": [
+        "La SGP est agréée par l'AMF ; le dépositaire conserve les actifs et contrôle la régularité des opérations.",
+        "OPCVM = harmonisés EU (passeport), FIA = non harmonisés (AIFM), moins accessibles aux particuliers.",
+        "SICAV = personnalité morale, FCP = copropriété sans personnalité morale.",
+        "SFDR : article 6 (standard), article 8 (promotion ESG), article 9 (objectif investissement durable).",
+        "Les frais doivent être communiqués en euros ET en pourcentage (MiFID II)."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t08-q001",
+      "exam": "generaliste",
+      "theme_id": 8,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quelle est la principale différence entre une SICAV et un FCP ?",
+      "options": [
+        "La SICAV investit uniquement en actions, le FCP uniquement en obligations",
+        "La SICAV a une personnalité morale (société), le FCP est une copropriété sans personnalité morale",
+        "La SICAV est réservée aux institutionnels, le FCP aux particuliers",
+        "Le FCP est agréé par l'AMF, la SICAV ne l'est pas"
+      ],
+      "correct_index": 1,
+      "explication": "La SICAV (Société d'investissement à capital variable) est une société par actions qui a la personnalité morale ; l'investisseur en devient actionnaire. Le FCP (Fonds commun de placement) est une copropriété de valeurs mobilières sans personnalité morale ; l'investisseur en devient porteur de parts. Tous deux sont des OPCVM agréés par l'AMF.",
+      "source": "Code monétaire et financier, art. L.214-2 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t08-q002",
+      "exam": "generaliste",
+      "theme_id": 8,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Selon le règlement SFDR, un fonds 'Article 9' est :",
+      "options": [
+        "Un fonds sans caractéristique ESG particulière",
+        "Un fonds qui promeut des caractéristiques environnementales ou sociales",
+        "Un fonds ayant l'investissement durable comme objectif principal",
+        "Un fonds exclu du marché français par l'AMF"
+      ],
+      "correct_index": 2,
+      "explication": "Le règlement SFDR (2019/2088) classe les fonds selon leur degré d'intégration de la durabilité : article 6 (pas d'approche ESG spécifique), article 8 (promotion de caractéristiques E ou S), article 9 (objectif d'investissement durable = les fonds 'dark green'). L'article 9 représente le niveau d'engagement le plus élevé.",
+      "source": "Règlement (UE) n°2019/2088 (SFDR), art. 8 et 9",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t08-q003",
+      "exam": "generaliste",
+      "theme_id": 8,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quel est le rôle du dépositaire d'un OPC ?",
+      "options": [
+        "Gérer le portefeuille du fonds selon la stratégie définie",
+        "Conserver les actifs du fonds et contrôler la régularité des décisions de la SGP",
+        "Commercialiser les parts auprès des investisseurs particuliers",
+        "Calculer et publier la valeur liquidative quotidienne du fonds"
+      ],
+      "correct_index": 1,
+      "explication": "Le dépositaire (en général un établissement de crédit) a deux missions principales : la conservation des actifs (il détient physiquement ou comptablement les titres du fonds) et le contrôle de la régularité des décisions de la SGP (vérification que les opérations respectent les règles du fonds et la réglementation). Il est un garant des droits des porteurs.",
+      "source": "Directive 2009/65/CE (OPCVM IV), art. 22 ; Code monétaire et financier, art. L.214-10",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t08-q004",
+      "exam": "generaliste",
+      "theme_id": 8,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Laquelle de ces structures est un fonds d'investissement alternatif (FIA) investi en capital-investissement ?",
+      "options": [
+        "SICAV monétaire",
+        "FCPR (Fonds commun de placement à risques)",
+        "OPCVM actions européennes",
+        "FCP diversifié article 8 SFDR"
+      ],
+      "correct_index": 1,
+      "explication": "Le FCPR (Fonds commun de placement à risques) est un FIA dédié au capital-investissement (private equity). Il investit majoritairement dans des sociétés non cotées. C'est un FIA au sens de la directive AIFM, généralement réservé à des investisseurs avertis du fait de sa liquidité réduite.",
+      "source": "Code monétaire et financier, art. L.214-28 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t08-q005",
+      "exam": "generaliste",
+      "theme_id": 8,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Comment MiFID II impose-t-il de présenter les frais d'un OPC aux clients ?",
+      "options": [
+        "Uniquement en pourcentage annuel de l'actif",
+        "En valeur absolue en euros ET en pourcentage",
+        "Uniquement en valeur absolue en euros pour faciliter la comparaison",
+        "Selon un format libre laissé à l'appréciation du distributeur"
+      ],
+      "correct_index": 1,
+      "explication": "MiFID II impose que les frais soient communiqués aux clients à la fois en valeur absolue (en euros, en montant effectif ou estimé sur la base de l'investissement du client) et en pourcentage. Ce double format permet au client de comprendre concrètement l'impact des frais sur son investissement.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 24(4) ; règlement délégué (UE) 2017/565",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

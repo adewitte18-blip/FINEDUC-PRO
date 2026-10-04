@@ -1,0 +1,131 @@
+{
+  "exam": "generaliste",
+  "theme_id": 10,
+  "label": "Post-marché et infrastructures de marché",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t10",
+    "exam": "generaliste",
+    "theme_id": 10,
+    "label": "Post-marché et infrastructures de marché",
+    "category": "C",
+    "duration": "2h",
+    "cours": {
+      "introduction": "Le post-marché regroupe l'ensemble des opérations qui suivent l'exécution d'une transaction : compensation, règlement-livraison et conservation des titres. Ces infrastructures sont essentielles à la sécurité et à l'efficacité du système financier.",
+      "sections": [
+        {
+          "titre": "1. Le circuit de règlement-livraison",
+          "contenu": "**Les étapes du post-marché**\n\n1. **Compensation** : après l'exécution, la chambre de compensation (CCP — Central Counterparty Clearing House) s'interpose entre l'acheteur et le vendeur, devenant acheteur pour tout vendeur et vendeur pour tout acheteur. Elle calcule les positions nettes et gère le risque de contrepartie.\n\n2. **Règlement-livraison** : transfert des espèces (règlement) contre transfert des titres (livraison). En Europe, le cycle standard est T+2 (deux jours ouvrés après la date de transaction).\n\n3. **Conservation** : les titres sont conservés en compte par un dépositaire central de titres (CSD — Central Securities Depository).\n\n**Les acteurs clés**\n- **LCH.Clearnet / Euronext Clearing** : chambre de compensation pour les marchés européens\n- **Euroclear France / Euroclear Bank** : dépositaire central / ICSD pour les marchés européens\n- **Clearstream (Luxembourg)** : autre ICSD (International Central Securities Depository)"
+        },
+        {
+          "titre": "2. La gestion du risque de contrepartie",
+          "contenu": "**Le rôle de la CCP**\nEn s'interposant, la CCP élimine le risque bilatéral de contrepartie. Elle gère ce risque grâce à :\n- **Les appels de marge** : dépôts initiaux et de variation versés par les membres compensateurs\n- **Les fonds de défaut** : contributions mutualisées entre membres pour couvrir les défauts\n- **Le mécanisme de 'waterfall'** : ordre prédéfini d'utilisation des ressources en cas de défaut d'un membre\n\n**Le règlement EMIR (European Market Infrastructure Regulation, 648/2012)**\nOblige la compensation centrale pour les dérivés standardisés OTC et impose des obligations de déclaration et de gestion des risques.\n\n**Le cycle T+2**\nDepuis 2014 en Europe (règlement CSDR), la règle T+2 s'applique aux actions et obligations. Un projet de passage à T+1 est à l'étude (sur le modèle américain, passé à T+1 en mai 2024)."
+        }
+      ],
+      "points_cles": [
+        "Post-marché = compensation + règlement-livraison + conservation.",
+        "La CCP s'interpose entre acheteur et vendeur et élimine le risque de contrepartie bilatéral.",
+        "Cycle standard : T+2 (règlement-livraison 2 jours ouvrés après la transaction).",
+        "Euroclear France : dépositaire central français ; Euroclear Bank / Clearstream : ICSD internationaux.",
+        "EMIR impose la compensation centrale des dérivés OTC standardisés."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t10-q001",
+      "exam": "generaliste",
+      "theme_id": 10,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quel est le cycle standard de règlement-livraison pour les actions en Europe ?",
+      "options": [
+        "T+1 (le lendemain de la transaction)",
+        "T+2 (deux jours ouvrés après la transaction)",
+        "T+3 (trois jours ouvrés après la transaction)",
+        "T+0 (le jour même de la transaction)"
+      ],
+      "correct_index": 1,
+      "explication": "En Europe, le règlement CSDR (Central Securities Depositories Regulation) impose un cycle T+2 pour les actions et obligations depuis 2014 : le règlement en espèces et la livraison des titres ont lieu deux jours ouvrés après la date de transaction. Les États-Unis sont passés à T+1 en mai 2024.",
+      "source": "Règlement (UE) n°909/2014 (CSDR), art. 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t10-q002",
+      "exam": "generaliste",
+      "theme_id": 10,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quelle est la fonction principale d'une chambre de compensation (CCP) ?",
+      "options": [
+        "Calculer et publier la valeur liquidative des fonds",
+        "S'interposer entre acheteur et vendeur pour éliminer le risque de contrepartie bilatéral",
+        "Conserver les titres pour le compte des investisseurs",
+        "Superviser la conformité des transactions sur les marchés réglementés"
+      ],
+      "correct_index": 1,
+      "explication": "La chambre de compensation (Central Counterparty Clearing House — CCP) s'interpose entre les parties à chaque transaction : elle devient acheteur pour tout vendeur et vendeur pour tout acheteur. Ce mécanisme de novation élimine le risque de contrepartie bilatéral et centralise sa gestion. Elle gère ce risque via des appels de marge et des fonds de défaut.",
+      "source": "Règlement (UE) n°648/2012 (EMIR) ; Guide AMF Thème 10",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t10-q003",
+      "exam": "generaliste",
+      "theme_id": 10,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quel règlement impose la compensation centrale des dérivés OTC standardisés ?",
+      "options": [
+        "MiFID II",
+        "MAR",
+        "EMIR",
+        "CSDR"
+      ],
+      "correct_index": 2,
+      "explication": "Le règlement EMIR (European Market Infrastructure Regulation, n°648/2012) impose la compensation centrale pour les dérivés OTC standardisés, ainsi que des obligations de déclaration des transactions à des référentiels centraux et de mise en place de procédures de gestion des risques pour les dérivés non compensés centralement.",
+      "source": "Règlement (UE) n°648/2012 (EMIR), art. 4",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t10-q004",
+      "exam": "generaliste",
+      "theme_id": 10,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quel est le rôle d'Euroclear France ?",
+      "options": [
+        "Chambre de compensation pour les actions françaises",
+        "Dépositaire central de titres (CSD) pour les titres français",
+        "Autorité de régulation des marchés français",
+        "Teneur de marché sur Euronext Paris"
+      ],
+      "correct_index": 1,
+      "explication": "Euroclear France est le dépositaire central de titres (CSD) pour les valeurs françaises. Il assure la tenue des comptes titres au niveau central et la livraison des titres lors du règlement-livraison. Euroclear Bank (Bruxelles) est quant à lui un ICSD (International Central Securities Depository) pour les titres internationaux.",
+      "source": "Guide AMF Thème 10 — Infrastructures de marché",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t10-q005",
+      "exam": "generaliste",
+      "theme_id": 10,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Qu'est-ce que le mécanisme de 'waterfall' dans une CCP ?",
+      "options": [
+        "L'algorithme de tarification des produits dérivés",
+        "L'ordre prédéfini d'utilisation des ressources financières en cas de défaut d'un membre compensateur",
+        "La procédure de réconciliation entre les positions acheteur et vendeur",
+        "Le calendrier de publication des appels de marge"
+      ],
+      "correct_index": 1,
+      "explication": "Le mécanisme de waterfall définit l'ordre prédéfini dans lequel les ressources financières de la CCP sont utilisées en cas de défaut d'un membre compensateur : 1) marge du membre défaillant, 2) contribution du membre au fonds de défaut, 3) capital propre de la CCP (skin-in-the-game), 4) fonds de défaut des membres survivants. Ce mécanisme garantit une absorption ordonnée des pertes.",
+      "source": "Règlement (UE) n°648/2012 (EMIR) ; orientations ESMA sur les CCP",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

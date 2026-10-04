@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 6,
+  "label": "Relation et information des clients",
+  "category": "A+C",
+  "module": {
+    "id": "amf-gen-t06",
+    "exam": "generaliste",
+    "theme_id": 6,
+    "label": "Relation et information des clients",
+    "category": "A+C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La protection des investisseurs passe par une connaissance approfondie du client, une information adaptée et une évaluation de l'adéquation des produits à son profil. MiFID II a considérablement renforcé ces obligations.",
+      "sections": [
+        {
+          "titre": "1. Connaissance, évaluation et classification du client",
+          "contenu": "**Classification des clients (MiFID II)**\nTrois catégories :\n- **Client de détail (retail)** : protection maximale — obligations d'information les plus strictes\n- **Client professionnel** : protection réduite — présumé disposer de l'expérience et des connaissances pour prendre ses décisions\n- **Contrepartie éligible** : protection minimale (pour transactions interbancaires, transactions entre PSI)\n\nUn client professionnel peut demander à être traité comme client de détail (déclassement vers plus de protection). Un client de détail peut demander le statut professionnel si des critères quantitatifs sont remplis (opt-up).\n\n**Le questionnaire de connaissance client**\nLe PSI doit recueillir :\n- Les objectifs d'investissement (horizon, tolérance au risque, finalité)\n- La situation financière (revenus, patrimoine, charges)\n- Les connaissances et l'expérience en matière d'instruments financiers\n\n**Test d'adéquation vs test du caractère approprié**\n- **Adéquation** (suitability) : pour le conseil en investissement et la gestion sous mandat — profil complet obligatoire\n- **Caractère approprié** (appropriateness) : pour les services d'exécution sur produits complexes — connaissances et expérience uniquement"
+        },
+        {
+          "titre": "2. Information sur les instruments et les services",
+          "contenu": "**Le KID (Key Information Document) — PRIIPs**\nDocument d'informations clés standardisé pour les produits d'investissement packagés (OPCVM, produits structurés, assurance-vie en UC). Il comprend :\n- La description du produit et ses objectifs\n- Le profil de risque et de rendement (sur une échelle de 1 à 7)\n- Les coûts du produit\n- Les scénarios de performance\n\n**Le DICI (Document d'information clé pour l'investisseur)** : version antérieure pour les OPCVM, progressivement remplacée par le KID.\n\n**Information sur les coûts et frais**\nMiFID II impose une transparence totale sur tous les coûts, y compris les coûts induits (rétrocessions incluses). Les clients doivent recevoir une information ex-ante (avant) et ex-post (après, sur une base annuelle) sur les coûts effectivement supportés."
+        },
+        {
+          "titre": "3. Intérêt du client et protection renforcée",
+          "contenu": "**La notion de 'best execution' (meilleure exécution)**\nLe PSI doit prendre toutes les mesures raisonnables pour obtenir le meilleur résultat possible pour ses clients lors de l'exécution des ordres, en tenant compte du prix, des coûts, de la rapidité et de la probabilité d'exécution.\n\n**La protection renforcée des clients vulnérables**\nLa notion de client vulnérable (personnes âgées, peu expérimentées, en situation de surendettement…) implique une attention particulière :\n- Adapter la complexité des produits recommandés\n- S'assurer de la compréhension réelle de l'investissement\n- Documenter soigneusement les échanges\n\n**Gouvernance produit (product governance)**\nLes concepteurs de produits (manufacturers) doivent définir un marché cible (target market) pour chaque produit. Les distributeurs doivent s'assurer que le produit est vendu dans ce marché cible et ne pas le distribuer en dehors."
+        }
+      ],
+      "points_cles": [
+        "Trois catégories de clients MiFID II : client de détail (protection max), professionnel, contrepartie éligible.",
+        "Test d'adéquation (conseil) = profil complet ; test du caractère approprié (exécution) = connaissances et expérience uniquement.",
+        "Le KID PRIIPs présente les risques sur une échelle 1-7 et inclut les scénarios de performance.",
+        "Best execution : obligation d'obtenir le meilleur résultat possible pour le client, pas seulement le meilleur prix.",
+        "Gouvernance produit : le concepteur définit un marché cible ; le distributeur doit le respecter."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t06-q001",
+      "exam": "generaliste",
+      "theme_id": 6,
+      "category": "A",
+      "difficulty": 1,
+      "question": "Quelle catégorie de clients bénéficie du niveau de protection le plus élevé selon MiFID II ?",
+      "options": [
+        "Les contreparties éligibles",
+        "Les clients professionnels",
+        "Les clients de détail",
+        "Les investisseurs institutionnels"
+      ],
+      "correct_index": 2,
+      "explication": "Les clients de détail (retail clients) bénéficient du niveau de protection le plus élevé en vertu de MiFID II. Ils font l'objet d'obligations d'information, d'évaluation et de reporting plus strictes. Les contreparties éligibles ont le niveau de protection le plus faible.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 4(1) et art. 24 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t06-q002",
+      "exam": "generaliste",
+      "theme_id": 6,
+      "category": "A",
+      "difficulty": 2,
+      "question": "Dans le cadre du conseil en investissement, quel test le PSI doit-il obligatoirement réaliser ?",
+      "options": [
+        "Le test du caractère approprié (appropriateness), portant uniquement sur les connaissances et l'expérience",
+        "Le test d'adéquation (suitability), portant sur le profil complet du client (objectifs, situation financière, connaissances)",
+        "Le test KYC, portant sur l'identité et l'origine des fonds",
+        "Le test PRIIPs, portant sur la compréhension du document d'information clé"
+      ],
+      "correct_index": 1,
+      "explication": "Pour le conseil en investissement et la gestion sous mandat, le PSI doit réaliser le test d'adéquation (suitability), qui exige de recueillir les objectifs d'investissement, la situation financière et les connaissances et expériences du client. Le test du caractère approprié (appropriateness) s'applique uniquement à l'exécution d'ordres sur produits complexes sans conseil.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 25",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t06-q003",
+      "exam": "generaliste",
+      "theme_id": 6,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Sur quelle échelle le KID PRIIPs présente-t-il le profil de risque d'un produit d'investissement ?",
+      "options": [
+        "De 1 à 5",
+        "De 1 à 7",
+        "De A à G (comme le DPE immobilier)",
+        "De 0 à 10"
+      ],
+      "correct_index": 1,
+      "explication": "Le KID PRIIPs (Key Information Document) présente le profil de risque sur une échelle de 1 (risque le plus faible) à 7 (risque le plus élevé). Cette échelle standardisée permet aux investisseurs de comparer les produits entre eux. Elle était différente de celle du DICI OPCVM (1 à 7 également mais calcul différent).",
+      "source": "Règlement (UE) n°1286/2014 (PRIIPs) ; règlement délégué (UE) 2017/653",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t06-q004",
+      "exam": "generaliste",
+      "theme_id": 6,
+      "category": "A",
+      "difficulty": 3,
+      "question": "La 'best execution' (meilleure exécution) consiste à :",
+      "options": [
+        "Exécuter tous les ordres au meilleur prix disponible sur le marché, coûts exclus",
+        "Prendre toutes les mesures raisonnables pour obtenir le meilleur résultat pour le client, en tenant compte du prix, des coûts, de la rapidité et de la probabilité d'exécution",
+        "Exécuter les ordres sur la plateforme proposant les frais de courtage les plus bas",
+        "Garantir au client que son ordre sera exécuté dans les 30 secondes"
+      ],
+      "correct_index": 1,
+      "explication": "La best execution ne se limite pas au meilleur prix : elle impose de prendre toutes les mesures raisonnables pour obtenir le meilleur résultat global, en tenant compte du prix, des coûts totaux, de la rapidité d'exécution, de la probabilité d'exécution et de règlement, du volume et de la nature de l'ordre. Le PSI doit avoir une politique de meilleure exécution et la communiquer à ses clients.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 27 ; Règlement général AMF, art. 314-69 et s.",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t06-q005",
+      "exam": "generaliste",
+      "theme_id": 6,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Qu'est-ce que la 'gouvernance produit' (product governance) impose aux distributeurs ?",
+      "options": [
+        "De créer leurs propres produits financiers pour mieux maîtriser les risques",
+        "De s'assurer que les produits distribués correspondent au marché cible défini par le concepteur",
+        "D'obtenir l'accord de l'AMF pour chaque distribution d'un produit complexe",
+        "De ne distribuer que des produits labellisés ISR"
+      ],
+      "correct_index": 1,
+      "explication": "La gouvernance produit (product governance), introduite par MiFID II, impose aux concepteurs (manufacturers) de définir un marché cible pour chaque produit. Les distributeurs doivent s'assurer que le produit est vendu exclusivement dans ce marché cible et ne pas le distribuer à des clients en dehors de celui-ci. Ils doivent aussi remonter des informations d'expérience aux concepteurs.",
+      "source": "Directive 2014/65/UE (MiFID II), art. 16(3) et 24(2) ; lignes directrices ESMA 2017/935",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

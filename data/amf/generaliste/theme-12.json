@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 12,
+  "label": "Bases comptables et financières",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t12",
+    "exam": "generaliste",
+    "theme_id": 12,
+    "label": "Bases comptables et financières",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La compréhension des états financiers est indispensable pour analyser la santé d'un émetteur ou préparer le conseil en investissement. Ce module couvre les fondamentaux du bilan, du compte de résultat et de l'information financière des sociétés cotées.",
+      "sections": [
+        {
+          "titre": "1. Le bilan",
+          "contenu": "**Structure du bilan**\nLe bilan est une photographie du patrimoine de l'entreprise à une date donnée. Il présente en deux colonnes équilibrées :\n\n**ACTIF** (emplois) :\n- Actif immobilisé : immobilisations incorporelles (brevets, fonds de commerce), corporelles (terrains, bâtiments, machines), financières (titres de participation)\n- Actif circulant : stocks, créances clients, valeurs mobilières de placement, disponibilités\n\n**PASSIF** (ressources) :\n- Capitaux propres : capital social, réserves, résultat de l'exercice\n- Provisions pour risques et charges\n- Dettes financières à long terme (emprunts bancaires, obligations)\n- Dettes d'exploitation à court terme (fournisseurs, dettes fiscales et sociales)\n\n**Total actif = Total passif** (l'équilibre comptable)\n\n**Les grands équilibres**\n- Fonds de roulement (FR) = Capitaux permanents − Actif immobilisé\n- Besoin en fonds de roulement (BFR) = Actif circulant d'exploitation − Passif circulant d'exploitation\n- Trésorerie nette = FR − BFR"
+        },
+        {
+          "titre": "2. Le compte de résultat",
+          "contenu": "**Structure**\nLe compte de résultat retrace les flux de charges et de produits sur une période (l'exercice). Il détermine si l'entreprise a réalisé un bénéfice ou une perte.\n\n**Les soldes intermédiaires de gestion (SIG) clés**\n\n| Solde | Formule simplifiée |\n|---|---|\n| Marge brute / Marge commerciale | Ventes − Coût d'achat des marchandises |\n| Valeur ajoutée (VA) | Production − Consommations intermédiaires |\n| Excédent brut d'exploitation (EBE) | VA − Charges de personnel − Impôts et taxes |\n| Résultat d'exploitation (EBIT) | EBE − Dotations aux amortissements |\n| Résultat courant avant impôt | EBIT + Résultat financier |\n| Résultat net | Résultat courant + Résultat exceptionnel − IS |\n\n**La Capacité d'autofinancement (CAF)**\nCAF = Résultat net + Dotations aux amortissements et provisions − Reprises sur provisions\n\nElle mesure la richesse dégagée par l'activité permettant de financer les investissements, rembourser les dettes et distribuer des dividendes."
+        },
+        {
+          "titre": "3. Information financière des sociétés cotées",
+          "contenu": "**Obligations de publication (MAR et règlement Transparence)**\nLes émetteurs cotés doivent publier :\n- **Rapport financier annuel** : dans les 4 mois suivant la clôture\n- **Rapport financier semestriel** : dans les 3 mois suivant le 30 juin\n- **Information réglementée** : toute information susceptible d'influencer le cours (information privilégiée → publication immédiate)\n\n**Les normes IFRS**\nLes sociétés cotées en Europe publient leurs comptes consolidés selon les normes IFRS (International Financial Reporting Standards) adoptées par l'UE. Les principales différences avec les normes françaises (PCG) portent sur :\n- L'évaluation à la juste valeur (fair value) de certains actifs\n- La comptabilisation du crédit-bail (actif au bilan, dette au passif)\n- La consolidation (IFRS 10)\n\n**Les ratios boursiers**\n- **PER (Price Earnings Ratio)** = Cours / Bénéfice par action (BPA) — valorisation relative\n- **Rendement dividende** = Dividende / Cours\n- **VE/EBITDA** = Valeur d'entreprise / EBITDA — comparable sectoriel fréquent\n- **Price-to-Book** = Cours / Actif net comptable par action"
+        }
+      ],
+      "points_cles": [
+        "Bilan : actif (emplois) = passif (ressources). Capitaux propres + dettes = financement total.",
+        "EBE (EBITDA) = VA − Charges de personnel − Impôts et taxes : indicateur de rentabilité opérationnelle avant amortissement.",
+        "CAF = Résultat net + Dotations − Reprises : capacité à autofinancer les investissements et rembourser les dettes.",
+        "Sociétés cotées : rapport annuel dans les 4 mois, semestriel dans les 3 mois suivant le 30 juin.",
+        "PER = Cours / BPA : indicateur de valorisation relative entre entreprises du même secteur."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t12-q001",
+      "exam": "generaliste",
+      "theme_id": 12,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Qu'est-ce que le fonds de roulement (FR) ?",
+      "options": [
+        "Le résultat net de l'exercice disponible pour distribution",
+        "Les capitaux permanents moins l'actif immobilisé",
+        "L'actif circulant moins les dettes à court terme",
+        "La trésorerie disponible en caisse et en banque"
+      ],
+      "correct_index": 1,
+      "explication": "Le Fonds de Roulement (FR) = Capitaux permanents (capitaux propres + dettes à long terme) − Actif immobilisé. Il mesure l'excédent de ressources longues après financement des immobilisations. Un FR positif signifie que les ressources longues financent une partie de l'exploitation (signe de solidité structurelle).",
+      "source": "Guide AMF Thème 12 — Bases comptables",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t12-q002",
+      "exam": "generaliste",
+      "theme_id": 12,
+      "category": "C",
+      "difficulty": 2,
+      "question": "L'EBE (Excédent Brut d'Exploitation) est égal à :",
+      "options": [
+        "Résultat net + Dotations aux amortissements",
+        "Chiffre d'affaires − Charges de personnel",
+        "Valeur ajoutée − Charges de personnel − Impôts et taxes",
+        "EBIT + Dotations aux amortissements"
+      ],
+      "correct_index": 2,
+      "explication": "L'EBE (équivalent de l'EBITDA dans la nomenclature française) = Valeur ajoutée − Charges de personnel − Impôts et taxes (hors IS). Il mesure la richesse générée par l'activité opérationnelle avant prise en compte de la politique d'investissement (amortissements) et de financement (charges financières).",
+      "source": "Plan comptable général (PCG) ; Guide AMF Thème 12",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t12-q003",
+      "exam": "generaliste",
+      "theme_id": 12,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Dans quel délai une société cotée doit-elle publier son rapport financier annuel ?",
+      "options": [
+        "Dans les 2 mois suivant la clôture",
+        "Dans les 3 mois suivant la clôture",
+        "Dans les 4 mois suivant la clôture",
+        "Dans les 6 mois suivant la clôture"
+      ],
+      "correct_index": 2,
+      "explication": "Selon la directive Transparence (2004/109/CE) et le Règlement général AMF, les sociétés cotées sur un marché réglementé doivent publier leur rapport financier annuel dans les 4 mois suivant la clôture de l'exercice. Le rapport semestriel doit être publié dans les 3 mois suivant le 30 juin.",
+      "source": "Directive 2004/109/CE (Transparence) ; Règlement général AMF, art. 222-3",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t12-q004",
+      "exam": "generaliste",
+      "theme_id": 12,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Le PER (Price Earnings Ratio) d'une action est égal à :",
+      "options": [
+        "Dividende par action / Cours de bourse",
+        "Cours de bourse / Bénéfice par action (BPA)",
+        "Actif net comptable / Nombre d'actions",
+        "Valeur d'entreprise / Chiffre d'affaires"
+      ],
+      "correct_index": 1,
+      "explication": "Le PER (Price Earnings Ratio) = Cours de bourse / Bénéfice Par Action (BPA). Il indique le nombre d'années de bénéfices que l'investisseur accepte de payer pour acquérir l'action. Un PER élevé reflète des anticipations de croissance fortes ou un contexte de taux bas. Il est utile pour la comparaison sectorielle.",
+      "source": "Guide AMF Thème 12 — Ratios boursiers",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t12-q005",
+      "exam": "generaliste",
+      "theme_id": 12,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Quelle est la principale différence entre les normes IFRS et les normes comptables françaises (PCG) concernant le crédit-bail ?",
+      "options": [
+        "En IFRS, le crédit-bail est comptabilisé comme un actif au bilan avec une dette correspondante ; en PCG, les loyers sont des charges",
+        "En IFRS, le crédit-bail est traité comme une charge ; en PCG, il est capitalisé",
+        "Les deux normes traitent le crédit-bail de façon identique depuis la révision du PCG en 2019",
+        "En IFRS, le crédit-bail est interdit pour les sociétés cotées"
+      ],
+      "correct_index": 0,
+      "explication": "Sous IFRS 16 (en vigueur depuis 2019), les contrats de crédit-bail (et plus largement les contrats de location) sont comptabilisés au bilan : un droit d'utilisation (actif) et une dette de loyer (passif) sont reconnus. En normes françaises (PCG), les loyers de crédit-bail restent des charges d'exploitation, ce qui allège le bilan apparent — d'où l'importance des retraitements en analyse financière.",
+      "source": "IFRS 16 — Contrats de location ; Plan comptable général",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

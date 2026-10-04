@@ -1,0 +1,135 @@
+{
+  "exam": "generaliste",
+  "theme_id": 7,
+  "label": "Instruments financiers, crypto-actifs et leurs risques",
+  "category": "C",
+  "module": {
+    "id": "amf-gen-t07",
+    "exam": "generaliste",
+    "theme_id": 7,
+    "label": "Instruments financiers et crypto-actifs",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "Les instruments financiers constituent la matière première des marchés. Comprendre leur nature, leurs caractéristiques et les risques qui leur sont associés est indispensable pour tout professionnel des services d'investissement.",
+      "sections": [
+        {
+          "titre": "1. Classification des instruments financiers (MiFID II)",
+          "contenu": "**Les instruments financiers selon MiFID II (art. 4)**\n\n**Actions et valeurs assimilées**\n- Actions : titres de propriété d'une société, droit aux dividendes et aux plus-values\n- Certificats représentatifs d'actions (ADR, GDR)\n\n**Titres de créance**\n- Obligations (taux fixe, taux variable, indexées inflation, convertibles, à haut rendement)\n- Bons du Trésor, billets de trésorerie\n\n**Instruments de marché monétaire**\nInstruments à court terme (échéance ≤ 1 an) : TCN (titres de créances négociables), bons du Trésor\n\n**OPC (Organismes de placement collectif)**\nParts ou actions d'OPCVM et de FIA (Fonds d'investissement alternatifs)\n\n**Instruments dérivés**\n- Contrats à terme (futures, forwards)\n- Options (calls, puts)\n- Swaps (taux, change, crédit)\n- CFD (Contracts for Difference) — instrument dérivé OTC, produit à fort effet de levier"
+        },
+        {
+          "titre": "2. Le couple rendement/risque",
+          "contenu": "**Principes fondamentaux**\n- Plus le rendement attendu est élevé, plus le risque est généralement élevé\n- Un rendement supérieur au taux sans risque s'explique par une prime de risque\n\n**Les types de risques**\n\n| Risque | Description |\n|---|---|\n| Risque de marché | Variation défavorable du prix de l'instrument |\n| Risque de liquidité | Difficulté à vendre rapidement sans décote |\n| Risque de crédit (ou contrepartie) | Défaut de l'émetteur ou de la contrepartie |\n| Risque de change | Fluctuation des taux de change |\n| Risque de taux | Impact d'une variation des taux sur la valeur des titres |\n| Risque de concentration | Surexposition à un émetteur ou secteur |\n| Risque opérationnel | Défaillances internes, fraudes, erreurs |\n\n**La diversification**\nElle permet de réduire le risque non systématique (spécifique à un titre), mais pas le risque systématique (risque de marché)."
+        },
+        {
+          "titre": "3. Les crypto-actifs",
+          "contenu": "**Définition (règlement MiCA — Markets in Crypto-Assets)**\nLe règlement européen MiCA (2023/1114), entré pleinement en application fin 2024, encadre les crypto-actifs non couverts par MiFID II.\n\n**Catégories de crypto-actifs selon MiCA**\n- **Tokens utilitaires** (utility tokens) : donnent accès à un service sur une blockchain\n- **Tokens de monnaie électronique** (EMT) : adossés à une monnaie fiat unique\n- **Jetons se référant à des actifs** (ART) : adossés à un panier d'actifs\n\nLes crypto-actifs qualifiables d'instruments financiers (certains security tokens) restent soumis à MiFID II.\n\n**Risques spécifiques aux crypto-actifs**\n- Volatilité extrême\n- Risque technologique (smart contract, hacking)\n- Risque réglementaire (évolution du cadre légal)\n- Risque de liquidité (marchés moins profonds)\n- Absence de garantie de capital ou de dépôt (pas de FGDR)\n- Risque de perte totale"
+        }
+      ],
+      "points_cles": [
+        "MiFID II classe les instruments financiers en : actions, titres de créance, instruments monétaires, OPC, dérivés.",
+        "Un rendement supérieur au taux sans risque implique une prime de risque : plus de rendement = plus de risque.",
+        "La diversification réduit le risque spécifique, mais pas le risque systématique (risque de marché).",
+        "MiCA encadre les crypto-actifs non couverts par MiFID II depuis fin 2024.",
+        "Les crypto-actifs présentent des risques spécifiques : volatilité extrême, risque technologique, absence de garantie."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-gen-t07-q001",
+      "exam": "generaliste",
+      "theme_id": 7,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Lequel de ces instruments est un instrument dérivé ?",
+      "options": [
+        "Une obligation à taux fixe",
+        "Une part d'OPCVM monétaire",
+        "Un contrat futures sur indice boursier",
+        "Une action ordinaire cotée"
+      ],
+      "correct_index": 2,
+      "explication": "Un contrat futures est un instrument dérivé : sa valeur dérive de celle d'un actif sous-jacent (ici, un indice boursier). Les obligations, parts d'OPCVM et actions sont des instruments financiers primaires, non dérivés.",
+      "source": "Directive 2014/65/UE (MiFID II), Annexe I, Section C",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t07-q002",
+      "exam": "generaliste",
+      "theme_id": 7,
+      "category": "C",
+      "difficulty": 2,
+      "question": "La diversification d'un portefeuille permet d'éliminer :",
+      "options": [
+        "Le risque systématique (risque de marché)",
+        "Le risque spécifique (non systématique) propre à chaque titre",
+        "L'ensemble des risques d'investissement",
+        "Le risque de taux d'intérêt"
+      ],
+      "correct_index": 1,
+      "explication": "La diversification permet de réduire, voire d'éliminer, le risque spécifique (non systématique), c'est-à-dire le risque propre à chaque émetteur ou secteur. En revanche, elle ne peut pas éliminer le risque systématique (ou risque de marché), qui affecte l'ensemble des actifs en même temps (ex : crise financière globale).",
+      "source": "Guide AMF Thème 7 — Instruments financiers et risques",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t07-q003",
+      "exam": "generaliste",
+      "theme_id": 7,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quel règlement européen encadre les crypto-actifs non couverts par MiFID II ?",
+      "options": [
+        "Le règlement MAR (Market Abuse Regulation)",
+        "Le règlement PRIIPs",
+        "Le règlement MiCA (Markets in Crypto-Assets)",
+        "La directive AIFM"
+      ],
+      "correct_index": 2,
+      "explication": "Le règlement MiCA (Markets in Crypto-Assets, 2023/1114) est entré pleinement en application fin 2024. Il encadre spécifiquement les crypto-actifs qui ne sont pas qualifiables d'instruments financiers au sens de MiFID II, notamment les tokens utilitaires, les ART et les EMT.",
+      "source": "Règlement (UE) n°2023/1114 (MiCA)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t07-q004",
+      "exam": "generaliste",
+      "theme_id": 7,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Quel risque désigne la difficulté à vendre un instrument financier rapidement sans subir une décote significative ?",
+      "options": [
+        "Risque de crédit",
+        "Risque de marché",
+        "Risque de liquidité",
+        "Risque opérationnel"
+      ],
+      "correct_index": 2,
+      "explication": "Le risque de liquidité est le risque de ne pas pouvoir vendre ou acheter un instrument financier rapidement et dans des conditions normales de marché. Il est particulièrement élevé pour des titres peu négociés, certains fonds alternatifs, ou des marchés en situation de stress.",
+      "source": "Guide AMF Thème 7 — Couple rendement/risque",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-gen-t07-q005",
+      "exam": "generaliste",
+      "theme_id": 7,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Les dépôts en crypto-actifs sont-ils couverts par le Fonds de Garantie des Dépôts et de Résolution (FGDR) ?",
+      "options": [
+        "Oui, jusqu'à 100 000 € par client et par établissement",
+        "Oui, mais uniquement pour les stablecoins adossés à l'euro",
+        "Non, les crypto-actifs ne bénéficient d'aucune garantie de dépôt",
+        "Oui, si le prestataire de services sur crypto-actifs est enregistré auprès de l'AMF"
+      ],
+      "correct_index": 2,
+      "explication": "Les crypto-actifs ne bénéficient d'aucune garantie du Fonds de Garantie des Dépôts et de Résolution (FGDR). Ce fonds couvre uniquement les dépôts bancaires (jusqu'à 100 000 €) et certains instruments financiers. En cas de défaillance d'un PSCA (prestataire de services sur crypto-actifs), les détenteurs n'ont aucune garantie de récupérer leurs actifs.",
+      "source": "Règlement (UE) n°2023/1114 (MiCA) ; Guide AMF Thème 7",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

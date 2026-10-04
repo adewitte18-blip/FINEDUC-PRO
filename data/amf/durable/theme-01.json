@@ -1,0 +1,135 @@
+{
+  "exam": "durable",
+  "theme_id": 1,
+  "label": "La finance durable et les notions principales",
+  "category": "C",
+  "module": {
+    "id": "amf-dur-t01",
+    "exam": "durable",
+    "theme_id": 1,
+    "label": "La finance durable — notions fondamentales",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "La finance durable vise à intégrer les enjeux environnementaux, sociaux et de gouvernance (ESG) dans les décisions d'investissement et de financement. Elle s'est structurée autour d'un ensemble de concepts, d'accords internationaux et d'initiatives européennes dont la connaissance est indispensable.",
+      "sections": [
+        {
+          "titre": "1. RSE, ISR et ESG",
+          "contenu": "**RSE — Responsabilité Sociétale des Entreprises**\nDémarche volontaire par laquelle les entreprises intègrent les préoccupations sociales et environnementales dans leurs activités et dans leurs interactions avec les parties prenantes. La RSE va au-delà des obligations légales.\n\n**ISR — Investissement Socialement Responsable**\nInvestissement qui vise à concilier performance économique et impact social et environnemental. L'ISR intègre des critères ESG dans la gestion de portefeuille.\n\n**ESG — Environnemental, Social, Gouvernance**\nLes trois piliers de l'analyse extra-financière :\n- **E (Environnemental)** : empreinte carbone, consommation d'eau, biodiversité, gestion des déchets\n- **S (Social)** : conditions de travail, diversité, droits humains, impact sur les communautés\n- **G (Gouvernance)** : structure du conseil d'administration, rémunération des dirigeants, transparence, anticorruption\n\n**Les approches ESG**\n- **Intégration ESG** : prise en compte des critères ESG dans l'analyse financière classique\n- **Exclusion** : exclusion de secteurs ou entreprises controversés (armes, tabac, charbon)\n- **Best-in-class / Best-in-universe** : sélection des meilleurs émetteurs sur critères ESG\n- **Engagement actionnarial** : exercice des droits de vote et dialogue actif avec les émetteurs"
+        },
+        {
+          "titre": "2. ODD et Accord de Paris",
+          "contenu": "**Les ODD — Objectifs de Développement Durable**\nAdoptés par l'ONU en septembre 2015, les 17 ODD constituent l'Agenda 2030. Ils couvrent la lutte contre la pauvreté, l'éducation, la santé, le climat, les inégalités, etc.\n\nEn finance, les ODD servent de cadre de référence pour les fonds à impact et les green bonds.\n\n**L'Accord de Paris (COP21, décembre 2015)**\nAccord international sur le climat adopté lors de la COP21 à Paris. Objectifs :\n- Limiter le réchauffement climatique à 1,5°C par rapport au niveau préindustriel (ambition haute)\n- Contenir le réchauffement en dessous de 2°C (objectif minimal)\n- Atteindre la neutralité carbone (net zéro) au niveau mondial dans la deuxième moitié du XXIe siècle\n\nL'Accord de Paris a fortement influencé la réglementation financière européenne (taxonomie verte, indices PAB/CTB)."
+        },
+        {
+          "titre": "3. La stratégie finance durable de la Commission européenne",
+          "contenu": "**Le Green Deal européen (2019)**\nAmbitieux programme visant à faire de l'Europe le premier continent neutre en carbone d'ici 2050. Il implique des investissements massifs dans la transition énergétique et a servi de base à la réglementation finance durable.\n\n**Le plan d'action de la Commission européenne (2018)**\nTrois objectifs :\n1. Réorienter les flux de capitaux vers une économie durable\n2. Intégrer la durabilité dans la gestion des risques\n3. Favoriser la transparence et le long-termisme\n\nPrincipaux instruments réglementaires :\n- **Taxonomie verte** (règlement 2020/852)\n- **SFDR** (règlement 2019/2088 — publication d'informations en matière de durabilité)\n- **Règlement Indices de référence climatiques** (2019/2089 — indices PAB et CTB)\n- **CSRD** (directive 2022/2464 — reporting de durabilité des entreprises)"
+        }
+      ],
+      "points_cles": [
+        "ESG = Environnemental, Social, Gouvernance — les trois piliers de l'analyse extra-financière.",
+        "ISR = Investissement Socialement Responsable : concilier performance financière et impact ESG.",
+        "ODD : 17 objectifs de l'ONU (Agenda 2030) servant de cadre aux fonds à impact.",
+        "Accord de Paris : limiter le réchauffement à 1,5°C/2°C ; neutralité carbone dans la 2e moitié du XXIe siècle.",
+        "Plan d'action UE 2018 : réorienter les capitaux, intégrer les risques durabilité, améliorer la transparence."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-dur-t01-q001",
+      "exam": "durable",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Que signifie l'acronyme ESG ?",
+      "options": [
+        "Évaluation, Scoring, Gouvernance",
+        "Environnemental, Social, Gouvernance",
+        "Écologique, Solidaire, Gestion",
+        "Européen, Standardisé, Garanti"
+      ],
+      "correct_index": 1,
+      "explication": "ESG signifie Environnemental (E), Social (S) et Gouvernance (G). Ces trois dimensions constituent le cadre d'analyse extra-financière utilisé pour évaluer les pratiques et risques non financiers des émetteurs dans le contexte de la finance durable.",
+      "source": "Guide Pro AMF Finance durable, Thème 1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t01-q002",
+      "exam": "durable",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 1,
+      "question": "L'Accord de Paris (COP21) vise à limiter le réchauffement climatique à :",
+      "options": [
+        "0,5°C par rapport à 2000",
+        "1,5°C à 2°C par rapport au niveau préindustriel",
+        "3°C par rapport au niveau actuel",
+        "2,5°C par rapport à 1990"
+      ],
+      "correct_index": 1,
+      "explication": "L'Accord de Paris (COP21, décembre 2015) fixe comme objectif de limiter le réchauffement climatique à bien moins de 2°C par rapport aux niveaux préindustriels et de poursuivre les efforts pour limiter ce réchauffement à 1,5°C. La référence est les niveaux préindustriels (avant l'ère industrielle, soit avant 1850-1900 environ).",
+      "source": "Accord de Paris, art. 2 (CCNUCC, 2015) ; Guide Pro AMF Finance durable, Thème 1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t01-q003",
+      "exam": "durable",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Combien d'Objectifs de Développement Durable (ODD) l'ONU a-t-elle adoptés en 2015 ?",
+      "options": [
+        "10 ODD",
+        "15 ODD",
+        "17 ODD",
+        "20 ODD"
+      ],
+      "correct_index": 2,
+      "explication": "L'ONU a adopté 17 Objectifs de Développement Durable (ODD) en septembre 2015 dans le cadre de l'Agenda 2030. Ces 17 objectifs couvrent des domaines tels que la lutte contre la pauvreté, l'accès à l'éducation, l'eau potable, la lutte contre le changement climatique et les inégalités.",
+      "source": "Résolution A/RES/70/1 de l'ONU (Agenda 2030) ; Guide Pro AMF Finance durable, Thème 1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t01-q004",
+      "exam": "durable",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Lequel de ces instruments réglementaires n'appartient PAS au plan d'action finance durable de la Commission européenne ?",
+      "options": [
+        "Le règlement Taxonomie (2020/852)",
+        "Le règlement SFDR (2019/2088)",
+        "La directive CSRD (2022/2464)",
+        "Le règlement MAR (596/2014)"
+      ],
+      "correct_index": 3,
+      "explication": "Le règlement MAR (Market Abuse Regulation, 596/2014) concerne les abus de marché et est antérieur et indépendant du plan d'action finance durable de 2018. Les trois autres instruments (Taxonomie, SFDR, CSRD) font partie du cadre réglementaire de la finance durable européenne.",
+      "source": "Plan d'action de la Commission européenne sur la finance durable (2018) ; Guide Pro AMF Finance durable, Thème 1",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t01-q005",
+      "exam": "durable",
+      "theme_id": 1,
+      "category": "C",
+      "difficulty": 2,
+      "question": "L'approche 'Best-in-class' en ISR consiste à :",
+      "options": [
+        "Exclure tous les émetteurs d'un secteur considéré comme non durable",
+        "Sélectionner uniquement les obligations vertes (green bonds)",
+        "Investir dans les entreprises ayant les meilleurs scores ESG au sein de chaque secteur",
+        "Financer exclusivement les entreprises en transition vers un modèle durable"
+      ],
+      "correct_index": 2,
+      "explication": "L'approche Best-in-class sélectionne au sein de chaque secteur les entreprises ayant les meilleurs scores ESG, sans exclure de secteurs a priori. L'approche Best-in-universe, elle, sélectionne les meilleures entreprises tous secteurs confondus (ce qui peut conduire à exclure de facto des secteurs avec de faibles scores ESG).",
+      "source": "Guide Pro AMF Finance durable, Thème 1 — Approches ESG en gestion d'actifs",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}

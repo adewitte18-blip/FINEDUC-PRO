@@ -1,0 +1,135 @@
+{
+  "exam": "durable",
+  "theme_id": 3,
+  "label": "Les entreprises et les acteurs non financiers : enjeux ESG",
+  "category": "C",
+  "module": {
+    "id": "amf-dur-t03",
+    "exam": "durable",
+    "theme_id": 3,
+    "label": "Enjeux ESG des entreprises (CSRD, RSE, notation)",
+    "category": "C",
+    "duration": "3h",
+    "cours": {
+      "introduction": "Les entreprises sont au cœur de la transition vers une économie durable. Leur gestion des enjeux ESG impacte directement leur valeur et leur accès aux financements. La directive CSRD marque une étape majeure dans l'obligation de reporting extra-financier.",
+      "sections": [
+        {
+          "titre": "1. La double matérialité et la RSE",
+          "contenu": "**La double matérialité**\nConcept central de la réglementation européenne :\n- **Matérialité d'impact** : impacts de l'entreprise sur l'environnement et la société (inside-out)\n- **Matérialité financière** : impacts des facteurs ESG sur la performance financière de l'entreprise (outside-in)\n\nLa CSRD impose aux entreprises de reporter sur les deux dimensions simultanément.\n\n**La RSE (Responsabilité Sociétale des Entreprises)**\nLa RSE se concrétise par des politiques et pratiques intégrant les préoccupations sociales, environnementales et éthiques. En France, la loi PACTE (2019) a permis la création de la **société à mission**, qui inscrit une raison d'être et des objectifs sociaux et environnementaux dans ses statuts.\n\n**Les standards de reporting RSE**\n- **GRI (Global Reporting Initiative)** : référentiel international le plus utilisé\n- **SASB (Sustainability Accounting Standards Board)** : normes sectorielles\n- **TCFD** : recommandations sur la divulgation des informations climatiques financières (base pour la CSRD)"
+        },
+        {
+          "titre": "2. La directive CSRD",
+          "contenu": "**Directive CSRD (Corporate Sustainability Reporting Directive, 2022/2464/UE)**\nElle remplace la directive NFRD (Non-Financial Reporting Directive) et étend considérablement les obligations de reporting extra-financier.\n\n**Champ d'application**\n- À partir de 2024 (exercice 2023) : grandes entreprises déjà soumises à NFRD\n- À partir de 2025 (exercice 2024) : toutes les grandes entreprises (> 250 salariés, > 40 M€ CA ou > 20 M€ bilan)\n- À partir de 2026 : PME cotées (sauf opt-out 2 ans)\n\n**Les ESRS (European Sustainability Reporting Standards)**\nNormes européennes de reporting extra-financier développées par l'EFRAG (European Financial Reporting Advisory Group), adoptées en complément de la CSRD.\n\n**Contenu du rapport**\n- Informations sur la chaîne de valeur\n- Double matérialité\n- Plans de transition climatique\n- Informations sociales détaillées"
+        },
+        {
+          "titre": "3. Notation extra-financière",
+          "contenu": "**Les agences de notation ESG**\nContrairement à la notation financière (S&P, Moody's, Fitch), le marché de la notation ESG est plus fragmenté. Les principaux acteurs sont : MSCI ESG, Sustainalytics, ISS ESG, Vigeo Eiris (filiale de Moody's), CDP.\n\n**Les limites de la notation ESG**\n- Divergence significative entre agences (même entreprise peut avoir des notes très différentes)\n- Méthodologies peu transparentes\n- Risque de captation (émetteurs qui orientent leur communication vers les critères des agences)\n\n**Régulation des agences de notation ESG**\nDans le cadre du Green Deal, l'UE a adopté un règlement sur les agences de notation ESG (entré en vigueur en 2024) visant à améliorer la transparence et la gouvernance de ce marché.\n\n**Loi Sapin II — volet supply chain**\nLa loi Sapin II impose aux grandes entreprises françaises des mesures de vigilance anti-corruption dans leur chaîne d'approvisionnement, en complément de la loi de vigilance (2017) qui couvre les droits humains."
+        }
+      ],
+      "points_cles": [
+        "Double matérialité = matérialité d'impact (inside-out) + matérialité financière (outside-in). Les deux sont requises par la CSRD.",
+        "CSRD : remplace NFRD, s'applique progressivement depuis 2024, repose sur les ESRS.",
+        "Société à mission (loi PACTE 2019) : raison d'être et objectifs ESG inscrits dans les statuts.",
+        "Les notations ESG divergent fortement entre agences — ne pas les utiliser sans analyser la méthodologie.",
+        "Loi de vigilance (2017) : obligations des grandes entreprises françaises sur les droits humains dans leur chaîne de valeur."
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "amf-dur-t03-q001",
+      "exam": "durable",
+      "theme_id": 3,
+      "category": "C",
+      "difficulty": 2,
+      "question": "La 'double matérialité' imposée par la CSRD couvre :",
+      "options": [
+        "La matérialité financière seulement : les risques ESG pesant sur la performance financière",
+        "La matérialité d'impact seulement : les impacts de l'entreprise sur l'environnement et la société",
+        "Les deux dimensions : impacts de l'entreprise sur le monde ET impacts des facteurs ESG sur l'entreprise",
+        "La matérialité extra-financière non liée aux résultats financiers de l'entreprise"
+      ],
+      "correct_index": 2,
+      "explication": "La double matérialité combine deux perspectives : la matérialité d'impact (inside-out — effets de l'entreprise sur l'environnement et la société) et la matérialité financière (outside-in — effets des facteurs ESG sur la performance financière de l'entreprise). La CSRD exige le reporting sur ces deux dimensions, ce qui va au-delà des approches précédentes.",
+      "source": "Directive 2022/2464/UE (CSRD) ; ESRS 1 (principes généraux)",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t03-q002",
+      "exam": "durable",
+      "theme_id": 3,
+      "category": "C",
+      "difficulty": 2,
+      "question": "À partir de quel exercice les grandes entreprises non encore soumises à la NFRD devront-elles appliquer la CSRD ?",
+      "options": [
+        "Exercice 2023 (rapport 2024)",
+        "Exercice 2024 (rapport 2025)",
+        "Exercice 2025 (rapport 2026)",
+        "Exercice 2027 (rapport 2028)"
+      ],
+      "correct_index": 1,
+      "explication": "Le calendrier de la CSRD est progressif : 1) Les grandes entreprises déjà soumises à la NFRD (> 500 salariés cotées) dès l'exercice 2023. 2) Toutes les autres grandes entreprises (> 250 salariés et > 40 M€ CA ou > 20 M€ bilan) à partir de l'exercice 2024. 3) Les PME cotées à partir de 2026 (avec possibilité d'opt-out de 2 ans).",
+      "source": "Directive 2022/2464/UE (CSRD), art. 5",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t03-q003",
+      "exam": "durable",
+      "theme_id": 3,
+      "category": "C",
+      "difficulty": 1,
+      "question": "Qu'est-ce qu'une 'société à mission' en droit français ?",
+      "options": [
+        "Une société dont l'objet social est exclusivement caritatif",
+        "Une société qui inscrit dans ses statuts une raison d'être et des objectifs sociaux et environnementaux",
+        "Une entreprise certifiée B Corp par un organisme international",
+        "Une SCIC (Société coopérative d'intérêt collectif) au sens de la loi sur l'économie sociale"
+      ],
+      "correct_index": 1,
+      "explication": "La loi PACTE (2019) a créé le statut de société à mission, permettant à toute société commerciale d'inscrire dans ses statuts une raison d'être ainsi que des objectifs sociaux, sociétaux ou environnementaux qu'elle se donne pour mission de poursuivre. Elle doit nommer un comité de mission pour en surveiller l'exécution.",
+      "source": "Loi n°2019-486 du 22 mai 2019 (PACTE), art. 176 ; Code de commerce, art. L.210-10",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t03-q004",
+      "exam": "durable",
+      "theme_id": 3,
+      "category": "C",
+      "difficulty": 2,
+      "question": "Quelle est la principale limite des notations ESG émises par les agences de notation extra-financière ?",
+      "options": [
+        "Elles sont émises uniquement pour les sociétés cotées sur Euronext",
+        "Il existe une forte divergence des notes entre agences pour un même émetteur",
+        "Elles sont obligatoirement liées aux notations de crédit des mêmes agences",
+        "Elles ne couvrent pas les critères environnementaux, uniquement le social et la gouvernance"
+      ],
+      "correct_index": 1,
+      "explication": "De nombreuses études académiques ont montré une divergence significative des notes ESG entre agences pour un même émetteur (corrélation de seulement 0,5 à 0,7 entre agences, contre plus de 0,9 pour les notations de crédit). Cette divergence s'explique par des différences de périmètre, de pondération et de mesure. Elle rend difficile la comparaison entre fonds utilisant des sources différentes.",
+      "source": "Berg et al. (2022), 'Aggregate Confusion: The Divergence of ESG Ratings' ; Guide Pro AMF Finance durable, Thème 3",
+      "status": "draft",
+      "version": 1
+    },
+    {
+      "id": "amf-dur-t03-q005",
+      "exam": "durable",
+      "theme_id": 3,
+      "category": "C",
+      "difficulty": 3,
+      "question": "Les normes ESRS dans le cadre de la CSRD sont développées par :",
+      "options": [
+        "L'ESMA (autorité européenne des marchés financiers)",
+        "L'EFRAG (European Financial Reporting Advisory Group)",
+        "Le GRI (Global Reporting Initiative)",
+        "L'AMF en coordination avec l'ACPR"
+      ],
+      "correct_index": 1,
+      "explication": "Les ESRS (European Sustainability Reporting Standards) sont des normes de reporting extra-financier développées par l'EFRAG (European Financial Reporting Advisory Group) et adoptées par la Commission européenne en actes délégués dans le cadre de la directive CSRD. L'EFRAG est également l'organisme qui participe à l'élaboration des normes IFRS au niveau européen.",
+      "source": "Directive 2022/2464/UE (CSRD), art. 29b ; règlement délégué (UE) 2023/2772 (ESRS)",
+      "status": "draft",
+      "version": 1
+    }
+  ]
+}
